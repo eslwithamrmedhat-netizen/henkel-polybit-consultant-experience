@@ -333,7 +333,7 @@
       "clipVolume": 0.0
     },
     "qatar_insert": {
-      "beat": "Coverage — Doha, Qatar (West Bay from the Corniche; confirmed by Amr)",
+      "beat": "Coverage — Doha photo (confirmed by Amr) under 'Also available in Qatar and Oman' (Oman per Privilee FAQ; no Oman footage)",
       "src": "IMG_4530.JPG",
       "kind": "image",
       "dur": 2.4,
@@ -1161,7 +1161,7 @@
         },
         {
           "type": "coverage",
-          "text": "Also available in Qatar",
+          "text": "Also available in\nQatar and Oman",
           "shot": "qatar_insert"
         },
         {
@@ -1294,7 +1294,7 @@
         },
         {
           "type": "coverage",
-          "text": "Also available in Qatar",
+          "text": "Also available in\nQatar and Oman",
           "shot": "qatar_insert"
         },
         {
@@ -1438,7 +1438,7 @@
         },
         {
           "type": "coverage",
-          "text": "Also available in Qatar",
+          "text": "Also available in\nQatar and Oman",
           "shot": "qatar_insert"
         },
         {

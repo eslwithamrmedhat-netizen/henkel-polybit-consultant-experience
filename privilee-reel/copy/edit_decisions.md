@@ -14,7 +14,7 @@ Built from the shared album: 118 items, which became 160 files once Live Photos 
 | 3.2–6.9 s | Work moves me around | Burj Khalifa skyline from the road, a lobby with skyline windows, the city from above |
 | 6.9–8.5 s | Useful choice | Face-recognition check-in at a gym (device info masked) |
 | 8.5–26 s | Variety supports consistency | NorthFit deadlift → hand wraps → box jump → kicks on a red floor → **pull-up match cut** → **selfie montage** → open-air gym curls with towers → rooftop shadowboxing |
-| 26–28.8 s | Coverage | Neutral "Also available in Qatar" card (no confirmed Qatar footage) |
+| 26–28.8 s | Coverage | Neutral "Also available in Qatar and Oman" line over the Doha photo (no confirmed Qatar footage) |
 | 28.8–42.6 s | Weekend release | Infinity pool at golden hour, water villas with the marina skyline, resort pool, the sea and Burj Al Arab, a rooftop lap pool, the beach with Ain Dubai. Shots are held longer here. |
 | 42.6–49.4 s | Conclusion | Smiling at the pool with Burj Khalifa behind him, with the title "Different cities. Same routine.", then the marina pool and a fade |
 

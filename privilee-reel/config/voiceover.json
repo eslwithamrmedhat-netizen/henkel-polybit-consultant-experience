@@ -4,17 +4,28 @@
   "provider": "elevenlabs",
   "voice_id": null,
   "model_id": null,
-  "voice_settings": { "stability": 0.5, "similarity_boost": 0.75, "style": 0.15, "use_speaker_boost": true, "speed": 1.0 },
-  "output_formats_preference": ["pcm_48000", "pcm_44100", "mp3_44100_192", "mp3_44100_128"],
+  "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.75,
+    "style": 0.15,
+    "use_speaker_boost": true,
+    "speed": 1.0
+  },
+  "output_formats_preference": [
+    "pcm_48000",
+    "pcm_44100",
+    "mp3_44100_192",
+    "mp3_44100_128"
+  ],
   "scripts": {
     "audition": {
       "text": "Different cities. Same routine. My work takes me across the UAE, and Privilee has been my best life hack since moving to Dubai."
     },
     "vo_main": {
-      "text": "Different cities. Same routine.\n\nMy work takes me across the UAE, and Privilee has been my best life hack since moving to Dubai.\n\nDifferent gyms keep things interesting, and having options around my day helps me stay consistent.\n\nThere are options in Qatar too.\n\nThen at the weekend, I can slow down by the pool or at the beach.\n\nFor me, that's the best part: keeping up with training, and still making time to switch off."
+      "text": "Different cities. Same routine.\n\nMy work takes me across the UAE, and Privilee has been my best life hack since moving to Dubai.\n\nDifferent gyms keep things interesting, and having options around my day helps me stay consistent.\n\nThere are options in Qatar and Oman too.\n\nThen at the weekend, I can slow down by the pool or at the beach.\n\nFor me, that's the best part: keeping up with training, and still making time to switch off."
     },
     "vo_cutdown": {
-      "text": "Different cities. Same routine.\n\nMy work takes me across the UAE, and Privilee has been my best life hack since moving to Dubai.\n\nHaving options around my day helps me stay consistent. There are options in Qatar too.\n\nAnd at the weekend, I can slow down by the pool."
+      "text": "Different cities. Same routine.\n\nMy work takes me across the UAE, and Privilee has been my best life hack since moving to Dubai.\n\nHaving options around my day helps me stay consistent. There are options in Qatar and Oman too.\n\nAnd at the weekend, I can slow down by the pool."
     },
     "vo_white_friday": {
       "text": "Different cities. Same routine.\n\nMy work takes me across the UAE, and Privilee has been my best life hack since moving to Dubai.\n\nDifferent gyms keep things interesting, and having options around my day helps me stay consistent.\n\nThen at the weekend, I can slow down by the pool or at the beach.\n\nFor me, that's the best part: keeping up with training, and still making time to switch off."

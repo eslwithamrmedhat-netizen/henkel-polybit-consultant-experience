@@ -8,7 +8,7 @@ Different cities. Same routine.
 
 My work takes me around the UAE, and having different places to train makes it easier to stay consistent. Then the weekend comes, and I can slow down by a pool or at the beach.
 
-Privilee has been my best life hack since moving to Dubai. There are options in Qatar too.
+Privilee has been my best life hack since moving to Dubai. There are options in Qatar and Oman too.
 
 Which matters more to you: a gym near your day, or a proper weekend reset?
 
@@ -16,7 +16,7 @@ Access depends on membership eligibility and venue terms.
 
 ## TikTok — evergreen
 
-My best Dubai life hack for staying consistent: different places to train around my workweek, then pools and beaches when it's time to switch off. Privilee has options in Qatar too.
+My best Dubai life hack for staying consistent: different places to train around my workweek, then pools and beaches when it's time to switch off. Privilee has options in Qatar and Oman too.
 
 Gym day or pool day?
 

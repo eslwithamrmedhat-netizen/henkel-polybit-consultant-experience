@@ -16,7 +16,7 @@
 ## Outstanding verification before posting
 
 1. **White Friday offer**: price conflict (AED 1,899 on the artwork vs AED 1,599 in third-party reports for this week). The review exports stay `_review` until `config/offer.json` → `verified: true` with a dated official source.
-2. **Qatar line**: recheck Privilee's cross-country guide and FAQ on posting day (eligibility and Qatar tier restrictions apply). The White Friday cut contains no Qatar claim, by design.
+2. **Qatar and Oman line**: Oman confirmed in Privilee's cross-country FAQ (23 Nov 2026). Recheck Privilee's cross-country guide and FAQ on posting day (eligibility and Qatar tier restrictions apply). The White Friday cut contains no Qatar claim, by design.
 3. **Location labels**: only labels backed by recorded evidence render (`timeline.json → locationLabels`, `verified: true` + `evidence`).
 4. **Narration**: audition for pronunciation of "Privilee", "UAE" and "Qatar". Confirm the ElevenLabs plan was a paid plan at generation time (see `audio/narration/*.meta.json → licence_status`).
 5. **App shots**: confirm the membership QR code and account details are masked (`masks` on the shot).
