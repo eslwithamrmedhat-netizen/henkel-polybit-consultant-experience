@@ -28,15 +28,102 @@ HANDLE = 0.5
 
 
 def grade_filters(g: dict) -> list[str]:
+    """Pass 2 scene look, RGB domain only: light warmth/tint and a gentle contrast curve."""
     f = []
     if g["tempMix"] > 0 and g["temperature"] != 6500:
         f.append(f"colortemperature=temperature={g['temperature']}:mix={g['tempMix']}:pl=1")
     s, m, h = g["shadows"], g["midtones"], g["highlights"]
     if any(s + m + h):
         f.append(f"colorbalance=rs={s[0]}:gs={s[1]}:bs={s[2]}:rm={m[0]}:gm={m[1]}:bm={m[2]}:rh={h[0]}:gh={h[1]}:bh={h[2]}:pl=1")
-    if (g["contrast"], g["brightness"], g["saturation"], g["gamma"]) != (1.0, 0.0, 1.0, 1.0):
-        f.append(f"eq=contrast={g['contrast']}:brightness={g['brightness']}:saturation={g['saturation']}:gamma={g['gamma']}")
+    c = g["contrast"]
+    if abs(c - 1.0) > 1e-3:
+        lo, hi = 0.5 + (0.25 - 0.5) * c, 0.5 + (0.75 - 0.5) * c
+        f.append(f"curves=all='0/0 0.25/{max(0.02, lo):.4f} 0.75/{min(0.98, hi):.4f} 1/1'")
     return f
+
+
+# ---------------------------------------------------------------- pass 3: shot matching
+# Every shot is measured after pass 1 and pulled toward one shared target (black/white point,
+# midtone exposure, colour cast, saturation) BEFORE the light scene look is applied, so the
+# sequence reads as one film instead of many phones and app filters. Strengths are partial on
+# purpose: golden light and each gym's own lighting keep some of their character.
+MATCH = {
+    #               cast  sat_target  exposure_target
+    "neutral":         (0.55, 0.30, 0.46),
+    "work_city":       (0.55, 0.30, 0.47),
+    "gym_indoor":      (0.40, 0.31, 0.45),
+    "pool_beach":      (0.45, 0.34, 0.50),
+    "golden_portrait": (0.25, 0.32, 0.45),
+}
+
+
+def measure(rgb_frames: list) -> dict:
+    import numpy as np
+
+    a = np.concatenate([f.reshape(-1, 3) for f in rgb_frames]).astype(np.float32) / 255.0
+    y = a @ np.array([0.2126, 0.7152, 0.0722], dtype=np.float32)
+    mx, mn = a.max(1), a.min(1)
+    valid = mx > 0.08
+    sat = float(np.mean(((mx - mn) / np.maximum(mx, 1e-3))[valid])) if valid.any() else 0.0
+    mid = (y > 0.18) & (y < 0.82)
+    cast = a[mid].mean(0) if mid.sum() > 500 else a.mean(0)
+    return {
+        "lo": [float(np.percentile(a[:, c], 0.5)) for c in range(3)],
+        "hi": float(np.percentile(a.max(1), 99.6)),
+        "y_mean": float(y.mean()),
+        "sat": sat,
+        "cast": [float(c) for c in cast],
+    }
+
+
+def match_filters(m: dict, g: dict) -> tuple[list[str], dict]:
+    """Return RGB-domain FFmpeg filters that bring a measured shot to the shared target."""
+    import math
+
+    strength = float(g.get("match", 1.0))
+    cast_k, sat_t, exp_t = MATCH.get(g.get("look", "neutral"), MATCH["neutral"])
+    # black point per channel (also removes coloured shadow haze), common white point (keeps highlight colour)
+    lo = [min(0.22, max(0.0, (l - 0.012) * 0.9 * strength)) for l in m["lo"]]
+    hi = m["hi"]
+    wmax = 1.0 if hi > 0.965 else max(0.78, 1.0 - (1.0 - (hi + (1 - hi) * 0.25)) * strength)
+    f = [f"colorlevels=rimin={lo[0]:.4f}:gimin={lo[1]:.4f}:bimin={lo[2]:.4f}:rimax={wmax:.4f}:gimax={wmax:.4f}:bimax={wmax:.4f}"]
+    # midtone cast toward neutral (partial, clamped)
+    c = m["cast"]
+    avg = sum(c) / 3
+    gains = [max(0.9, min(1.1, (avg / max(ci, 1e-3)) ** (cast_k * strength))) for ci in c]
+    # exposure (gamma) and saturation toward the shared target
+    y = min(0.9, max(0.05, (m["y_mean"] - sum(lo) / 3) / max(0.2, wmax - sum(lo) / 3)))
+    gamma = max(0.88, min(1.18, (math.log(y) / math.log(exp_t)) ** (0.6 * strength)))
+    sat = max(0.72, min(1.22, (sat_t / max(m["sat"], 0.05)) ** (0.75 * strength)))
+    gamma *= float(g.get("gamma", 1.0))
+    sat *= float(g.get("saturation", 1.0))
+    f.append(f"lutrgb=r=gammaval({1 / gamma:.4f}):g=gammaval({1 / gamma:.4f}):b=gammaval({1 / gamma:.4f})")
+    # one matrix: BT.709-luma-preserving saturation, then per-channel white-balance gains
+    w = (0.2126, 0.7152, 0.0722)
+    rows = [[(1 - sat) * w[j] + (sat if i == j else 0.0) for j in range(3)] for i in range(3)]
+    rows = [[v * gains[i] for v in rows[i]] for i in range(3)]
+    names = ["r", "g", "b"]
+    f.append("colorchannelmixer=" + ":".join(f"{names[i]}{names[j]}={rows[i][j]:.5f}" for i in range(3) for j in range(3)))
+    return f, {"black": [round(x, 3) for x in lo], "white": round(wmax, 3), "wb_gains": [round(x, 3) for x in gains], "gamma": round(gamma, 3), "sat": round(sat, 3), "measured": {k: (round(v, 3) if isinstance(v, float) else [round(x, 3) for x in v]) for k, v in m.items()}}
+
+
+def frames_for_measure(src: Path, chain: list[str], times: list[float]) -> list:
+    import numpy as np
+    from PIL import Image
+
+    out = []
+    with tempfile.TemporaryDirectory() as td:
+        for i, t in enumerate(times):
+            f = Path(td) / f"{i}.png"
+            vf = ",".join(chain + ["scale=360:-2:in_color_matrix=bt709:out_color_matrix=bt709", "format=rgb24"])
+            run(["ffmpeg", "-v", "error", "-y", "-ss", f"{t:.3f}", "-i", str(src), "-vf", vf, "-frames:v", "1", str(f)], check=False)
+            if f.exists():
+                out.append(np.asarray(Image.open(f).convert("RGB")))
+    return out
+
+
+TO_RGB = "scale=in_color_matrix=bt709:in_range=tv:out_range=pc,format=gbrp"
+TO_YUV = "scale=out_color_matrix=bt709:out_range=tv,format=yuv420p"
 
 
 def cover_size(w: int, h: int) -> tuple[int, int]:
@@ -54,9 +141,11 @@ def collect_jobs(tl: dict, looks: dict) -> dict:
             src = MEDIA / shot["src"]
             if not src.exists():
                 raise SystemExit(f"Shot '{shot['id']}' points to missing file media/{shot['src']}")
-            j = jobs.setdefault(key, {"src": shot["src"], "grade": grade_params(shot, looks), "kind": shot.get("kind", "video"), "start": 1e9, "end": 0.0, "slowmo": False, "shots": set()})
+            from common import media_kind
+
+            j = jobs.setdefault(key, {"src": shot["src"], "grade": grade_params(shot, looks), "kind": media_kind(src) or "video", "start": 1e9, "end": 0.0, "slowmo": False, "shots": set()})
             j["shots"].add(shot["id"])
-            if j["kind"] in ("video", "offer"):
+            if j["kind"] == "video":
                 speed = float(shot.get("speed", 1.0))
                 j["start"] = min(j["start"], float(shot.get("in", 0)))
                 j["end"] = max(j["end"], float(shot.get("in", 0)) + float(shot["dur"]) * speed)
@@ -74,7 +163,10 @@ def process_video(key: str, j: dict, hdr: dict) -> dict:
     fps = FPS
     if j["slowmo"] and (s.get("avg_fps") or 0) > FPS:
         fps = min(120, round(s["avg_fps"]))
-    chain = sdr_chain(s, hdr) + [f"fps={fps}", f"scale={ow}:{oh}:flags=lanczos", "setsar=1"] + grade_filters(j["grade"]) + ["format=yuv420p"]
+    pass1 = sdr_chain(s, hdr)
+    times = [j["start"] + (j["end"] - j["start"]) * k for k in (0.15, 0.5, 0.85)]
+    mf, minfo = match_filters(measure(frames_for_measure(src, pass1, times)), j["grade"])
+    chain = pass1 + [f"fps={fps}", f"scale={ow}:{oh}:flags=lanczos", "setsar=1", TO_RGB] + mf + grade_filters(j["grade"]) + [TO_YUV]
     out = OUT / f"{Path(j['src']).stem}__{key}.mp4"
     cmd = ["ffmpeg", "-v", "error", "-y", "-ss", f"{start:.3f}", "-to", f"{end:.3f}", "-i", str(src), "-vf", ",".join(chain),
            "-c:v", "libx264", "-preset", "medium", "-crf", "12", "-pix_fmt", "yuv420p",
@@ -82,7 +174,7 @@ def process_video(key: str, j: dict, hdr: dict) -> dict:
     cmd += ["-c:a", "aac", "-b:a", "256k", "-ar", "48000"] if s.get("audio") else ["-an"]
     cmd += ["-movflags", "+faststart", str(out)]
     run(cmd)
-    return {"file": str(out.relative_to(PROCESSED)), "offset": round(start, 3), "fps": fps, "width": ow, "height": oh, "hasAudio": bool(s.get("audio")), "duration": round(end - start, 3), "source": s}
+    return {"file": str(out.relative_to(PROCESSED)), "offset": round(start, 3), "fps": fps, "width": ow, "height": oh, "hasAudio": bool(s.get("audio")), "duration": round(end - start, 3), "source": s, "match": minfo}
 
 
 def process_image(key: str, j: dict) -> dict:
@@ -97,10 +189,15 @@ def process_image(key: str, j: dict) -> dict:
     with tempfile.TemporaryDirectory() as td:
         tmp = Path(td) / "in.png"
         img.save(tmp)
-        vf = grade_filters(j["grade"])
+        import numpy as np
+
+        small = img.copy()
+        small.thumbnail((360, 640))
+        mf, minfo = match_filters(measure([np.asarray(small.convert("RGB"))]), j["grade"])
+        vf = ["format=gbrp"] + mf + grade_filters(j["grade"])
         cmd = ["ffmpeg", "-v", "error", "-y", "-i", str(tmp)] + (["-vf", ",".join(vf)] if vf else []) + ["-q:v", "2", str(out)]
         run(cmd)
-    return {"file": str(out.relative_to(PROCESSED)), "width": ow, "height": oh, "colour": note}
+    return {"file": str(out.relative_to(PROCESSED)), "width": ow, "height": oh, "colour": note, "match": minfo}
 
 
 def before_after(key: str, j: dict, entry: dict, hdr: dict) -> Path | None:

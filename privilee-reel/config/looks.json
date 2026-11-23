@@ -1,12 +1,144 @@
 {
-  "_readme": "Starting grade presets applied by scripts/normalize.py with FFmpeg. Values are deliberately gentle; per-shot 'grade' in timeline.json can override any key and scale the whole look with 'strength' (0 = untouched correction only, 1 = full preset). temperature: Kelvin for FFmpeg colortemperature (6500 = neutral; lower warms). colorbalance values are -1..1 (keep within ±0.06). Always judge on qa/grade sheets, never by numbers.",
-  "identity": { "temperature": 6500, "tempMix": 0.0, "contrast": 1.0, "brightness": 0.0, "saturation": 1.0, "gamma": 1.0, "shadows": [0, 0, 0], "midtones": [0, 0, 0], "highlights": [0, 0, 0] },
+  "_readme": "Pass-2 scene looks applied AFTER the pass-3 shot match (scripts/normalize.py MATCH targets). Deliberately light: warmth/tint via colortemperature + colorbalance, contrast via a gentle curve, saturation/gamma as multipliers on the matched result. Per-shot 'grade' can override any key; 'match' (0..1) scales the matching strength. Judge on qa/grade sheets.",
+  "identity": {
+    "temperature": 6500,
+    "tempMix": 0.0,
+    "contrast": 1.0,
+    "brightness": 0.0,
+    "saturation": 1.0,
+    "gamma": 1.0,
+    "shadows": [
+      0,
+      0,
+      0
+    ],
+    "midtones": [
+      0,
+      0,
+      0
+    ],
+    "highlights": [
+      0,
+      0,
+      0
+    ]
+  },
   "presets": {
-    "neutral":         { "temperature": 6500, "tempMix": 0.0, "contrast": 1.02, "brightness": 0.0,  "saturation": 1.0,  "gamma": 1.0,  "shadows": [0, 0, 0],            "midtones": [0, 0, 0],          "highlights": [0, 0, 0] },
-    "work_city":       { "temperature": 6400, "tempMix": 0.25, "contrast": 1.04, "brightness": 0.0, "saturation": 0.94, "gamma": 1.0,  "shadows": [-0.01, 0, 0.01],     "midtones": [0, 0, 0],          "highlights": [0.01, 0.005, 0] },
-    "gym_indoor":      { "temperature": 6500, "tempMix": 0.0, "contrast": 1.05, "brightness": 0.01, "saturation": 0.95, "gamma": 1.03, "shadows": [-0.015, 0, 0.02],    "midtones": [0, -0.01, 0],      "highlights": [0.01, 0.005, -0.005] },
-    "pool_beach":      { "temperature": 6000, "tempMix": 0.35, "contrast": 1.03, "brightness": 0.0, "saturation": 1.0,  "gamma": 1.0,  "shadows": [0, 0, 0.01],         "midtones": [0.01, 0, -0.005],  "highlights": [0.025, 0.01, -0.015] },
-    "golden_portrait": { "temperature": 5800, "tempMix": 0.35, "contrast": 1.03, "brightness": 0.0, "saturation": 0.97, "gamma": 1.0,  "shadows": [0.005, 0, 0.005],    "midtones": [0.015, 0.005, -0.01], "highlights": [0.025, 0.012, -0.01] }
+    "neutral": {
+      "temperature": 6500,
+      "tempMix": 0.0,
+      "contrast": 1.02,
+      "brightness": 0.0,
+      "saturation": 1.0,
+      "gamma": 1.0,
+      "shadows": [
+        0,
+        0,
+        0
+      ],
+      "midtones": [
+        0,
+        0,
+        0
+      ],
+      "highlights": [
+        0,
+        0,
+        0
+      ]
+    },
+    "work_city": {
+      "temperature": 6500,
+      "tempMix": 0.0,
+      "contrast": 1.05,
+      "brightness": 0.0,
+      "saturation": 1.0,
+      "gamma": 1.0,
+      "shadows": [
+        -0.006,
+        0,
+        0.008
+      ],
+      "midtones": [
+        0,
+        0,
+        0
+      ],
+      "highlights": [
+        0.008,
+        0.004,
+        0
+      ]
+    },
+    "gym_indoor": {
+      "temperature": 6500,
+      "tempMix": 0.0,
+      "contrast": 1.05,
+      "brightness": 0.0,
+      "saturation": 1.0,
+      "gamma": 1.0,
+      "shadows": [
+        -0.008,
+        0,
+        0.01
+      ],
+      "midtones": [
+        0,
+        0,
+        0
+      ],
+      "highlights": [
+        0.006,
+        0.003,
+        0
+      ]
+    },
+    "pool_beach": {
+      "temperature": 6250,
+      "tempMix": 0.2,
+      "contrast": 1.04,
+      "brightness": 0.0,
+      "saturation": 1.0,
+      "gamma": 1.0,
+      "shadows": [
+        0,
+        0,
+        0.006
+      ],
+      "midtones": [
+        0,
+        0,
+        0
+      ],
+      "highlights": [
+        0.012,
+        0.006,
+        -0.006
+      ]
+    },
+    "golden_portrait": {
+      "temperature": 6200,
+      "tempMix": 0.2,
+      "contrast": 1.03,
+      "brightness": 0.0,
+      "saturation": 1.0,
+      "gamma": 1.0,
+      "shadows": [
+        0,
+        0,
+        0.004
+      ],
+      "midtones": [
+        0.004,
+        0,
+        -0.004
+      ],
+      "highlights": [
+        0.012,
+        0.006,
+        -0.006
+      ]
+    }
   },
   "hdr": {
     "_readme": "HLG/PQ sources (iPhone HDR video is usually HLG BT.2020) are tone-mapped to SDR Rec.709 with zscale+tonemap. Adjust npl/desat after viewing qa/grade sheets.",

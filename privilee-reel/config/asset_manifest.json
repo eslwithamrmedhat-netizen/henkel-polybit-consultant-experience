@@ -1457,15 +1457,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Weekend — beach with Ain Dubai, natural light",
+      "role": "pool/beach relaxation",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "IMG_3606.MOV": {
       "path": "media/IMG_3606.MOV",
@@ -2780,8 +2780,10 @@
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
-      "issues": [],
-      "selected": true
+      "issues": [
+        "Baked-in teal/orange app filter on skin — replaced in the edit"
+      ],
+      "selected": false
     },
     "IMG_5772.JPEG": {
       "path": "media/IMG_5772.JPEG",
@@ -4070,14 +4072,16 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Weekend — beach walkway, calm natural light",
+      "role": "pool/beach relaxation",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
-      "issues": [],
+      "issues": [
+        "Large photographer shadow in foreground — not used"
+      ],
       "selected": false
     },
     "IMG_6226.MOV": {
