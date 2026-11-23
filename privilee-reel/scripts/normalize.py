@@ -29,8 +29,10 @@ HANDLE = 0.5
 
 # One shared "film look" applied identically to EVERY shot after matching, so the sequence reads
 # as one film: soft lifted blacks, gently rolled highlights, cool shadows / warm highlights.
-FILM_CURVE = "curves=all='0/0.028 0.18/0.155 0.5/0.5 0.82/0.845 1/0.965'"
-FILM_SPLIT = "colorbalance=rs=-0.014:gs=-0.002:bs=0.02:rh=0.022:gh=0.009:bh=-0.016:pl=1"
+# Matched to Privilee's own brand photography (qa/palette_analysis.json): airy, matte, soft,
+# warm-neutral. Lifted blacks (~0.08), brighter mids, gently rolled creamy highlights.
+FILM_CURVE = "curves=all='0/0.085 0.25/0.292 0.5/0.55 0.75/0.772 1/0.94'"
+FILM_SPLIT = "colorbalance=rs=0.004:gs=0.002:bs=-0.002:rm=0.004:gm=0.002:bm=-0.005:rh=0.013:gh=0.009:bh=-0.006:pl=1"
 
 
 def tame_filters(g: dict) -> list[str]:
@@ -45,7 +47,7 @@ def tame_filters(g: dict) -> list[str]:
     for h in g.get("huesat", []):  # per-shot surgical fixes, e.g. a red-lit corridor
         f.append(f"huesaturation=saturation={h.get('saturation', 0)}:intensity={h.get('intensity', 0)}:colors={h['colors']}:strength={h.get('strength', 3)}")
     if g.get("look") != "pool_beach":
-        f.append("vibrance=intensity=-0.28")  # compress over-saturated colours more than muted ones
+        f.append("vibrance=intensity=-0.12")  # compress over-saturated colours more than muted ones
     return f
 
 
@@ -68,11 +70,11 @@ def grade_filters(g: dict) -> list[str]:
 # purpose: golden light and each gym's own lighting keep some of their character.
 MATCH = {
     #               cast  sat_target  exposure_target
-    "neutral":         (0.70, 0.25, 0.46),
-    "work_city":       (0.75, 0.24, 0.46),
-    "gym_indoor":      (0.80, 0.24, 0.44),
-    "pool_beach":      (0.60, 0.29, 0.48),
-    "golden_portrait": (0.50, 0.26, 0.44),
+    "neutral":         (0.70, 0.31, 0.51),
+    "work_city":       (0.75, 0.30, 0.51),
+    "gym_indoor":      (0.80, 0.31, 0.49),
+    "pool_beach":      (0.60, 0.34, 0.52),
+    "golden_portrait": (0.50, 0.31, 0.50),
 }
 
 

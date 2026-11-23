@@ -211,7 +211,7 @@ export const CaptionText: React.FC<{ c: Caption; layout: PlatformLayout }> = ({ 
 /** Cinematic finish: edge vignette + top/bottom gradients so ivory type always reads. */
 export const TextScrim: React.FC = () => (
   <AbsoluteFill style={{ pointerEvents: "none" }}>
-    <AbsoluteFill style={{ background: "radial-gradient(ellipse 85% 70% at 50% 48%, rgba(0,0,0,0) 55%, rgba(0,0,0,0.32) 100%)" }} />
+    <AbsoluteFill style={{ background: "radial-gradient(ellipse 90% 75% at 50% 48%, rgba(0,0,0,0) 62%, rgba(0,0,0,0.16) 100%)" }} />
     <AbsoluteFill
       style={{
         background:
