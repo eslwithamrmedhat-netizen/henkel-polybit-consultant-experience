@@ -55,6 +55,8 @@ def shot_props(shot: dict, mm: dict, looks: dict, start: int, cut_frames: int) -
         "masks": shot.get("masks") or [],
         "hasAudio": bool(entry and entry.get("hasAudio")),
     }
+    if p["kind"] == "phone":
+        p["icon"] = f"brand/{__import__('pathlib').Path(shot['icon']).stem}_icon.png"
     if shot.get("freeze"):
         p["kind"] = "image"
     elif entry and p["kind"] in ("video", "offer", "coverage"):

@@ -274,6 +274,12 @@ def prepare_brand(tl: dict) -> None:
     out = PROCESSED / "brand"
     out.mkdir(parents=True, exist_ok=True)
     for sid, shot in tl["shots"].items():
+        if shot.get("kind") == "phone" and shot.get("icon"):
+            img, icc = open_image(MEDIA / shot["icon"])
+            img, _ = to_srgb(img, icc)
+            x0, y0, x1, y1 = shot.get("iconCrop", [0, 0, 1, 1])
+            w, h = img.size
+            img.crop((int(x0 * w), int(y0 * h), int(x1 * w), int(y1 * h))).save(out / (Path(shot["icon"]).stem + "_icon.png"))
         if shot.get("kind") == "brand" and shot.get("src"):
             img, icc = open_image(MEDIA / shot["src"])
             img, _ = to_srgb(img, icc)

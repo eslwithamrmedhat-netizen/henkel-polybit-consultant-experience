@@ -1,6 +1,7 @@
 import React from "react";
 import { AbsoluteFill, Audio, Easing, Img, interpolate, Sequence, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { OfferCard } from "./OfferCard";
+import { PhoneOpen } from "./PhoneOpen";
 import { Shot } from "./Shot";
 import { CaptionText, Guides, OverlayText, TextScrim } from "./Text";
 import { colors, FONT, loadFonts } from "./theme";
@@ -58,7 +59,7 @@ export const Film: React.FC<FilmProps> = (p) => {
     <AbsoluteFill style={{ backgroundColor: "#000" }}>
       {p.shots.map((s) => (
         <Sequence key={`${s.id}-${s.from}`} from={s.from} durationInFrames={s.durationInFrames} name={s.id}>
-          {s.kind === "coverage" && !s.src ? <Coverage /> : s.kind === "brand" && s.src ? <BrandCard src={s.src} w={s.mediaWidth} h={s.mediaHeight} backdrop={s.backdrop ?? null} /> : <Shot shot={s} ambience={p.ambience} />}
+          {s.kind === "coverage" && !s.src ? <Coverage /> : s.kind === "phone" && s.icon ? <PhoneOpen wallpaper={s.src} icon={s.icon} durationInFrames={s.durationInFrames} /> : s.kind === "brand" && s.src ? <BrandCard src={s.src} w={s.mediaWidth} h={s.mediaHeight} backdrop={s.backdrop ?? null} /> : <Shot shot={s} ambience={p.ambience} />}
         </Sequence>
       ))}
 

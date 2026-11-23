@@ -16,7 +16,7 @@ export type PlatformLayout = {
 export type ShotProps = {
   id: string;
   beat: string;
-  kind: "video" | "image" | "coverage" | "offer" | "brand";
+  kind: "video" | "image" | "coverage" | "offer" | "brand" | "phone";
   from: number;
   durationInFrames: number;
   src: string | null;
@@ -35,6 +35,8 @@ export type ShotProps = {
   trimBefore?: number;
   /** brand cards: a processed still shown blurred behind the logo so the frame is full */
   backdrop?: string | null;
+  /** phone shots: cropped Privilee icon (brand/…_icon.png) */
+  icon?: string;
 };
 
 export type Overlay = {
