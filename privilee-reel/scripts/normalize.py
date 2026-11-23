@@ -143,7 +143,8 @@ def collect_jobs(tl: dict, looks: dict) -> dict:
                 raise SystemExit(f"Shot '{shot['id']}' points to missing file media/{shot['src']}")
             from common import media_kind
 
-            j = jobs.setdefault(key, {"src": shot["src"], "grade": grade_params(shot, looks), "kind": media_kind(src) or "video", "start": 1e9, "end": 0.0, "slowmo": False, "shots": set()})
+            kind = "freeze" if shot.get("freeze") else (media_kind(src) or "video")
+            j = jobs.setdefault(key, {"src": shot["src"], "grade": grade_params(shot, looks), "kind": kind, "at": float(shot.get("in", 0)), "start": 1e9, "end": 0.0, "slowmo": False, "shots": set()})
             j["shots"].add(shot["id"])
             if j["kind"] == "video":
                 speed = float(shot.get("speed", 1.0))
@@ -177,15 +178,35 @@ def process_video(key: str, j: dict, hdr: dict) -> dict:
     return {"file": str(out.relative_to(PROCESSED)), "offset": round(start, 3), "fps": fps, "width": ow, "height": oh, "hasAudio": bool(s.get("audio")), "duration": round(end - start, 3), "source": s, "match": minfo}
 
 
-def process_image(key: str, j: dict) -> dict:
+def process_freeze(key: str, j: dict, hdr: dict) -> dict:
+    """Freeze frame from a video: pass-1 corrected frame at j['at'], then graded like a photo."""
+    from PIL import Image
+
     src = MEDIA / j["src"]
-    img, icc = open_image(src)
-    img, note = to_srgb(img, icc)
+    s = video_summary(ffprobe(src))
+    with tempfile.TemporaryDirectory() as td:
+        f = Path(td) / "f.png"
+        vf = ",".join(sdr_chain(s, hdr) + ["scale=in_color_matrix=bt709:out_color_matrix=bt709", "format=rgb24"])
+        run(["ffmpeg", "-v", "error", "-y", "-ss", f"{j['at']:.3f}", "-i", str(src), "-vf", vf, "-frames:v", "1", str(f)])
+        img = Image.open(f).convert("RGB")
+        img.load()
+    entry = process_image(key, j, img=img, stem_suffix=f"_f{j['at']:.2f}")
+    entry["freeze_at"] = j["at"]
+    return entry
+
+
+def process_image(key: str, j: dict, img=None, stem_suffix: str = "") -> dict:
+    src = MEDIA / j["src"]
+    if img is None:
+        img, icc = open_image(src)
+        img, note = to_srgb(img, icc)
+    else:
+        note = "freeze frame (Rec.709 SDR)"
     ow, oh = cover_size(*img.size)
     from PIL import Image
 
     img = img.resize((ow, oh), Image.LANCZOS)
-    out = OUT / f"{Path(j['src']).stem}__{key}.jpg"
+    out = OUT / f"{Path(j['src']).stem}{stem_suffix}__{key}.jpg"
     with tempfile.TemporaryDirectory() as td:
         tmp = Path(td) / "in.png"
         img.save(tmp)
@@ -261,15 +282,21 @@ def main() -> None:
     new, sheets = {}, []
     for key, j in jobs.items():
         prev = old.get(key)
-        fresh = prev and (PROCESSED / prev["file"]).exists() and (j["kind"] == "image" or (prev.get("offset", 0) <= max(0, j["start"] - HANDLE) + 1e-3 and prev["offset"] + prev["duration"] >= j["end"]))
+        fresh = prev and (PROCESSED / prev["file"]).exists() and (j["kind"] in ("image", "freeze") or (prev.get("offset", 0) <= max(0, j["start"] - HANDLE) + 1e-3 and prev["offset"] + prev["duration"] >= j["end"]))
         if fresh and not force:
             new[key] = prev
             print(f"=  {prev['file']}")
             continue
-        entry = process_image(key, j) if j["kind"] == "image" else process_video(key, j, looks.get("hdr", {}))
+        if j["kind"] == "freeze":
+            entry = process_freeze(key, j, looks.get("hdr", {}))
+        elif j["kind"] == "image":
+            entry = process_image(key, j)
+        else:
+            entry = process_video(key, j, looks.get("hdr", {}))
         entry["shots"] = sorted(j["shots"])
         new[key] = entry
-        sheets.append(before_after(key, j, entry, looks.get("hdr", {})))
+        if j["kind"] != "freeze":
+            sheets.append(before_after(key, j, entry, looks.get("hdr", {})))
         print(f"+  {entry['file']}  ({', '.join(entry['shots'])})")
     save_json(MAP, new)
     grade_overview([p for p in sheets if p])

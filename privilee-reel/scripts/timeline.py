@@ -71,7 +71,10 @@ def grade_params(shot: dict, looks: dict) -> dict:
 def job_key(shot: dict, looks: dict) -> str | None:
     if not shot.get("src"):
         return None
-    sig = json.dumps({"src": shot["src"], "grade": grade_params(shot, looks)}, sort_keys=True)
+    sig = {"src": shot["src"], "grade": grade_params(shot, looks)}
+    if shot.get("freeze"):  # a single graded still taken from a video at shot['in']
+        sig["freeze"] = round(float(shot.get("in", 0)), 3)
+    sig = json.dumps(sig, sort_keys=True)
     return hashlib.sha1(sig.encode()).hexdigest()[:10]
 
 

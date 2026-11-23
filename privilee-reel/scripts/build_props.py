@@ -55,7 +55,9 @@ def shot_props(shot: dict, mm: dict, looks: dict, start: int, cut_frames: int) -
         "masks": shot.get("masks") or [],
         "hasAudio": bool(entry and entry.get("hasAudio")),
     }
-    if entry and p["kind"] in ("video", "offer", "coverage"):
+    if shot.get("freeze"):
+        p["kind"] = "image"
+    elif entry and p["kind"] in ("video", "offer", "coverage"):
         p["trimBefore"] = max(0, f(float(shot.get("in", 0)) - entry.get("offset", 0)))
     if shot.get("src") and not entry:
         raise SystemExit(f"Shot '{shot['id']}' has src but no processed intermediate — run scripts/normalize.py")
