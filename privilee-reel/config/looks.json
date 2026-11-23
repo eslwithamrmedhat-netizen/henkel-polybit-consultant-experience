@@ -1,5 +1,5 @@
 {
-  "_readme": "Pass-2 scene looks applied AFTER the pass-3 shot match (scripts/normalize.py MATCH targets). Deliberately light: warmth/tint via colortemperature + colorbalance, contrast via a gentle curve, saturation/gamma as multipliers on the matched result. Per-shot 'grade' can override any key; 'match' (0..1) scales the matching strength. Judge on qa/grade sheets.",
+  "_readme": "Pass-2 scene looks applied after the pass-3 shot match and before the SHARED film look (normalize.py FILM_CURVE/FILM_SPLIT, identical on every shot). Scene presets are now only small warmth/tint nudges; contrast comes from the film curve. Per-shot 'grade' can add 'huesat' (surgical hue fixes), 'tameNeon' (default on for gym_indoor), 'match' strength, 'saturation', 'gamma', 'temperatureShift'.",
   "identity": {
     "temperature": 6500,
     "tempMix": 0.0,
@@ -27,7 +27,7 @@
     "neutral": {
       "temperature": 6500,
       "tempMix": 0.0,
-      "contrast": 1.02,
+      "contrast": 1.0,
       "brightness": 0.0,
       "saturation": 1.0,
       "gamma": 1.0,
@@ -50,7 +50,7 @@
     "work_city": {
       "temperature": 6500,
       "tempMix": 0.0,
-      "contrast": 1.05,
+      "contrast": 1.0,
       "brightness": 0.0,
       "saturation": 1.0,
       "gamma": 1.0,
@@ -71,9 +71,9 @@
       ]
     },
     "gym_indoor": {
-      "temperature": 6500,
-      "tempMix": 0.0,
-      "contrast": 1.05,
+      "temperature": 6400,
+      "tempMix": 0.12,
+      "contrast": 1.0,
       "brightness": 0.0,
       "saturation": 1.0,
       "gamma": 1.0,
@@ -94,9 +94,9 @@
       ]
     },
     "pool_beach": {
-      "temperature": 6250,
-      "tempMix": 0.2,
-      "contrast": 1.04,
+      "temperature": 6300,
+      "tempMix": 0.15,
+      "contrast": 1.0,
       "brightness": 0.0,
       "saturation": 1.0,
       "gamma": 1.0,
@@ -117,9 +117,9 @@
       ]
     },
     "golden_portrait": {
-      "temperature": 6200,
-      "tempMix": 0.2,
-      "contrast": 1.03,
+      "temperature": 6150,
+      "tempMix": 0.18,
+      "contrast": 1.0,
       "brightness": 0.0,
       "saturation": 1.0,
       "gamma": 1.0,

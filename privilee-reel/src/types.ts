@@ -49,7 +49,7 @@ export type PhoneSpec = {
 };
 
 export type Overlay = {
-  type: "hook" | "title" | "coverage" | "label" | "brand" | "line";
+  type: "hook" | "title" | "coverage" | "label" | "brand" | "line" | "chapter";
   text: string;
   /** frosted backing for lines that sit over light UI (e.g. app screens) */
   boxed?: boolean;

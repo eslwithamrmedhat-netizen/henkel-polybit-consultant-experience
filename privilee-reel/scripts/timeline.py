@@ -62,6 +62,8 @@ def grade_params(shot: dict, looks: dict) -> dict:
     out["brightness"] = round(out["brightness"] + float(g.get("exposure", 0.0)), 4)
     out["look"] = g.get("look", "neutral")
     out["match"] = float(g.get("match", 1.0))
+    out["tameNeon"] = bool(g.get("tameNeon", out["look"] == "gym_indoor"))
+    out["huesat"] = g.get("huesat", [])
     if "temperatureShift" in g:  # quick per-shot white-balance nudge in Kelvin
         out["temperature"] = round(out["temperature"] + float(g["temperatureShift"]))
         out["tempMix"] = max(out["tempMix"], 0.3)

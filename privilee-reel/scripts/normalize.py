@@ -27,18 +27,37 @@ HEADROOM = 1.12  # room for re-framing / slow push-ins without upscaling
 HANDLE = 0.5
 
 
-def grade_filters(g: dict) -> list[str]:
-    """Pass 2 scene look, RGB domain only: light warmth/tint and a gentle contrast curve."""
+# One shared "film look" applied identically to EVERY shot after matching, so the sequence reads
+# as one film: soft lifted blacks, gently rolled highlights, cool shadows / warm highlights.
+FILM_CURVE = "curves=all='0/0.028 0.18/0.155 0.5/0.5 0.82/0.845 1/0.965'"
+FILM_SPLIT = "colorbalance=rs=-0.014:gs=-0.002:bs=0.02:rh=0.022:gh=0.009:bh=-0.016:pl=1"
+
+
+def tame_filters(g: dict) -> list[str]:
+    """Compress the colour extremes that make phone footage look cheap (before the look)."""
     f = []
+    if g.get("tameNeon"):
+        # artificial gym lighting: pull neon cyan / magenta / green toward neutral, keep skin (reds/yellows)
+        # strength widens the hue band (default 1 barely acts); calibrated on qa/hs_strength.jpg
+        f.append("huesaturation=saturation=-0.72:colors=c+m+g:strength=4")
+        f.append("huesaturation=saturation=-0.38:colors=b:strength=3")
+        f.append("huesaturation=saturation=-0.2:colors=r:strength=1")
+    for h in g.get("huesat", []):  # per-shot surgical fixes, e.g. a red-lit corridor
+        f.append(f"huesaturation=saturation={h.get('saturation', 0)}:intensity={h.get('intensity', 0)}:colors={h['colors']}:strength={h.get('strength', 3)}")
+    if g.get("look") != "pool_beach":
+        f.append("vibrance=intensity=-0.28")  # compress over-saturated colours more than muted ones
+    return f
+
+
+def grade_filters(g: dict) -> list[str]:
+    """Pass 2: light scene warmth/tint, then the shared film look (RGB domain only)."""
+    f = tame_filters(g)
     if g["tempMix"] > 0 and g["temperature"] != 6500:
         f.append(f"colortemperature=temperature={g['temperature']}:mix={g['tempMix']}:pl=1")
     s, m, h = g["shadows"], g["midtones"], g["highlights"]
     if any(s + m + h):
         f.append(f"colorbalance=rs={s[0]}:gs={s[1]}:bs={s[2]}:rm={m[0]}:gm={m[1]}:bm={m[2]}:rh={h[0]}:gh={h[1]}:bh={h[2]}:pl=1")
-    c = g["contrast"]
-    if abs(c - 1.0) > 1e-3:
-        lo, hi = 0.5 + (0.25 - 0.5) * c, 0.5 + (0.75 - 0.5) * c
-        f.append(f"curves=all='0/0 0.25/{max(0.02, lo):.4f} 0.75/{min(0.98, hi):.4f} 1/1'")
+    f += [FILM_CURVE, FILM_SPLIT]
     return f
 
 
@@ -49,11 +68,11 @@ def grade_filters(g: dict) -> list[str]:
 # purpose: golden light and each gym's own lighting keep some of their character.
 MATCH = {
     #               cast  sat_target  exposure_target
-    "neutral":         (0.55, 0.30, 0.46),
-    "work_city":       (0.55, 0.30, 0.47),
-    "gym_indoor":      (0.40, 0.31, 0.45),
-    "pool_beach":      (0.45, 0.34, 0.50),
-    "golden_portrait": (0.25, 0.32, 0.45),
+    "neutral":         (0.70, 0.25, 0.46),
+    "work_city":       (0.75, 0.24, 0.46),
+    "gym_indoor":      (0.80, 0.24, 0.44),
+    "pool_beach":      (0.60, 0.29, 0.48),
+    "golden_portrait": (0.50, 0.26, 0.44),
 }
 
 
@@ -90,11 +109,11 @@ def match_filters(m: dict, g: dict) -> tuple[list[str], dict]:
     # midtone cast toward neutral (partial, clamped)
     c = m["cast"]
     avg = sum(c) / 3
-    gains = [max(0.9, min(1.1, (avg / max(ci, 1e-3)) ** (cast_k * strength))) for ci in c]
+    gains = [max(0.86, min(1.14, (avg / max(ci, 1e-3)) ** (cast_k * strength))) for ci in c]
     # exposure (gamma) and saturation toward the shared target
     y = min(0.9, max(0.05, (m["y_mean"] - sum(lo) / 3) / max(0.2, wmax - sum(lo) / 3)))
     gamma = max(0.88, min(1.18, (math.log(y) / math.log(exp_t)) ** (0.6 * strength)))
-    sat = max(0.72, min(1.22, (sat_t / max(m["sat"], 0.05)) ** (0.75 * strength)))
+    sat = max(0.6, min(1.2, (sat_t / max(m["sat"], 0.05)) ** (0.75 * strength)))
     gamma *= float(g.get("gamma", 1.0))
     sat *= float(g.get("saturation", 1.0))
     f.append(f"lutrgb=r=gammaval({1 / gamma:.4f}):g=gammaval({1 / gamma:.4f}):b=gammaval({1 / gamma:.4f})")

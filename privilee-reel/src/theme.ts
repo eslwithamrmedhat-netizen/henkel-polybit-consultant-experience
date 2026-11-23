@@ -1,36 +1,38 @@
 import { continueRender, delayRender, staticFile } from "remotion";
 
 /**
- * Editorial pairing (both SIL OFL, files in processed/fonts/):
- *  - SERIF  Playfair Display — hook, titles, places (italics for emphasis)
- *  - SANS   Manrope — supporting lines, captions, tracked eyebrows
+ * Editorial type system (both SIL OFL, files + licences in processed/fonts/):
+ *  - SERIF  Fraunces — sturdy, warm display serif for hook, titles, places, cover
+ *  - SANS   Plus Jakarta Sans — confident supporting lines, captions, tracked labels
+ * Colour: warm ivory text; champagne for italic emphasis (used sparingly).
  */
-export const SERIF = "'Playfair Display', Georgia, serif";
-export const SANS = "Manrope, 'Helvetica Neue', Arial, sans-serif";
+export const SERIF = "Fraunces, Georgia, serif";
+export const SANS = "'Plus Jakarta Sans', 'Helvetica Neue', Arial, sans-serif";
 export const FONT = SANS;
 
 export const colors = {
-  text: "#FBF8F3", // warm white, never pure #fff on sunlit footage
+  text: "#F6F1E6",
+  accent: "#E8D2A2",
   ink: "#1F1D1A",
   sand: "#ECE5DA",
   sandDeep: "#D9CEBF",
-  shadow: "0 2px 22px rgba(0,0,0,0.42), 0 1px 3px rgba(0,0,0,0.45)",
-  softShadow: "0 1px 18px rgba(0,0,0,0.55), 0 1px 2px rgba(0,0,0,0.6)",
+  shadow: "0 2px 30px rgba(0,0,0,0.50), 0 1px 3px rgba(0,0,0,0.55)",
+  softShadow: "0 2px 22px rgba(0,0,0,0.60), 0 1px 2px rgba(0,0,0,0.65)",
   captionBg: "rgba(14,13,12,0.40)",
   review: "#B3261E",
 };
 
 const faces: [string, string, string, string][] = [
-  ["Playfair Display", "400", "normal", "playfair-display-latin-400-normal.woff2"],
-  ["Playfair Display", "500", "normal", "playfair-display-latin-500-normal.woff2"],
-  ["Playfair Display", "600", "normal", "playfair-display-latin-600-normal.woff2"],
-  ["Playfair Display", "400", "italic", "playfair-display-latin-400-italic.woff2"],
-  ["Playfair Display", "500", "italic", "playfair-display-latin-500-italic.woff2"],
-  ["Playfair Display", "600", "italic", "playfair-display-latin-600-italic.woff2"],
-  ["Manrope", "400", "normal", "manrope-latin-400-normal.woff2"],
-  ["Manrope", "500", "normal", "manrope-latin-500-normal.woff2"],
-  ["Manrope", "600", "normal", "manrope-latin-600-normal.woff2"],
-  ["Manrope", "700", "normal", "manrope-latin-700-normal.woff2"],
+  ["Fraunces", "500", "normal", "fraunces-latin-500-normal.woff2"],
+  ["Fraunces", "600", "normal", "fraunces-latin-600-normal.woff2"],
+  ["Fraunces", "700", "normal", "fraunces-latin-700-normal.woff2"],
+  ["Fraunces", "500", "italic", "fraunces-latin-500-italic.woff2"],
+  ["Fraunces", "600", "italic", "fraunces-latin-600-italic.woff2"],
+  ["Fraunces", "700", "italic", "fraunces-latin-700-italic.woff2"],
+  ["Plus Jakarta Sans", "500", "normal", "plus-jakarta-sans-latin-500-normal.woff2"],
+  ["Plus Jakarta Sans", "600", "normal", "plus-jakarta-sans-latin-600-normal.woff2"],
+  ["Plus Jakarta Sans", "700", "normal", "plus-jakarta-sans-latin-700-normal.woff2"],
+  ["Plus Jakarta Sans", "800", "normal", "plus-jakarta-sans-latin-800-normal.woff2"],
 ];
 
 let loaded = false;

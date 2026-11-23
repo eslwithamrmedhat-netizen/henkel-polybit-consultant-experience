@@ -23,14 +23,15 @@ export const Cover: React.FC<CoverProps> = ({ title, shot }) => (
         textAlign: "center",
         fontFamily: SERIF,
         fontWeight: 500,
-        fontSize: 98,
+        fontSize: 116,
+        letterSpacing: "-0.018em",
         lineHeight: 1.02,
         color: colors.text,
         textShadow: colors.shadow,
       }}
     >
       {title.split("\n").map((l, i) => (
-        <div key={i} style={{ fontStyle: i === 1 ? "italic" : "normal", fontWeight: i === 1 ? 400 : 500 }}>
+        <div key={i} style={{ fontStyle: i === 1 ? "italic" : "normal", fontWeight: i === 1 ? 500 : 600, color: i === 1 ? colors.accent : colors.text }}>
           {l}
         </div>
       ))}

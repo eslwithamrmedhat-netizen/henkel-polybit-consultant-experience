@@ -16,7 +16,14 @@
         "zoom": 1.5
       },
       "grade": {
-        "look": "gym_indoor"
+        "look": "gym_indoor",
+        "huesat": [
+          {
+            "colors": "c+b",
+            "saturation": -0.55,
+            "strength": 4
+          }
+        ]
       },
       "clipVolume": 0.0
     },
@@ -364,7 +371,13 @@
       },
       "grade": {
         "look": "golden_portrait",
-        "saturation": 0.84
+        "saturation": 0.84,
+        "huesat": [
+          {
+            "colors": "y+r",
+            "saturation": -0.22
+          }
+        ]
       },
       "transitionIn": 0.4
     },
@@ -700,7 +713,15 @@
       },
       "grade": {
         "look": "gym_indoor",
-        "match": 0.5
+        "match": 0.9,
+        "gamma": 1.14,
+        "huesat": [
+          {
+            "colors": "r+m",
+            "saturation": -0.45,
+            "strength": 3
+          }
+        ]
       }
     },
     "fight_wraps": {
@@ -1234,6 +1255,24 @@
           "shot": "closing_portrait",
           "endShot": "final_image",
           "endOffset": -0.7
+        },
+        {
+          "type": "chapter",
+          "text": "01|The workweek",
+          "shot": "work_1",
+          "endShot": "work_3"
+        },
+        {
+          "type": "chapter",
+          "text": "02|The routine",
+          "shot": "gym_a_action",
+          "endShot": "gym_kb_a"
+        },
+        {
+          "type": "chapter",
+          "text": "03|The weekend",
+          "shot": "weekend_pool_1",
+          "endShot": "weekend_water"
         }
       ]
     },
@@ -1371,6 +1410,24 @@
           "shot": "closing_portrait",
           "endShot": "final_image",
           "endOffset": -0.7
+        },
+        {
+          "type": "chapter",
+          "text": "01|The workweek",
+          "shot": "work_1",
+          "endShot": "work_3"
+        },
+        {
+          "type": "chapter",
+          "text": "02|The routine",
+          "shot": "gym_a_action",
+          "endShot": "gym_kb_a"
+        },
+        {
+          "type": "chapter",
+          "text": "03|The weekend",
+          "shot": "weekend_pool_1",
+          "endShot": "weekend_water"
         }
       ]
     },
@@ -1643,6 +1700,24 @@
           "type": "title",
           "text": "Different cities.\nSame routine.",
           "shot": "closing_portrait"
+        },
+        {
+          "type": "chapter",
+          "text": "01|The workweek",
+          "shot": "work_1",
+          "endShot": "work_3"
+        },
+        {
+          "type": "chapter",
+          "text": "02|The routine",
+          "shot": "gym_a_action",
+          "endShot": "gym_kb_a"
+        },
+        {
+          "type": "chapter",
+          "text": "03|The weekend",
+          "shot": "weekend_pool_1",
+          "endShot": "weekend_water"
         }
       ]
     }
