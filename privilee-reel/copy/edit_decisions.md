@@ -15,12 +15,12 @@ Built from the shared album: 118 items, which became 160 files once Live Photos 
 | 6.9–8.5 s | Useful choice | Face-recognition check-in at a gym (device info masked) |
 | 8.5–26 s | Variety supports consistency | NorthFit deadlift → hand wraps → box jump → kicks on a red floor → **pull-up match cut** → **selfie montage** → open-air gym curls with towers → rooftop shadowboxing |
 | 26–28.8 s | Coverage | Neutral "Also available in Qatar" card (no confirmed Qatar footage) |
-| 28.8–42.6 s | Weekend release | Infinity pool at golden hour, water villas with the marina skyline, resort pool, the sea and Burj Al Arab, a rooftop lap pool, a golden-hour portrait. Shots are held longer here. |
+| 28.8–42.6 s | Weekend release | Infinity pool at golden hour, water villas with the marina skyline, resort pool, the sea and Burj Al Arab, a rooftop lap pool, the beach with Ain Dubai. Shots are held longer here. |
 | 42.6–49.4 s | Conclusion | Smiling at the pool with Burj Khalifa behind him, with the title "Different cities. Same routine.", then the marina pool and a fade |
 
 - **Hook B** opens on the pull-up match cut, with the same story and length.
-- **Cutdown**: 26.6 s.
-- **White Friday cut**: 49.4 s. It's UAE only, so the Qatar card and line are removed, an extra UAE training clip is added, and it ends on the offer card over his own pool photo.
+- **Cutdown**: 26.7 s.
+- **White Friday cut**: 46.8 s, below the 50–55 s target. It can be lengthened. It's UAE only, so the Qatar card and line are removed, an extra UAE training clip is added, and it ends on the offer card over his own pool photo.
 
 ## Deliberate exclusions
 
