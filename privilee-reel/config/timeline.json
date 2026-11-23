@@ -5,14 +5,15 @@
   "height": 1920,
   "shots": {
     "hook_action": {
-      "beat": "Hook — kick on the red gym floor (iPhone HLG)",
+      "beat": "Hook — football kicks on the red gym floor (iPhone HLG), pushed in on Amr",
       "src": "IMG_6762.MOV",
       "kind": "video",
-      "in": 3.7,
+      "in": 4.4,
       "dur": 1.1,
       "crop": {
-        "x": 0.5,
-        "y": 0.5
+        "x": 0.52,
+        "y": 0.47,
+        "zoom": 1.5
       },
       "grade": {
         "look": "gym_indoor"
