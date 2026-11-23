@@ -1,6 +1,6 @@
 import React from "react";
 import { AbsoluteFill, Easing, Img, interpolate, staticFile, useCurrentFrame } from "remotion";
-import { colors, FONT } from "./theme";
+import { colors, SANS, SERIF } from "./theme";
 import { OfferProps, PlatformLayout } from "./types";
 
 const ease = Easing.bezier(0.22, 1, 0.36, 1);
@@ -31,7 +31,7 @@ export const OfferCard: React.FC<{ offer: OfferProps; layout: PlatformLayout; du
             right: Math.max(layout.sideMargin, right),
             top: art ? 330 : 560,
             textAlign: "center",
-            fontFamily: FONT,
+            fontFamily: SANS,
             color: colors.text,
             textShadow: colors.shadow,
           }}
@@ -46,8 +46,8 @@ export const OfferCard: React.FC<{ offer: OfferProps; layout: PlatformLayout; du
             </>
           ) : (
             <>
-              <div style={{ ...step(1), fontSize: 34, fontWeight: 500, letterSpacing: "0.2em" }}>{offer.eyebrow}</div>
-              <div style={{ ...step(2), fontSize: 84, fontWeight: 700, marginTop: 26, letterSpacing: "-0.01em", lineHeight: 1.05 }}>
+              <div style={{ ...step(1), fontSize: 28, fontWeight: 600, letterSpacing: "0.34em" }}>{offer.eyebrow}</div>
+              <div style={{ ...step(2), fontFamily: SERIF, fontSize: 92, fontWeight: 500, marginTop: 26, lineHeight: 1.04 }}>
                 {offer.headline.split("\n").map((l, i) => (
                   <div key={i}>{l}</div>
                 ))}
@@ -64,7 +64,7 @@ export const OfferCard: React.FC<{ offer: OfferProps; layout: PlatformLayout; du
             position: "absolute",
             left: layout.sideMargin,
             top: Math.max(layout.topUnsafe, 60) + 20,
-            fontFamily: FONT,
+            fontFamily: SANS,
             fontSize: 24,
             fontWeight: 600,
             letterSpacing: "0.08em",

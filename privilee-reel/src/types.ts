@@ -33,6 +33,8 @@ export type ShotProps = {
   masks: Rect[];
   hasAudio: boolean;
   trimBefore?: number;
+  /** brand cards: a processed still shown blurred behind the logo so the frame is full */
+  backdrop?: string | null;
 };
 
 export type Overlay = {

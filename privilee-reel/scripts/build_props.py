@@ -97,6 +97,11 @@ def build(render_id: str, guides: bool = False) -> dict:
         ends[s["id"]] = start + dur
         cursor = start + dur
     total = cursor
+    # brand cards borrow the next real shot (blurred) as a full-frame backdrop
+    for i, sp in enumerate(shots):
+        if sp["kind"] == "brand":
+            nxt = next((x for x in shots[i + 1:] if x["src"] and x["kind"] != "brand"), None)
+            sp["backdrop"] = nxt["src"] if nxt and nxt["src"].lower().endswith((".jpg", ".jpeg", ".png")) else None
 
     vo = None
     captions = []

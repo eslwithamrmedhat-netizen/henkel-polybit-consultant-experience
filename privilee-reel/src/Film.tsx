@@ -2,7 +2,7 @@ import React from "react";
 import { AbsoluteFill, Audio, Easing, Img, interpolate, Sequence, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { OfferCard } from "./OfferCard";
 import { Shot } from "./Shot";
-import { CaptionText, Guides, OverlayText } from "./Text";
+import { CaptionText, Guides, OverlayText, TextScrim } from "./Text";
 import { colors, FONT, loadFonts } from "./theme";
 import { FilmProps } from "./types";
 
@@ -25,17 +25,24 @@ const Coverage: React.FC = () => (
   <AbsoluteFill style={{ background: `linear-gradient(180deg, ${colors.sand} 0%, ${colors.sandDeep} 100%)` }} />
 );
 
-/** Supplied brand screenshot, contained at its own proportions and colours (never stretched or recoloured). */
-const BrandCard: React.FC<{ src: string; w: number | null; h: number | null }> = ({ src, w, h }) => {
+/**
+ * Full-bleed brand moment: the supplied app-icon screenshot (own proportions/colours, never recoloured)
+ * over a blurred, darkened version of the next real shot so the frame is always filled with footage.
+ */
+const BrandCard: React.FC<{ src: string; w: number | null; h: number | null; backdrop: string | null }> = ({ src, w, h, backdrop }) => {
   const frame = useCurrentFrame();
-  const a = interpolate(frame, [0, 10], [0, 1], { extrapolateRight: "clamp", easing: Easing.bezier(0.22, 1, 0.36, 1) });
-  const width = Math.min(420, Math.round((w ?? 300) * 1.35)); // modest upscale only — source is a small screenshot
+  const a = interpolate(frame, [0, 12], [0, 1], { extrapolateRight: "clamp", easing: Easing.bezier(0.22, 1, 0.36, 1) });
+  const width = Math.min(440, Math.round((w ?? 300) * 1.4)); // modest upscale only — source is a small screenshot
   const height = Math.round(width * ((h ?? 300) / (w ?? 300)));
   return (
-    <AbsoluteFill style={{ background: `linear-gradient(180deg, ${colors.sand} 0%, ${colors.sandDeep} 100%)`, alignItems: "center" }}>
+    <AbsoluteFill style={{ background: "#1d2a44", alignItems: "center" }}>
+      {backdrop ? (
+        <Img src={staticFile(backdrop)} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", filter: "blur(34px) brightness(0.55) saturate(0.9)", transform: `scale(${1.18 - 0.03 * a})` }} />
+      ) : null}
+      <AbsoluteFill style={{ background: "radial-gradient(circle at 50% 42%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0) 45%)" }} />
       <Img
         src={staticFile(src)}
-        style={{ position: "absolute", top: 560, width, height, borderRadius: 36, boxShadow: "0 18px 50px rgba(0,0,0,0.18)", opacity: a, transform: `scale(${0.96 + 0.04 * a})` }}
+        style={{ position: "absolute", top: 520, width, height, borderRadius: 40, boxShadow: "0 30px 80px rgba(0,0,0,0.45)", opacity: a, transform: `translateY(${(1 - a) * 18}px)` }}
       />
     </AbsoluteFill>
   );
@@ -51,7 +58,7 @@ export const Film: React.FC<FilmProps> = (p) => {
     <AbsoluteFill style={{ backgroundColor: "#000" }}>
       {p.shots.map((s) => (
         <Sequence key={`${s.id}-${s.from}`} from={s.from} durationInFrames={s.durationInFrames} name={s.id}>
-          {s.kind === "coverage" && !s.src ? <Coverage /> : s.kind === "brand" && s.src ? <BrandCard src={s.src} w={s.mediaWidth} h={s.mediaHeight} /> : <Shot shot={s} ambience={p.ambience} />}
+          {s.kind === "coverage" && !s.src ? <Coverage /> : s.kind === "brand" && s.src ? <BrandCard src={s.src} w={s.mediaWidth} h={s.mediaHeight} backdrop={s.backdrop ?? null} /> : <Shot shot={s} ambience={p.ambience} />}
         </Sequence>
       ))}
 
@@ -60,6 +67,8 @@ export const Film: React.FC<FilmProps> = (p) => {
           <OfferCard offer={p.offer} layout={p.platform} durationInFrames={offerShot.durationInFrames} />
         </Sequence>
       ) : null}
+
+      {p.overlays.length || p.captions.length ? <TextScrim /> : null}
 
       {p.overlays.map((o, i) => (
         <Sequence key={`o${i}`} from={o.from} durationInFrames={o.durationInFrames} name={`${o.type}: ${o.text.replace(/\n/g, " ")}`}>
