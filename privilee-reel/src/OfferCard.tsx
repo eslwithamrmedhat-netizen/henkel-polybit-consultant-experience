@@ -29,7 +29,7 @@ export const OfferCard: React.FC<{ offer: OfferProps; layout: PlatformLayout; du
             position: "absolute",
             left: layout.sideMargin,
             right: Math.max(layout.sideMargin, right),
-            top: art ? 300 : 560,
+            top: art ? 330 : 560,
             textAlign: "center",
             fontFamily: FONT,
             color: colors.text,
@@ -37,18 +37,25 @@ export const OfferCard: React.FC<{ offer: OfferProps; layout: PlatformLayout; du
           }}
         >
           {art ? (
-            <div style={{ ...step(0), width: 560, height: 560, margin: "0 auto 48px", borderRadius: 14, overflow: "hidden", boxShadow: "0 16px 44px rgba(0,0,0,0.35)" }}>
-              <Img src={staticFile(art)} style={{ width: "100%", height: "100%", objectFit: "contain", background: colors.sand }} />
-            </div>
-          ) : null}
-          <div style={{ ...step(1), fontSize: 34, fontWeight: 500, letterSpacing: "0.2em" }}>{offer.eyebrow}</div>
-          <div style={{ ...step(2), fontSize: 84, fontWeight: 700, marginTop: 26, letterSpacing: "-0.01em", lineHeight: 1.05 }}>
-            {offer.headline.split("\n").map((l, i) => (
-              <div key={i}>{l}</div>
-            ))}
-          </div>
-          <div style={{ ...step(3), fontSize: 34, fontWeight: 500, marginTop: 30, opacity: 0.92 }}>{offer.qualifier}</div>
-          <div style={{ ...step(4), display: "inline-block", fontSize: 42, fontWeight: 600, marginTop: 64, paddingBottom: 8, borderBottom: `2px solid ${colors.text}` }}>{offer.cta}</div>
+            <>
+              <div style={{ ...step(0), width: 680, margin: "0 auto", borderRadius: 18, overflow: "hidden", boxShadow: "0 18px 50px rgba(0,0,0,0.38)" }}>
+                <Img src={staticFile(art)} style={{ width: "100%", height: "auto", display: "block" }} />
+              </div>
+              <div style={{ ...step(2), fontSize: 34, fontWeight: 500, marginTop: 40, opacity: 0.95 }}>{offer.qualifier}</div>
+              <div style={{ ...step(3), display: "inline-block", fontSize: 42, fontWeight: 600, marginTop: 36, paddingBottom: 8, borderBottom: `2px solid ${colors.text}` }}>{offer.cta}</div>
+            </>
+          ) : (
+            <>
+              <div style={{ ...step(1), fontSize: 34, fontWeight: 500, letterSpacing: "0.2em" }}>{offer.eyebrow}</div>
+              <div style={{ ...step(2), fontSize: 84, fontWeight: 700, marginTop: 26, letterSpacing: "-0.01em", lineHeight: 1.05 }}>
+                {offer.headline.split("\n").map((l, i) => (
+                  <div key={i}>{l}</div>
+                ))}
+              </div>
+              <div style={{ ...step(3), fontSize: 34, fontWeight: 500, marginTop: 30, opacity: 0.92 }}>{offer.qualifier}</div>
+              <div style={{ ...step(4), display: "inline-block", fontSize: 42, fontWeight: 600, marginTop: 64, paddingBottom: 8, borderBottom: `2px solid ${colors.text}` }}>{offer.cta}</div>
+            </>
+          )}
         </div>
       ) : null}
       {offer.reviewBadge ? (

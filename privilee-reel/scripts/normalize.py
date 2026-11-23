@@ -269,10 +269,29 @@ def grade_overview(paths: list[Path]) -> None:
     sheet.save(QA / "grade" / "_overview.jpg", quality=88)
 
 
+def prepare_brand(tl: dict) -> None:
+    """Brand assets are copied to processed/brand/ UNGRADED (proportions and colours preserved)."""
+    out = PROCESSED / "brand"
+    out.mkdir(parents=True, exist_ok=True)
+    for sid, shot in tl["shots"].items():
+        if shot.get("kind") == "brand" and shot.get("src"):
+            img, icc = open_image(MEDIA / shot["src"])
+            img, _ = to_srgb(img, icc)
+            img.save(out / (Path(shot["src"]).stem + ".png"))
+    art = (load_json(ROOT / "config" / "offer.json", {}) or {}).get("artwork") or {}
+    if art.get("file") and art.get("source"):
+        img, icc = open_image(ROOT / art["source"])
+        img, _ = to_srgb(img, icc)
+        x0, y0, x1, y1 = art.get("crop", [0, 0, 1, 1])
+        w, h = img.size
+        img.crop((int(x0 * w), int(y0 * h), int(x1 * w), int(y1 * h))).save(PROCESSED / art["file"])
+
+
 def main() -> None:
     force = "--force" in sys.argv
     tl, looks = load_timeline(), load_looks()
     OUT.mkdir(parents=True, exist_ok=True)
+    prepare_brand(tl)
     jobs = collect_jobs(tl, looks)
     if not jobs:
         print("No shot has a src yet — fill config/timeline.json after the media audit. Nothing to normalize.")

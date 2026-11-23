@@ -16,8 +16,15 @@
     "cta": "Explore Privilee"
   },
   "artwork": {
-    "file": null,
-    "_note": "Optional: put the supplied square artwork in brand/ and set e.g. 'brand/white_friday_artwork.jpeg' to contain it (never stretched) above the text. Leave null to use typography over Amr's own pool clip."
+    "file": "brand/white_friday_artwork.png",
+    "source": "media/IMG_3201.JPG",
+    "crop": [
+      0,
+      0,
+      1,
+      0.86
+    ],
+    "_note": "Supplied White Friday artwork, contained (never stretched). Bottom 14% cropped only to remove its baked-in 'Explore via the link in bio' line (brief §14); title and price untouched. When artwork is shown, the card adds only the UAE qualifier and CTA."
   },
   "spokenOfferLine": "The White Friday Edit is three months for AED 1,899.",
   "useSpokenOfferLine": false,

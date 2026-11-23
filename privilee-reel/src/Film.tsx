@@ -1,5 +1,5 @@
 import React from "react";
-import { AbsoluteFill, Audio, interpolate, Sequence, staticFile, useVideoConfig } from "remotion";
+import { AbsoluteFill, Audio, Easing, Img, interpolate, Sequence, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { OfferCard } from "./OfferCard";
 import { Shot } from "./Shot";
 import { CaptionText, Guides, OverlayText } from "./Text";
@@ -25,6 +25,22 @@ const Coverage: React.FC = () => (
   <AbsoluteFill style={{ background: `linear-gradient(180deg, ${colors.sand} 0%, ${colors.sandDeep} 100%)` }} />
 );
 
+/** Supplied brand screenshot, contained at its own proportions and colours (never stretched or recoloured). */
+const BrandCard: React.FC<{ src: string; w: number | null; h: number | null }> = ({ src, w, h }) => {
+  const frame = useCurrentFrame();
+  const a = interpolate(frame, [0, 10], [0, 1], { extrapolateRight: "clamp", easing: Easing.bezier(0.22, 1, 0.36, 1) });
+  const width = Math.min(420, Math.round((w ?? 300) * 1.35)); // modest upscale only — source is a small screenshot
+  const height = Math.round(width * ((h ?? 300) / (w ?? 300)));
+  return (
+    <AbsoluteFill style={{ background: `linear-gradient(180deg, ${colors.sand} 0%, ${colors.sandDeep} 100%)`, alignItems: "center" }}>
+      <Img
+        src={staticFile(src)}
+        style={{ position: "absolute", top: 560, width, height, borderRadius: 36, boxShadow: "0 18px 50px rgba(0,0,0,0.18)", opacity: a, transform: `scale(${0.96 + 0.04 * a})` }}
+      />
+    </AbsoluteFill>
+  );
+};
+
 export const Film: React.FC<FilmProps> = (p) => {
   const { durationInFrames } = useVideoConfig();
   const coverageBlank = (from: number) =>
@@ -35,7 +51,7 @@ export const Film: React.FC<FilmProps> = (p) => {
     <AbsoluteFill style={{ backgroundColor: "#000" }}>
       {p.shots.map((s) => (
         <Sequence key={`${s.id}-${s.from}`} from={s.from} durationInFrames={s.durationInFrames} name={s.id}>
-          {s.kind === "coverage" && !s.src ? <Coverage /> : <Shot shot={s} ambience={p.ambience} />}
+          {s.kind === "coverage" && !s.src ? <Coverage /> : s.kind === "brand" && s.src ? <BrandCard src={s.src} w={s.mediaWidth} h={s.mediaHeight} /> : <Shot shot={s} ambience={p.ambience} />}
         </Sequence>
       ))}
 

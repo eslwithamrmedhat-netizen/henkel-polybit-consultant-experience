@@ -16,7 +16,7 @@ export type PlatformLayout = {
 export type ShotProps = {
   id: string;
   beat: string;
-  kind: "video" | "image" | "coverage" | "offer";
+  kind: "video" | "image" | "coverage" | "offer" | "brand";
   from: number;
   durationInFrames: number;
   src: string | null;

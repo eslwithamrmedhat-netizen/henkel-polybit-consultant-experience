@@ -59,6 +59,13 @@ def shot_props(shot: dict, mm: dict, looks: dict, start: int, cut_frames: int) -
         p["kind"] = "image"
     elif entry and p["kind"] in ("video", "offer", "coverage"):
         p["trimBefore"] = max(0, f(float(shot.get("in", 0)) - entry.get("offset", 0)))
+    if p["kind"] == "brand":
+        from PIL import Image
+
+        p["src"] = f"brand/{__import__('pathlib').Path(shot['src']).stem}.png"
+        with Image.open(PROCESSED / p["src"]) as im:
+            p["mediaWidth"], p["mediaHeight"] = im.size
+        return p
     if shot.get("src") and not entry:
         raise SystemExit(f"Shot '{shot['id']}' has src but no processed intermediate — run scripts/normalize.py")
     return p
@@ -72,8 +79,15 @@ def build(render_id: str, guides: bool = False) -> dict:
     offer_cfg = load_json(CONFIG / "offer.json")
     mm = load_json(PROCESSED / "media_map.json", {})
 
+    resolved = resolve_shots(tl, r["variant"])
+    # variety rules: never two selfies in a row; warn when the same source sits next to itself
+    for a, b in zip(resolved, resolved[1:]):
+        if a.get("selfie") and b.get("selfie"):
+            raise SystemExit(f"{r['variant']}: two selfies in a row ({a['id']} -> {b['id']}) — interleave other shots")
+        if a.get("src") and a.get("src") == b.get("src"):
+            print(f"note: {a['id']} and {b['id']} share a source back to back", file=sys.stderr)
     shots, cursor, starts, ends = [], 0, {}, {}
-    for s in resolve_shots(tl, r["variant"]):
+    for s in resolved:
         tin = f(s.get("transitionIn", 0))
         start = max(0, cursor - tin)
         dur = f(s["dur"]) + (cursor - start)

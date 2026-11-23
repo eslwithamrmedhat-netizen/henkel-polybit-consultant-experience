@@ -209,7 +209,8 @@
       },
       "grade": {
         "look": "gym_indoor"
-      }
+      },
+      "selfie": true
     },
     "sel_2": {
       "beat": "Same routine montage — mirror selfie 2",
@@ -226,7 +227,8 @@
       },
       "grade": {
         "look": "gym_indoor"
-      }
+      },
+      "selfie": true
     },
     "sel_3": {
       "beat": "Same routine montage — mirror selfie 3",
@@ -243,7 +245,8 @@
       },
       "grade": {
         "look": "gym_indoor"
-      }
+      },
+      "selfie": true
     },
     "sel_4": {
       "beat": "Same routine montage — mirror selfie 4",
@@ -260,7 +263,8 @@
       },
       "grade": {
         "look": "gym_indoor"
-      }
+      },
+      "selfie": true
     },
     "sel_5": {
       "beat": "Same routine montage — mirror selfie 5 (outdoor)",
@@ -277,7 +281,8 @@
       },
       "grade": {
         "look": "work_city"
-      }
+      },
+      "selfie": true
     },
     "sel_6": {
       "beat": "Same routine montage — mirror selfie 6",
@@ -294,7 +299,8 @@
       },
       "grade": {
         "look": "gym_indoor"
-      }
+      },
+      "selfie": true
     },
     "gym_outdoor": {
       "beat": "Rooftop shadowboxing in the sun",
@@ -622,7 +628,8 @@
       },
       "grade": {
         "look": "gym_indoor"
-      }
+      },
+      "selfie": true
     },
     "sel_8": {
       "beat": "Same routine montage — mirror selfie 8",
@@ -639,7 +646,8 @@
       },
       "grade": {
         "look": "gym_indoor"
-      }
+      },
+      "selfie": true
     },
     "sel_9": {
       "beat": "Same routine montage — mirror selfie 9",
@@ -656,7 +664,8 @@
       },
       "grade": {
         "look": "gym_indoor"
-      }
+      },
+      "selfie": true
     },
     "sel_10": {
       "beat": "Same routine montage — mirror selfie 10",
@@ -673,7 +682,8 @@
       },
       "grade": {
         "look": "gym_indoor"
-      }
+      },
+      "selfie": true
     },
     "fight_corridor": {
       "beat": "Fight — walking into the red heavy-bag corridor",
@@ -725,7 +735,8 @@
       },
       "grade": {
         "look": "gym_indoor"
-      }
+      },
+      "selfie": true
     },
     "fight_shadowkick": {
       "beat": "Fight — rooftop shadowboxing knee/kick (iPhone HLG)",
@@ -1041,6 +1052,12 @@
       "grade": {
         "look": "work_city"
       }
+    },
+    "brand_logo": {
+      "beat": "Brand — Privilee app icon screenshot (supplied by Amr), contained at native proportions",
+      "src": "IMG_3887.JPG",
+      "kind": "brand",
+      "dur": 1.0
     }
   },
   "variants": {
@@ -1055,6 +1072,7 @@
         "work_1",
         "work_2",
         "work_3",
+        "brand_logo",
         "reveal_arrival",
         "gym_a_action",
         "gym_b_action",
@@ -1088,10 +1106,10 @@
         "frz_11",
         "frz_12",
         "fight_corridor",
+        "frz_13",
         "fight_wraps",
         "fight_mouthguard",
         "fight_shadowkick",
-        "frz_13",
         "fight_cage",
         "fight_glove",
         "fight_rooftop",
@@ -1123,7 +1141,7 @@
         {
           "type": "line",
           "text": "Privilee gives me options.",
-          "shot": "reveal_arrival",
+          "shot": "brand_logo",
           "endShot": "gym_a_action",
           "textLed": true
         },
@@ -1181,6 +1199,7 @@
         "work_1",
         "work_2",
         "work_3",
+        "brand_logo",
         "reveal_arrival",
         "gym_a_action",
         "gym_b_action",
@@ -1220,10 +1239,10 @@
         "frz_11",
         "frz_12",
         "fight_corridor",
+        "frz_13",
         "fight_wraps",
         "fight_mouthguard",
         "fight_shadowkick",
-        "frz_13",
         "fight_cage",
         "fight_glove",
         "fight_rooftop",
@@ -1255,7 +1274,7 @@
         {
           "type": "line",
           "text": "Privilee gives me options.",
-          "shot": "reveal_arrival",
+          "shot": "brand_logo",
           "endShot": "gym_a_action",
           "textLed": true
         },
@@ -1315,6 +1334,7 @@
           "id": "work_2",
           "dur": 0.7
         },
+        "brand_logo",
         {
           "id": "reveal_arrival",
           "dur": 1.1
@@ -1352,12 +1372,12 @@
         "frz_9",
         "sel_6",
         {
-          "id": "fight_mouthguard",
-          "dur": 0.4
-        },
-        {
           "id": "fight_shadowkick",
           "dur": 1.0
+        },
+        {
+          "id": "fight_mouthguard",
+          "dur": 0.4
         },
         {
           "id": "fight_glove",
@@ -1405,7 +1425,7 @@
         {
           "type": "line",
           "text": "Privilee gives me options.",
-          "shot": "reveal_arrival",
+          "shot": "brand_logo",
           "endShot": "gym_a_action",
           "textLed": true
         },
@@ -1449,6 +1469,7 @@
         "work_1",
         "work_2",
         "work_3",
+        "brand_logo",
         "reveal_arrival",
         "gym_a_action",
         "gym_b_action",
@@ -1482,10 +1503,10 @@
         "frz_11",
         "frz_12",
         "fight_corridor",
+        "frz_13",
         "fight_wraps",
         "fight_mouthguard",
         "fight_shadowkick",
-        "frz_13",
         "fight_cage",
         "fight_glove",
         "fight_rooftop",
@@ -1520,7 +1541,7 @@
         {
           "type": "line",
           "text": "Privilee gives me options.",
-          "shot": "reveal_arrival",
+          "shot": "brand_logo",
           "endShot": "gym_a_action",
           "textLed": true
         },
