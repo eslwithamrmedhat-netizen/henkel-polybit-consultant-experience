@@ -5,36 +5,19 @@
   "height": 1920,
   "shots": {
     "hook_action": {
-      "beat": "Hook — shadowboxing on a rooftop between towers (iPhone HLG)",
-      "src": "IMG_4964.MOV",
+      "beat": "Hook — kick on the red gym floor (iPhone HLG)",
+      "src": "IMG_6762.MOV",
       "kind": "video",
-      "in": 3.9,
-      "dur": 1.5,
+      "in": 3.7,
+      "dur": 1.1,
       "crop": {
         "x": 0.5,
         "y": 0.5
       },
       "grade": {
-        "look": "work_city"
+        "look": "gym_indoor"
       },
       "clipVolume": 0.0
-    },
-    "hook_portrait": {
-      "beat": "Hook — smiling portrait",
-      "src": "shared43.jpg",
-      "kind": "image",
-      "dur": 0.9,
-      "crop": {
-        "x": 0.5,
-        "y": 0.32
-      },
-      "move": {
-        "from": 1.0,
-        "to": 1.03
-      },
-      "grade": {
-        "look": "gym_indoor"
-      }
     },
     "hook_outdoor": {
       "beat": "Hook payoff — beach flash",
@@ -179,21 +162,6 @@
       },
       "clipVolume": 0.0
     },
-    "gym_c_action": {
-      "beat": "Gym C — kicks on the red floor (iPhone HLG)",
-      "src": "IMG_6762.MOV",
-      "kind": "video",
-      "in": 3.7,
-      "dur": 1.6,
-      "crop": {
-        "x": 0.5,
-        "y": 0.5
-      },
-      "grade": {
-        "look": "gym_indoor"
-      },
-      "clipVolume": 0.0
-    },
     "match_a": {
       "beat": "MATCH CUT A — pull-up, teal gym",
       "src": "04758E40-B1B3-43A5-8694-25466945AD30.MP4",
@@ -327,21 +295,6 @@
         "look": "gym_indoor"
       }
     },
-    "gym_city": {
-      "beat": "Open-air gym with towers — curls (iPhone HLG, GPS Dubai)",
-      "src": "IMG_1301.MOV",
-      "kind": "video",
-      "in": 1.8,
-      "dur": 2.4,
-      "crop": {
-        "x": 0.5,
-        "y": 0.5
-      },
-      "grade": {
-        "look": "work_city"
-      },
-      "clipVolume": 0.0
-    },
     "gym_outdoor": {
       "beat": "Rooftop shadowboxing in the sun",
       "src": "IMG_1313.MP4",
@@ -373,12 +326,20 @@
       "clipVolume": 0.0
     },
     "qatar_insert": {
-      "beat": "Coverage — neutral graphic (no confirmed Qatar footage)",
-      "src": null,
-      "kind": "coverage",
+      "beat": "Coverage — Doha, Qatar (West Bay from the Corniche; confirmed by Amr)",
+      "src": "IMG_4530.JPG",
+      "kind": "image",
       "dur": 2.8,
+      "crop": {
+        "x": 0.4,
+        "y": 0.5
+      },
+      "move": {
+        "from": 1.0,
+        "to": 1.05
+      },
       "grade": {
-        "look": "neutral"
+        "look": "work_city"
       }
     },
     "weekend_pool_1": {
@@ -515,8 +476,8 @@
       "fadeOut": 0.7
     },
     "offer_card": {
-      "beat": "White Friday end card over own pool photo",
-      "src": "shared39.jpg",
+      "beat": "White Friday end card over own pool photo (marina pool)",
+      "src": "C08713EA-8E5A-46BE-BF59-4C73E0D48D52.jpg",
       "kind": "offer",
       "dur": 5.0,
       "crop": {
@@ -528,10 +489,54 @@
         "to": 1.06
       },
       "grade": {
-        "look": "golden_portrait",
-        "saturation": 0.84
+        "look": "pool_beach"
       },
       "transitionIn": 0.4
+    },
+    "hook_city": {
+      "beat": "Hook — curls at an open-air rooftop gym among the towers (iPhone HLG, GPS Dubai)",
+      "src": "IMG_1301.MOV",
+      "kind": "video",
+      "in": 0.7,
+      "dur": 1.3,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "grade": {
+        "look": "work_city"
+      },
+      "clipVolume": 0.0
+    },
+    "gym_kb_a": {
+      "beat": "Gym A — kettlebell swing (NorthFit)",
+      "src": "5719DD3E-04BA-4A82-A6C0-B05858B6D2C2.MP4",
+      "kind": "video",
+      "in": 18.6,
+      "dur": 1.8,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "grade": {
+        "look": "gym_indoor"
+      },
+      "clipVolume": 0.0
+    },
+    "gym_kb_b": {
+      "beat": "Gym — kettlebell work, teal gym",
+      "src": "04758E40-B1B3-43A5-8694-25466945AD30.MP4",
+      "kind": "video",
+      "in": 28.3,
+      "dur": 2.0,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "grade": {
+        "look": "gym_indoor"
+      },
+      "clipVolume": 0.0
     }
   },
   "variants": {
@@ -540,8 +545,8 @@
       "voiceover": "vo_main",
       "voStart": 0.25,
       "shots": [
+        "hook_city",
         "hook_action",
-        "hook_portrait",
         "hook_outdoor",
         "work_1",
         "work_2",
@@ -550,7 +555,7 @@
         "gym_a_action",
         "gym_a_detail",
         "gym_b_action",
-        "gym_c_action",
+        "gym_kb_a",
         "match_a",
         "match_b",
         "sel_1",
@@ -559,7 +564,7 @@
         "sel_4",
         "sel_5",
         "sel_6",
-        "gym_city",
+        "gym_kb_b",
         "gym_outdoor",
         "qatar_insert",
         "weekend_pool_1",
@@ -602,7 +607,7 @@
         {
           "type": "line",
           "text": "Options around my day keep me consistent.",
-          "shot": "gym_city",
+          "shot": "gym_kb_b",
           "endShot": "gym_outdoor",
           "textLed": true
         },
@@ -640,8 +645,8 @@
           "dur": 1.0
         },
         {
-          "id": "hook_portrait",
-          "dur": 0.9
+          "id": "hook_outdoor",
+          "dur": 0.8
         },
         "work_1",
         "work_2",
@@ -650,11 +655,11 @@
         "gym_a_action",
         "gym_a_detail",
         "gym_b_action",
-        "gym_c_action",
         {
           "id": "hook_action",
           "dur": 1.6
         },
+        "gym_kb_a",
         "sel_1",
         "sel_2",
         "sel_3",
@@ -662,16 +667,11 @@
         "sel_5",
         "sel_6",
         {
-          "id": "match_a",
-          "in": 2.6,
-          "dur": 1.4
+          "id": "hook_city",
+          "in": 1.8,
+          "dur": 2.4
         },
-        {
-          "id": "match_b",
-          "in": 14.4,
-          "dur": 1.4
-        },
-        "gym_city",
+        "gym_kb_b",
         "gym_outdoor",
         "qatar_insert",
         "weekend_pool_1",
@@ -708,13 +708,13 @@
           "type": "line",
           "text": "Different gyms keep it interesting.",
           "shot": "gym_b_action",
-          "endShot": "hook_action",
+          "endShot": "gym_kb_a",
           "textLed": true
         },
         {
           "type": "line",
           "text": "Options around my day keep me consistent.",
-          "shot": "gym_city",
+          "shot": "gym_kb_b",
           "endShot": "gym_outdoor",
           "textLed": true
         },
@@ -745,12 +745,12 @@
       "voStart": 0.2,
       "shots": [
         {
-          "id": "hook_action",
-          "dur": 1.4
+          "id": "hook_city",
+          "dur": 1.2
         },
         {
-          "id": "hook_portrait",
-          "dur": 0.8
+          "id": "hook_action",
+          "dur": 1.1
         },
         {
           "id": "work_1",
@@ -797,8 +797,8 @@
           "dur": 0.5
         },
         {
-          "id": "gym_city",
-          "dur": 1.8
+          "id": "gym_kb_b",
+          "dur": 1.6
         },
         {
           "id": "qatar_insert",
@@ -876,8 +876,8 @@
       "voStart": 0.25,
       "offer": true,
       "shots": [
+        "hook_city",
         "hook_action",
-        "hook_portrait",
         "hook_outdoor",
         "work_1",
         "work_2",
@@ -886,7 +886,7 @@
         "gym_a_action",
         "gym_a_detail",
         "gym_b_action",
-        "gym_c_action",
+        "gym_kb_a",
         "match_a",
         "match_b",
         "sel_1",
@@ -895,11 +895,12 @@
         "sel_4",
         "sel_5",
         "sel_6",
-        "gym_city",
+        "gym_kb_b",
         "gym_extra_uae",
         "gym_outdoor",
-        "weekend_pool_2",
+        "weekend_pool_1",
         "weekend_water",
+        "weekend_pool_2",
         "weekend_sea",
         "weekend_rooftop",
         "weekend_walk",
@@ -940,15 +941,15 @@
         {
           "type": "line",
           "text": "Options around my day keep me consistent.",
-          "shot": "gym_city",
+          "shot": "gym_kb_b",
           "endShot": "gym_outdoor",
           "textLed": true
         },
         {
           "type": "line",
           "text": "Then the weekend: pool or beach.",
-          "shot": "weekend_pool_2",
-          "endShot": "weekend_water",
+          "shot": "weekend_pool_1",
+          "endShot": "weekend_pool_2",
           "textLed": true
         },
         {

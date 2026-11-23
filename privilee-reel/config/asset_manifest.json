@@ -2073,17 +2073,17 @@
       "auto_issues": [
         "landscape: crop to 9:16 loses ~68% of width — check action stays in frame or use framed layout"
       ],
-      "description": "",
-      "role": "",
+      "description": "Doha West Bay skyline from the Corniche at dusk",
+      "role": "country coverage",
       "best_in": null,
       "best_out": null,
-      "location": null,
-      "location_status": "unconfirmed",
-      "location_evidence": "",
+      "location": "Doha, Qatar",
+      "location_status": "confirmed",
+      "location_evidence": "Amr confirmed this is the Qatar photo (23 Nov 2026); recognisable Doha Corniche/West Bay with Qatari flags and the Sheraton Doha",
       "issues": [
-        "Skyline possibly Doha — no GPS/notes, so NOT labelled or used as Qatar evidence"
+        "Landscape 2284x1289: cropped to the tower/road for 9:16, upscaled ~1.5x"
       ],
-      "selected": false
+      "selected": true
     },
     "IMG_4955.JPEG": {
       "path": "media/IMG_4955.JPEG",
@@ -2201,8 +2201,10 @@
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
-      "issues": [],
-      "selected": true
+      "issues": [
+        "Removed from the hook at Amr's request (23 Nov 2026)"
+      ],
+      "selected": false
     },
     "IMG_5243.JPEG": {
       "path": "media/IMG_5243.JPEG",
@@ -4991,8 +4993,10 @@
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
-      "issues": [],
-      "selected": true
+      "issues": [
+        "Removed from the hook at Amr's request (23 Nov 2026)"
+      ],
+      "selected": false
     },
     "shared52.jpg": {
       "path": "media/shared52.jpg",
