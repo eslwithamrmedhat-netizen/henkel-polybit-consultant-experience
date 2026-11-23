@@ -1,0 +1,622 @@
+{
+  "renderId": "instagram_main",
+  "variant": "main",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 1536,
+  "platform": {
+    "name": "instagram",
+    "label": "Instagram Reels (approximate)",
+    "topUnsafe": 220,
+    "bottomUnsafe": 440,
+    "rightRail": {
+      "x": 930,
+      "y": 1060,
+      "w": 150,
+      "h": 640
+    },
+    "sideMargin": 96,
+    "hookCenterY": 560,
+    "titleCenterY": 640,
+    "captionCenterY": 1320,
+    "labelY": 300
+  },
+  "shots": [
+    {
+      "id": "hook_portrait",
+      "beat": "Personal hook — face / expressive selfie",
+      "kind": "image",
+      "from": 0,
+      "durationInFrames": 48,
+      "src": null,
+      "mediaWidth": null,
+      "mediaHeight": null,
+      "crop": {
+        "x": 0.5,
+        "y": 0.4,
+        "zoom": 1.0
+      },
+      "move": {
+        "from": 1.0,
+        "to": 1.04
+      },
+      "layout": "cover",
+      "clipVolume": 0.0,
+      "playbackRate": 1.0,
+      "transitionIn": 0,
+      "fadeOut": 0,
+      "masks": [],
+      "hasAudio": false
+    },
+    {
+      "id": "hook_action",
+      "beat": "Personal hook — decisive workout movement",
+      "kind": "video",
+      "from": 48,
+      "durationInFrames": 42,
+      "src": null,
+      "mediaWidth": null,
+      "mediaHeight": null,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5,
+        "zoom": 1.0
+      },
+      "move": null,
+      "layout": "cover",
+      "clipVolume": 0.25,
+      "playbackRate": 1.0,
+      "transitionIn": 0,
+      "fadeOut": 0,
+      "masks": [],
+      "hasAudio": false
+    },
+    {
+      "id": "hook_outdoor",
+      "beat": "Hook payoff — brief pool/beach flash",
+      "kind": "video",
+      "from": 90,
+      "durationInFrames": 30,
+      "src": null,
+      "mediaWidth": null,
+      "mediaHeight": null,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5,
+        "zoom": 1.0
+      },
+      "move": null,
+      "layout": "cover",
+      "clipVolume": 0.0,
+      "playbackRate": 1.0,
+      "transitionIn": 0,
+      "fadeOut": 0,
+      "masks": [],
+      "hasAudio": false
+    },
+    {
+      "id": "work_1",
+      "beat": "Work moves me around — portrait / walking",
+      "kind": "video",
+      "from": 120,
+      "durationInFrames": 42,
+      "src": null,
+      "mediaWidth": null,
+      "mediaHeight": null,
+      "crop": {
+        "x": 0.5,
+        "y": 0.45,
+        "zoom": 1.0
+      },
+      "move": null,
+      "layout": "cover",
+      "clipVolume": 0.3,
+      "playbackRate": 1.0,
+      "transitionIn": 0,
+      "fadeOut": 0,
+      "masks": [],
+      "hasAudio": false
+    },
+    {
+      "id": "work_2",
+      "beat": "Work — city or venue context (verified only)",
+      "kind": "image",
+      "from": 162,
+      "durationInFrames": 36,
+      "src": null,
+      "mediaWidth": null,
+      "mediaHeight": null,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5,
+        "zoom": 1.0
+      },
+      "move": {
+        "from": 1.03,
+        "to": 1.0
+      },
+      "layout": "cover",
+      "clipVolume": 0.0,
+      "playbackRate": 1.0,
+      "transitionIn": 0,
+      "fadeOut": 0,
+      "masks": [],
+      "hasAudio": false
+    },
+    {
+      "id": "work_3",
+      "beat": "Work — laptop closing / bag / leaving",
+      "kind": "video",
+      "from": 198,
+      "durationInFrames": 42,
+      "src": null,
+      "mediaWidth": null,
+      "mediaHeight": null,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5,
+        "zoom": 1.0
+      },
+      "move": null,
+      "layout": "cover",
+      "clipVolume": 0.4,
+      "playbackRate": 1.0,
+      "transitionIn": 0,
+      "fadeOut": 0,
+      "masks": [],
+      "hasAudio": false
+    },
+    {
+      "id": "reveal_app",
+      "beat": "Useful choice — genuine Privilee app moment (QR/account masked)",
+      "kind": "video",
+      "from": 240,
+      "durationInFrames": 54,
+      "src": null,
+      "mediaWidth": null,
+      "mediaHeight": null,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5,
+        "zoom": 1.0
+      },
+      "move": null,
+      "layout": "cover",
+      "clipVolume": 0.0,
+      "playbackRate": 1.0,
+      "transitionIn": 0,
+      "fadeOut": 0,
+      "masks": [],
+      "hasAudio": false
+    },
+    {
+      "id": "reveal_arrival",
+      "beat": "Venue arrival / gym entrance",
+      "kind": "video",
+      "from": 294,
+      "durationInFrames": 36,
+      "src": null,
+      "mediaWidth": null,
+      "mediaHeight": null,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5,
+        "zoom": 1.0
+      },
+      "move": null,
+      "layout": "cover",
+      "clipVolume": 0.3,
+      "playbackRate": 1.0,
+      "transitionIn": 0,
+      "fadeOut": 0,
+      "masks": [],
+      "hasAudio": false
+    },
+    {
+      "id": "gym_a_action",
+      "beat": "Gym A — clear workout action",
+      "kind": "video",
+      "from": 330,
+      "durationInFrames": 72,
+      "src": null,
+      "mediaWidth": null,
+      "mediaHeight": null,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5,
+        "zoom": 1.0
+      },
+      "move": null,
+      "layout": "cover",
+      "clipVolume": 0.35,
+      "playbackRate": 1.0,
+      "transitionIn": 0,
+      "fadeOut": 0,
+      "masks": [],
+      "hasAudio": false
+    },
+    {
+      "id": "gym_a_detail",
+      "beat": "Gym A — detail (hands, plates, shoes)",
+      "kind": "video",
+      "from": 402,
+      "durationInFrames": 36,
+      "src": null,
+      "mediaWidth": null,
+      "mediaHeight": null,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5,
+        "zoom": 1.0
+      },
+      "move": null,
+      "layout": "cover",
+      "clipVolume": 0.35,
+      "playbackRate": 1.0,
+      "transitionIn": 0,
+      "fadeOut": 0,
+      "masks": [],
+      "hasAudio": false
+    },
+    {
+      "id": "gym_b_match",
+      "beat": "Gym B — MATCH CUT: same movement/body position, new place",
+      "kind": "video",
+      "from": 438,
+      "durationInFrames": 66,
+      "src": null,
+      "mediaWidth": null,
+      "mediaHeight": null,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5,
+        "zoom": 1.0
+      },
+      "move": null,
+      "layout": "cover",
+      "clipVolume": 0.35,
+      "playbackRate": 1.0,
+      "transitionIn": 0,
+      "fadeOut": 0,
+      "masks": [],
+      "hasAudio": false
+    },
+    {
+      "id": "gym_b_wide",
+      "beat": "Gym B — wider view of the space",
+      "kind": "video",
+      "from": 504,
+      "durationInFrames": 54,
+      "src": null,
+      "mediaWidth": null,
+      "mediaHeight": null,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5,
+        "zoom": 1.0
+      },
+      "move": null,
+      "layout": "cover",
+      "clipVolume": 0.3,
+      "playbackRate": 1.0,
+      "transitionIn": 0,
+      "fadeOut": 0,
+      "masks": [],
+      "hasAudio": false
+    },
+    {
+      "id": "selfie_transition",
+      "beat": "Brief selfie — different expression/context",
+      "kind": "image",
+      "from": 558,
+      "durationInFrames": 30,
+      "src": null,
+      "mediaWidth": null,
+      "mediaHeight": null,
+      "crop": {
+        "x": 0.5,
+        "y": 0.4,
+        "zoom": 1.0
+      },
+      "move": {
+        "from": 1.0,
+        "to": 1.03
+      },
+      "layout": "cover",
+      "clipVolume": 0.0,
+      "playbackRate": 1.0,
+      "transitionIn": 0,
+      "fadeOut": 0,
+      "masks": [],
+      "hasAudio": false
+    },
+    {
+      "id": "gym_c_action",
+      "beat": "Gym C — workout action",
+      "kind": "video",
+      "from": 588,
+      "durationInFrames": 72,
+      "src": null,
+      "mediaWidth": null,
+      "mediaHeight": null,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5,
+        "zoom": 1.0
+      },
+      "move": null,
+      "layout": "cover",
+      "clipVolume": 0.35,
+      "playbackRate": 1.0,
+      "transitionIn": 0,
+      "fadeOut": 0,
+      "masks": [],
+      "hasAudio": false
+    },
+    {
+      "id": "gym_c_detail",
+      "beat": "Gym C — detail",
+      "kind": "video",
+      "from": 660,
+      "durationInFrames": 36,
+      "src": null,
+      "mediaWidth": null,
+      "mediaHeight": null,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5,
+        "zoom": 1.0
+      },
+      "move": null,
+      "layout": "cover",
+      "clipVolume": 0.35,
+      "playbackRate": 1.0,
+      "transitionIn": 0,
+      "fadeOut": 0,
+      "masks": [],
+      "hasAudio": false
+    },
+    {
+      "id": "gym_d_action",
+      "beat": "Gym D / outdoor training — action",
+      "kind": "video",
+      "from": 696,
+      "durationInFrames": 66,
+      "src": null,
+      "mediaWidth": null,
+      "mediaHeight": null,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5,
+        "zoom": 1.0
+      },
+      "move": null,
+      "layout": "cover",
+      "clipVolume": 0.35,
+      "playbackRate": 1.0,
+      "transitionIn": 0,
+      "fadeOut": 0,
+      "masks": [],
+      "hasAudio": false
+    },
+    {
+      "id": "gym_wide_end",
+      "beat": "Training sequence closer — wide / exhale",
+      "kind": "video",
+      "from": 762,
+      "durationInFrames": 54,
+      "src": null,
+      "mediaWidth": null,
+      "mediaHeight": null,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5,
+        "zoom": 1.0
+      },
+      "move": null,
+      "layout": "cover",
+      "clipVolume": 0.3,
+      "playbackRate": 1.0,
+      "transitionIn": 0,
+      "fadeOut": 0,
+      "masks": [],
+      "hasAudio": false
+    },
+    {
+      "id": "qatar_insert",
+      "beat": "Coverage — neutral graphic (or confirmed Qatar footage / genuine app capture)",
+      "kind": "coverage",
+      "from": 816,
+      "durationInFrames": 90,
+      "src": null,
+      "mediaWidth": null,
+      "mediaHeight": null,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5,
+        "zoom": 1.0
+      },
+      "move": null,
+      "layout": "cover",
+      "clipVolume": 0.0,
+      "playbackRate": 1.0,
+      "transitionIn": 0,
+      "fadeOut": 0,
+      "masks": [],
+      "hasAudio": false
+    },
+    {
+      "id": "weekend_pool_1",
+      "beat": "Weekend release — pool, let it breathe",
+      "kind": "video",
+      "from": 894,
+      "durationInFrames": 120,
+      "src": null,
+      "mediaWidth": null,
+      "mediaHeight": null,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5,
+        "zoom": 1.0
+      },
+      "move": null,
+      "layout": "cover",
+      "clipVolume": 0.6,
+      "playbackRate": 1.0,
+      "transitionIn": 12,
+      "fadeOut": 0,
+      "masks": [],
+      "hasAudio": false
+    },
+    {
+      "id": "weekend_beach",
+      "beat": "Weekend — beach / water",
+      "kind": "video",
+      "from": 1014,
+      "durationInFrames": 108,
+      "src": null,
+      "mediaWidth": null,
+      "mediaHeight": null,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5,
+        "zoom": 1.0
+      },
+      "move": null,
+      "layout": "cover",
+      "clipVolume": 0.6,
+      "playbackRate": 1.0,
+      "transitionIn": 0,
+      "fadeOut": 0,
+      "masks": [],
+      "hasAudio": false
+    },
+    {
+      "id": "weekend_detail",
+      "beat": "Weekend — detail (water, towel, light)",
+      "kind": "image",
+      "from": 1122,
+      "durationInFrames": 72,
+      "src": null,
+      "mediaWidth": null,
+      "mediaHeight": null,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5,
+        "zoom": 1.0
+      },
+      "move": {
+        "from": 1.0,
+        "to": 1.035
+      },
+      "layout": "cover",
+      "clipVolume": 0.0,
+      "playbackRate": 1.0,
+      "transitionIn": 0,
+      "fadeOut": 0,
+      "masks": [],
+      "hasAudio": false
+    },
+    {
+      "id": "weekend_walk",
+      "beat": "Weekend — relaxed walk / sunlit portrait",
+      "kind": "video",
+      "from": 1194,
+      "durationInFrames": 108,
+      "src": null,
+      "mediaWidth": null,
+      "mediaHeight": null,
+      "crop": {
+        "x": 0.5,
+        "y": 0.45,
+        "zoom": 1.0
+      },
+      "move": null,
+      "layout": "cover",
+      "clipVolume": 0.5,
+      "playbackRate": 1.0,
+      "transitionIn": 0,
+      "fadeOut": 0,
+      "masks": [],
+      "hasAudio": false
+    },
+    {
+      "id": "closing_portrait",
+      "beat": "Personal conclusion — strong closing portrait (echo opening framing)",
+      "kind": "image",
+      "from": 1302,
+      "durationInFrames": 102,
+      "src": null,
+      "mediaWidth": null,
+      "mediaHeight": null,
+      "crop": {
+        "x": 0.5,
+        "y": 0.4,
+        "zoom": 1.0
+      },
+      "move": {
+        "from": 1.0,
+        "to": 1.04
+      },
+      "layout": "cover",
+      "clipVolume": 0.0,
+      "playbackRate": 1.0,
+      "transitionIn": 0,
+      "fadeOut": 0,
+      "masks": [],
+      "hasAudio": false
+    },
+    {
+      "id": "final_image",
+      "beat": "Ending — moving final image that completes the thought",
+      "kind": "video",
+      "from": 1404,
+      "durationInFrames": 132,
+      "src": null,
+      "mediaWidth": null,
+      "mediaHeight": null,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5,
+        "zoom": 1.0
+      },
+      "move": null,
+      "layout": "cover",
+      "clipVolume": 0.6,
+      "playbackRate": 1.0,
+      "transitionIn": 0,
+      "fadeOut": 18,
+      "masks": [],
+      "hasAudio": false
+    }
+  ],
+  "overlays": [
+    {
+      "type": "hook",
+      "text": "MY BEST\nDUBAI LIFE HACK",
+      "from": 4,
+      "durationInFrames": 83
+    },
+    {
+      "type": "coverage",
+      "text": "Also available in Qatar",
+      "from": 816,
+      "durationInFrames": 90
+    },
+    {
+      "type": "title",
+      "text": "Different cities.\nSame routine.",
+      "from": 1302,
+      "durationInFrames": 216
+    }
+  ],
+  "captions": [],
+  "voiceover": null,
+  "speech": [],
+  "music": null,
+  "ambience": true,
+  "offer": null,
+  "showGuides": true,
+  "isTemplate": true
+}

@@ -1,0 +1,23 @@
+# Personal source media and heavy intermediates stay off git by default.
+media/*
+!media/.gitkeep
+audio/narration/*
+!audio/narration/.gitkeep
+audio/music/*
+!audio/music/.gitkeep
+audio/sfx/*
+!audio/sfx/.gitkeep
+brand/*
+!brand/.gitkeep
+references/*
+!references/.gitkeep
+processed/*
+!processed/fonts/
+qa/*
+!qa/.gitkeep
+output/*
+!output/.gitkeep
+config/*.private.json
+node_modules/
+.env
+*.log

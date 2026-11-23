@@ -1,0 +1,663 @@
+{
+  "_readme": "Editable edit decision list. 'shots' is a library; each variant lists shot ids in order, optionally overriding fields. Times are seconds. src paths are relative to media/. src=null renders a labelled slate (QA template only, never a deliverable). Location labels render only when verified=true with evidence recorded in asset_manifest.json.",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "shots": {
+    "hook_portrait": {
+      "beat": "Personal hook — face / expressive selfie",
+      "src": null,
+      "kind": "image",
+      "dur": 1.6,
+      "crop": {
+        "x": 0.5,
+        "y": 0.4
+      },
+      "move": {
+        "from": 1.0,
+        "to": 1.04
+      },
+      "grade": {
+        "look": "golden_portrait"
+      }
+    },
+    "hook_action": {
+      "beat": "Personal hook — decisive workout movement",
+      "src": null,
+      "kind": "video",
+      "in": 0,
+      "dur": 1.4,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "grade": {
+        "look": "gym_indoor"
+      },
+      "clipVolume": 0.25
+    },
+    "hook_outdoor": {
+      "beat": "Hook payoff — brief pool/beach flash",
+      "src": null,
+      "kind": "video",
+      "in": 0,
+      "dur": 1.0,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "grade": {
+        "look": "pool_beach"
+      }
+    },
+    "work_1": {
+      "beat": "Work moves me around — portrait / walking",
+      "src": null,
+      "kind": "video",
+      "in": 0,
+      "dur": 1.4,
+      "crop": {
+        "x": 0.5,
+        "y": 0.45
+      },
+      "grade": {
+        "look": "work_city"
+      },
+      "clipVolume": 0.3
+    },
+    "work_2": {
+      "beat": "Work — city or venue context (verified only)",
+      "src": null,
+      "kind": "image",
+      "dur": 1.2,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "move": {
+        "from": 1.03,
+        "to": 1.0
+      },
+      "grade": {
+        "look": "work_city"
+      }
+    },
+    "work_3": {
+      "beat": "Work — laptop closing / bag / leaving",
+      "src": null,
+      "kind": "video",
+      "in": 0,
+      "dur": 1.4,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "grade": {
+        "look": "work_city"
+      },
+      "clipVolume": 0.4
+    },
+    "reveal_app": {
+      "beat": "Useful choice — genuine Privilee app moment (QR/account masked)",
+      "src": null,
+      "kind": "video",
+      "in": 0,
+      "dur": 1.8,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "grade": {
+        "look": "neutral"
+      },
+      "masks": []
+    },
+    "reveal_arrival": {
+      "beat": "Venue arrival / gym entrance",
+      "src": null,
+      "kind": "video",
+      "in": 0,
+      "dur": 1.2,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "grade": {
+        "look": "gym_indoor"
+      },
+      "clipVolume": 0.3
+    },
+    "gym_a_action": {
+      "beat": "Gym A — clear workout action",
+      "src": null,
+      "kind": "video",
+      "in": 0,
+      "dur": 2.4,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "grade": {
+        "look": "gym_indoor"
+      },
+      "clipVolume": 0.35
+    },
+    "gym_a_detail": {
+      "beat": "Gym A — detail (hands, plates, shoes)",
+      "src": null,
+      "kind": "video",
+      "in": 0,
+      "dur": 1.2,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "grade": {
+        "look": "gym_indoor"
+      },
+      "clipVolume": 0.35
+    },
+    "gym_b_match": {
+      "beat": "Gym B — MATCH CUT: same movement/body position, new place",
+      "src": null,
+      "kind": "video",
+      "in": 0,
+      "dur": 2.2,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "grade": {
+        "look": "gym_indoor"
+      },
+      "clipVolume": 0.35
+    },
+    "gym_b_wide": {
+      "beat": "Gym B — wider view of the space",
+      "src": null,
+      "kind": "video",
+      "in": 0,
+      "dur": 1.8,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "grade": {
+        "look": "gym_indoor"
+      },
+      "clipVolume": 0.3
+    },
+    "selfie_transition": {
+      "beat": "Brief selfie — different expression/context",
+      "src": null,
+      "kind": "image",
+      "dur": 1.0,
+      "crop": {
+        "x": 0.5,
+        "y": 0.4
+      },
+      "move": {
+        "from": 1.0,
+        "to": 1.03
+      },
+      "grade": {
+        "look": "gym_indoor"
+      }
+    },
+    "gym_c_action": {
+      "beat": "Gym C — workout action",
+      "src": null,
+      "kind": "video",
+      "in": 0,
+      "dur": 2.4,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "grade": {
+        "look": "gym_indoor"
+      },
+      "clipVolume": 0.35
+    },
+    "gym_c_detail": {
+      "beat": "Gym C — detail",
+      "src": null,
+      "kind": "video",
+      "in": 0,
+      "dur": 1.2,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "grade": {
+        "look": "gym_indoor"
+      },
+      "clipVolume": 0.35
+    },
+    "gym_d_action": {
+      "beat": "Gym D / outdoor training — action",
+      "src": null,
+      "kind": "video",
+      "in": 0,
+      "dur": 2.2,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "grade": {
+        "look": "gym_indoor"
+      },
+      "clipVolume": 0.35
+    },
+    "gym_wide_end": {
+      "beat": "Training sequence closer — wide / exhale",
+      "src": null,
+      "kind": "video",
+      "in": 0,
+      "dur": 1.8,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "grade": {
+        "look": "gym_indoor"
+      },
+      "clipVolume": 0.3
+    },
+    "gym_extra_uae": {
+      "beat": "White Friday cut only — another UAE training moment",
+      "src": null,
+      "kind": "video",
+      "in": 0,
+      "dur": 1.8,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "grade": {
+        "look": "gym_indoor"
+      },
+      "clipVolume": 0.35
+    },
+    "qatar_insert": {
+      "beat": "Coverage — neutral graphic (or confirmed Qatar footage / genuine app capture)",
+      "src": null,
+      "kind": "coverage",
+      "dur": 3.0,
+      "grade": {
+        "look": "neutral"
+      }
+    },
+    "weekend_pool_1": {
+      "beat": "Weekend release — pool, let it breathe",
+      "src": null,
+      "kind": "video",
+      "in": 0,
+      "dur": 3.6,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "grade": {
+        "look": "pool_beach"
+      },
+      "clipVolume": 0.6,
+      "transitionIn": 0.4
+    },
+    "weekend_beach": {
+      "beat": "Weekend — beach / water",
+      "src": null,
+      "kind": "video",
+      "in": 0,
+      "dur": 3.6,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "grade": {
+        "look": "pool_beach"
+      },
+      "clipVolume": 0.6
+    },
+    "weekend_detail": {
+      "beat": "Weekend — detail (water, towel, light)",
+      "src": null,
+      "kind": "image",
+      "dur": 2.4,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "move": {
+        "from": 1.0,
+        "to": 1.035
+      },
+      "grade": {
+        "look": "pool_beach"
+      }
+    },
+    "weekend_walk": {
+      "beat": "Weekend — relaxed walk / sunlit portrait",
+      "src": null,
+      "kind": "video",
+      "in": 0,
+      "dur": 3.6,
+      "crop": {
+        "x": 0.5,
+        "y": 0.45
+      },
+      "grade": {
+        "look": "golden_portrait"
+      },
+      "clipVolume": 0.5
+    },
+    "closing_portrait": {
+      "beat": "Personal conclusion — strong closing portrait (echo opening framing)",
+      "src": null,
+      "kind": "image",
+      "dur": 3.4,
+      "crop": {
+        "x": 0.5,
+        "y": 0.4
+      },
+      "move": {
+        "from": 1.0,
+        "to": 1.04
+      },
+      "grade": {
+        "look": "golden_portrait"
+      }
+    },
+    "final_image": {
+      "beat": "Ending — moving final image that completes the thought",
+      "src": null,
+      "kind": "video",
+      "in": 0,
+      "dur": 4.4,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "grade": {
+        "look": "pool_beach"
+      },
+      "clipVolume": 0.6,
+      "fadeOut": 0.6
+    },
+    "offer_card": {
+      "beat": "White Friday end card over own pool clip (offer.json)",
+      "src": null,
+      "kind": "offer",
+      "in": 0,
+      "dur": 4.6,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "grade": {
+        "look": "pool_beach"
+      },
+      "clipVolume": 0.4,
+      "transitionIn": 0.4
+    }
+  },
+  "variants": {
+    "main": {
+      "title": "Main film — Hook A (practical discovery)",
+      "voiceover": "vo_main",
+      "voStart": 0.25,
+      "shots": [
+        "hook_portrait",
+        "hook_action",
+        "hook_outdoor",
+        "work_1",
+        "work_2",
+        "work_3",
+        "reveal_app",
+        "reveal_arrival",
+        "gym_a_action",
+        "gym_a_detail",
+        "gym_b_match",
+        "gym_b_wide",
+        "selfie_transition",
+        "gym_c_action",
+        "gym_c_detail",
+        "gym_d_action",
+        "gym_wide_end",
+        "qatar_insert",
+        "weekend_pool_1",
+        "weekend_beach",
+        "weekend_detail",
+        "weekend_walk",
+        "closing_portrait",
+        "final_image"
+      ],
+      "overlays": [
+        {
+          "type": "hook",
+          "text": "MY BEST\nDUBAI LIFE HACK",
+          "start": 0.15,
+          "end": 2.9
+        },
+        {
+          "type": "coverage",
+          "text": "Also available in Qatar",
+          "shot": "qatar_insert"
+        },
+        {
+          "type": "title",
+          "text": "Different cities.\nSame routine.",
+          "shot": "closing_portrait",
+          "endShot": "final_image",
+          "endOffset": -0.6
+        }
+      ]
+    },
+    "hook_b": {
+      "title": "Main film — Hook B (campaign idea), Instagram layout",
+      "extends": "main",
+      "shots": [
+        {
+          "id": "hook_action",
+          "dur": 1.5
+        },
+        {
+          "id": "gym_b_match",
+          "dur": 1.1
+        },
+        {
+          "id": "hook_portrait",
+          "dur": 1.4
+        },
+        "work_1",
+        "work_2",
+        "work_3",
+        "reveal_app",
+        "reveal_arrival",
+        "gym_a_action",
+        "gym_a_detail",
+        "gym_b_wide",
+        {
+          "id": "gym_b_match",
+          "dur": 2.2
+        },
+        "selfie_transition",
+        "gym_c_action",
+        "gym_c_detail",
+        "gym_d_action",
+        "gym_wide_end",
+        "qatar_insert",
+        "weekend_pool_1",
+        "weekend_beach",
+        "weekend_detail",
+        "weekend_walk",
+        "closing_portrait",
+        "final_image"
+      ],
+      "overlays": [
+        {
+          "type": "hook",
+          "text": "DIFFERENT CITIES.\nSAME ROUTINE.",
+          "start": 0.15,
+          "end": 3.0
+        },
+        {
+          "type": "coverage",
+          "text": "Also available in Qatar",
+          "shot": "qatar_insert"
+        },
+        {
+          "type": "title",
+          "text": "Different cities.\nSame routine.",
+          "shot": "closing_portrait",
+          "endShot": "final_image",
+          "endOffset": -0.6
+        }
+      ]
+    },
+    "cutdown": {
+      "title": "Cutdown 25–30 s",
+      "voiceover": "vo_cutdown",
+      "voStart": 0.2,
+      "shots": [
+        {
+          "id": "hook_portrait",
+          "dur": 1.4
+        },
+        {
+          "id": "hook_action",
+          "dur": 1.2
+        },
+        {
+          "id": "work_1",
+          "dur": 1.2
+        },
+        {
+          "id": "work_3",
+          "dur": 1.2
+        },
+        {
+          "id": "reveal_app",
+          "dur": 1.6
+        },
+        {
+          "id": "gym_a_action",
+          "dur": 2.0
+        },
+        {
+          "id": "gym_b_match",
+          "dur": 2.0
+        },
+        {
+          "id": "gym_c_action",
+          "dur": 2.0
+        },
+        {
+          "id": "gym_d_action",
+          "dur": 1.8
+        },
+        {
+          "id": "qatar_insert",
+          "dur": 2.4
+        },
+        {
+          "id": "weekend_pool_1",
+          "dur": 3.0
+        },
+        {
+          "id": "weekend_beach",
+          "dur": 3.0
+        },
+        {
+          "id": "closing_portrait",
+          "dur": 3.6
+        },
+        {
+          "id": "final_image",
+          "dur": 2.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "hook",
+          "text": "MY BEST\nDUBAI LIFE HACK",
+          "start": 0.15,
+          "end": 2.5
+        },
+        {
+          "type": "coverage",
+          "text": "Also available in Qatar",
+          "shot": "qatar_insert"
+        },
+        {
+          "type": "title",
+          "text": "Different cities.\nSame routine.",
+          "shot": "closing_portrait",
+          "endShot": "final_image",
+          "endOffset": -0.4
+        }
+      ]
+    },
+    "white_friday": {
+      "title": "White Friday campaign cut — UAE only, offer end card (REVIEW until offer verified)",
+      "voiceover": "vo_white_friday",
+      "voStart": 0.25,
+      "offer": true,
+      "shots": [
+        "hook_portrait",
+        "hook_action",
+        "hook_outdoor",
+        "work_1",
+        "work_2",
+        "work_3",
+        "reveal_app",
+        "reveal_arrival",
+        "gym_a_action",
+        "gym_a_detail",
+        "gym_b_match",
+        "gym_b_wide",
+        "selfie_transition",
+        "gym_c_action",
+        "gym_c_detail",
+        "gym_d_action",
+        {
+          "id": "gym_extra_uae",
+          "dur": 2.2
+        },
+        "weekend_pool_1",
+        "weekend_beach",
+        {
+          "id": "weekend_detail",
+          "dur": 3.0
+        },
+        {
+          "id": "weekend_walk",
+          "dur": 4.0
+        },
+        "closing_portrait",
+        {
+          "id": "offer_card",
+          "dur": 5.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "hook",
+          "text": "MY BEST\nDUBAI LIFE HACK",
+          "start": 0.15,
+          "end": 2.9
+        },
+        {
+          "type": "title",
+          "text": "Different cities.\nSame routine.",
+          "shot": "closing_portrait"
+        }
+      ]
+    }
+  },
+  "locationLabels": [
+    {
+      "_example": "Only add after verification, e.g. { \"shot\": \"gym_a_action\", \"text\": \"Dubai\", \"verified\": true, \"evidence\": \"user note 2026-11-23\" }"
+    }
+  ]
+}

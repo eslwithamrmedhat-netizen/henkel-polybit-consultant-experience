@@ -1,0 +1,25 @@
+{
+  "_readme": "White Friday end-card fields. 'verified' must be set to true ONLY after checking a dated, current official Privilee source (campaign post, offer page, or checkout screenshot supplied by Amr). Until then renders are named *_review.mp4 and carry a small REVIEW badge. Never add expiry, savings %, promo codes or instalments that are not in the verified source.",
+  "verified": false,
+  "verification": {
+    "source": null,
+    "checkedOn": null,
+    "notes": [
+      "Text read from user-supplied artwork BEBD8229-239D-4C99-B9F8-8114C7B9F3DF.jpeg (received 2026-11-23): 'The White Friday Edit', '3 MONTHS', 'AED 1,899', 'Explore via the link in bio'. Artwork does not establish year, sale window or terms.",
+      "2026-11-23 web search: third-party UAE deal roundups (not official) describe a Privilee 3-month sale this week at AED 1,599 (dates quoted as 24–26 Nov or from 25 Nov). Privilee's own summer offer page (privilee.ae/summeroffer) shows 3 months AED 1,899. CONFLICT with the artwork — do not publish any price until an official current source is checked."
+    ]
+  },
+  "card": {
+    "eyebrow": "THE WHITE FRIDAY EDIT",
+    "headline": "3 MONTHS\nAED 1,899",
+    "qualifier": "UAE offer · No cross-country access",
+    "cta": "Explore Privilee"
+  },
+  "artwork": {
+    "file": null,
+    "_note": "Optional: put the supplied square artwork in brand/ and set e.g. 'brand/white_friday_artwork.jpeg' to contain it (never stretched) above the text. Leave null to use typography over Amr's own pool clip."
+  },
+  "spokenOfferLine": "The White Friday Edit is three months for AED 1,899.",
+  "useSpokenOfferLine": false,
+  "reviewBadge": "REVIEW · offer not yet verified"
+}

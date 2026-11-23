@@ -1,0 +1,29 @@
+{
+  "title": "DIFFERENT CITIES.\nSAME ROUTINE.",
+  "shot": {
+    "id": "closing_portrait",
+    "beat": "Personal conclusion — strong closing portrait (echo opening framing)",
+    "kind": "image",
+    "from": 0,
+    "durationInFrames": 1,
+    "src": null,
+    "mediaWidth": null,
+    "mediaHeight": null,
+    "crop": {
+      "x": 0.5,
+      "y": 0.4,
+      "zoom": 1.0
+    },
+    "move": null,
+    "layout": "cover",
+    "clipVolume": 0.0,
+    "playbackRate": 1.0,
+    "transitionIn": 0,
+    "fadeOut": 0,
+    "masks": [],
+    "hasAudio": false
+  },
+  "width": 1080,
+  "height": 1920,
+  "isTemplate": true
+}

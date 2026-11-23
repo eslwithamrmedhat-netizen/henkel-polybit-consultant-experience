@@ -1,0 +1,36 @@
+{
+  "_readme": "APPROXIMATE layout guides (px on a 1080x1920 frame) for keeping titles, faces and captions clear of each app's overlays. Not official safe zones — interfaces change by app version, language and device. Confirm with an in-app preview/draft before posting. Captions are positioned by captionCenterY (centre of the caption block).",
+  "instagram": {
+    "label": "Instagram Reels (approximate)",
+    "topUnsafe": 220,
+    "bottomUnsafe": 440,
+    "rightRail": { "x": 930, "y": 1060, "w": 150, "h": 640 },
+    "sideMargin": 96,
+    "hookCenterY": 560,
+    "titleCenterY": 640,
+    "captionCenterY": 1320,
+    "labelY": 300
+  },
+  "tiktok": {
+    "label": "TikTok (approximate)",
+    "topUnsafe": 200,
+    "bottomUnsafe": 500,
+    "rightRail": { "x": 920, "y": 900, "w": 160, "h": 780 },
+    "sideMargin": 100,
+    "hookCenterY": 560,
+    "titleCenterY": 640,
+    "captionCenterY": 1250,
+    "labelY": 290
+  },
+  "clean": {
+    "label": "Clean master (no app layout)",
+    "topUnsafe": 0,
+    "bottomUnsafe": 0,
+    "rightRail": { "x": 1080, "y": 0, "w": 0, "h": 0 },
+    "sideMargin": 96,
+    "hookCenterY": 560,
+    "titleCenterY": 640,
+    "captionCenterY": 1320,
+    "labelY": 300
+  }
+}

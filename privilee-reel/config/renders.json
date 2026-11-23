@@ -1,0 +1,29 @@
+{
+  "_readme": "Deliverable matrix. Each render = variant + platform layout + which layers are baked in. White Friday outputs get the _review suffix automatically while config/offer.json verified=false. Music is only mixed when music.file is set AND music.licence documents rights covering BOTH Instagram and TikTok (never a TikTok Commercial Sound).",
+  "music": {
+    "file": null,
+    "licence": null,
+    "volume": 0.55,
+    "duckTo": 0.32,
+    "fadeIn": 0.3,
+    "fadeOut": 1.2
+  },
+  "renders": {
+    "instagram_main":       { "variant": "main",         "platform": "instagram", "captions": true,  "overlays": true,  "voiceover": true,  "music": true,  "ambience": true,  "out": "privilee_instagram_main.mp4" },
+    "tiktok_main":          { "variant": "main",         "platform": "tiktok",    "captions": true,  "overlays": true,  "voiceover": true,  "music": true,  "ambience": true,  "out": "privilee_tiktok_main.mp4" },
+    "hook_b":               { "variant": "hook_b",       "platform": "instagram", "captions": true,  "overlays": true,  "voiceover": true,  "music": true,  "ambience": true,  "out": "privilee_hook_b.mp4" },
+    "clean_master":         { "variant": "main",         "platform": "clean",     "captions": false, "overlays": false, "voiceover": true,  "music": false, "ambience": true,  "out": "privilee_clean_master.mp4", "note": "No music, captions or titles. Contains narration + original clip ambience." },
+    "clean_picture":        { "variant": "main",         "platform": "clean",     "captions": false, "overlays": false, "voiceover": false, "music": false, "ambience": false, "out": "privilee_clean_picture.mp4", "muted": true, "note": "Completely clean graded picture, no audio — for future brand editing." },
+    "cutdown_instagram":    { "variant": "cutdown",      "platform": "instagram", "captions": true,  "overlays": true,  "voiceover": true,  "music": true,  "ambience": true,  "out": "privilee_cutdown_instagram.mp4" },
+    "cutdown_tiktok":       { "variant": "cutdown",      "platform": "tiktok",    "captions": true,  "overlays": true,  "voiceover": true,  "music": true,  "ambience": true,  "out": "privilee_cutdown_tiktok.mp4" },
+    "white_friday_instagram": { "variant": "white_friday", "platform": "instagram", "captions": true, "overlays": true, "voiceover": true, "music": true, "ambience": true, "out": "privilee_white_friday_instagram.mp4" },
+    "white_friday_tiktok":    { "variant": "white_friday", "platform": "tiktok",    "captions": true, "overlays": true, "voiceover": true, "music": true, "ambience": true, "out": "privilee_white_friday_tiktok.mp4" }
+  },
+  "cover": {
+    "shot": "closing_portrait",
+    "at": 0.4,
+    "title": "DIFFERENT CITIES.\nSAME ROUTINE.",
+    "out": "privilee_cover.jpg"
+  },
+  "subtitles": { "render": "instagram_main", "out": "privilee_subtitles.srt" }
+}
