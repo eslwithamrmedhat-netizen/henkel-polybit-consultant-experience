@@ -1282,17 +1282,17 @@
         "short side 720 px < 1080: upscaling needed for full-frame use",
         "has audio: listen for copyrighted gym music before using clip sound"
       ],
-      "description": "",
-      "role": "",
+      "description": "Muay Thai class — knee strikes into pads (84.6 s); pad holder hidden behind Amr",
+      "role": "workout action",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [
-        "Muay Thai class with many identifiable people — excluded"
+        "Class video: only a moment where no other face is prominent is used; roundhouse at 116 s rejected (pad holder clearly identifiable)"
       ],
-      "selected": false
+      "selected": true
     },
     "IMG_2849.JPEG": {
       "path": "media/IMG_2849.JPEG",
@@ -2202,9 +2202,10 @@
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [
-        "Not used as the hook (Amr's request); used mid-film in the fight sequence"
+        "Not used as the hook (Amr's request); used mid-film in the fight sequence",
+        "Removed entirely at Amr's request (23 Nov 2026)"
       ],
-      "selected": true
+      "selected": false
     },
     "IMG_5243.JPEG": {
       "path": "media/IMG_5243.JPEG",
@@ -4893,8 +4894,10 @@
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
-      "issues": [],
-      "selected": true
+      "issues": [
+        "Replaced at Amr's request (23 Nov 2026)"
+      ],
+      "selected": false
     },
     "shared2.jpg": {
       "path": "media/shared2.jpg",
@@ -5063,15 +5066,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Mirror selfie — black tank, orange shorts",
+      "role": "gym variety",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "shared78.jpg": {
       "path": "media/shared78.jpg",

@@ -76,21 +76,20 @@ export const Shot: React.FC<{ shot: ShotProps; ambience: boolean }> = ({ shot, a
   return (
     <AbsoluteFill style={{ opacity: fadeIn }}>
       <Media shot={shot} ambience={ambience} />
-      {shot.masks.map((m, i) => (
-        <div
-          key={i}
-          style={{
-            position: "absolute",
-            left: `${m.x * 100}%`,
-            top: `${m.y * 100}%`,
-            width: `${m.w * 100}%`,
-            height: `${m.h * 100}%`,
-            borderRadius: 16,
-            background: "rgba(16,16,20,0.95)",
-            backdropFilter: "blur(30px)",
-          }}
-        />
-      ))}
+      {shot.masks.map((m, i) =>
+        m.blur ? (
+          // soft privacy blur (e.g. a bystander's face) — keeps the scene, removes identity
+          <div
+            key={i}
+            style={{ position: "absolute", left: `${m.x * 100}%`, top: `${m.y * 100}%`, width: `${m.w * 100}%`, height: `${m.h * 100}%`, borderRadius: "50%", backdropFilter: "blur(26px)", WebkitBackdropFilter: "blur(26px)", background: "rgba(120,110,100,0.12)" }}
+          />
+        ) : (
+          <div
+            key={i}
+            style={{ position: "absolute", left: `${m.x * 100}%`, top: `${m.y * 100}%`, width: `${m.w * 100}%`, height: `${m.h * 100}%`, borderRadius: 16, background: "rgba(16,16,20,0.95)", backdropFilter: "blur(30px)" }}
+          />
+        ),
+      )}
       {fadeOut < 1 ? <AbsoluteFill style={{ background: "#000", opacity: 1 - fadeOut }} /> : null}
     </AbsoluteFill>
   );

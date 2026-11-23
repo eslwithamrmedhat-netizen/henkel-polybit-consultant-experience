@@ -1,4 +1,4 @@
-export type Rect = { x: number; y: number; w: number; h: number };
+export type Rect = { x: number; y: number; w: number; h: number; blur?: boolean };
 
 export type PlatformLayout = {
   name: string;
