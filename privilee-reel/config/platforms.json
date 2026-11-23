@@ -1,5 +1,5 @@
 {
-  "_readme": "APPROXIMATE layout guides (px on a 1080x1920 frame) for keeping titles, faces and captions clear of each app's overlays. Not official safe zones — interfaces change by app version, language and device. Confirm with an in-app preview/draft before posting. Captions are positioned by captionCenterY (centre of the caption block).",
+  "_readme": "APPROXIMATE layout guides (px on a 1080x1920 frame) for keeping titles, faces and captions clear of each app's overlays. Not official safe zones \u2014 interfaces change by app version, language and device. Confirm with an in-app preview/draft before posting. Captions are positioned by captionCenterY (centre of the caption block). 'unified' combines the stricter value of each platform so one export works on Instagram, TikTok and YouTube Shorts.",
   "instagram": {
     "label": "Instagram Reels (approximate)",
     "topUnsafe": 220,
@@ -46,6 +46,22 @@
     "hookCenterY": 470,
     "titleCenterY": 640,
     "captionCenterY": 1320,
+    "labelY": 300
+  },
+  "unified": {
+    "label": "Unified \u2014 stricter of Instagram Reels + TikTok (approximate; also suits YouTube Shorts)",
+    "topUnsafe": 220,
+    "bottomUnsafe": 500,
+    "rightRail": {
+      "x": 920,
+      "y": 900,
+      "w": 160,
+      "h": 800
+    },
+    "sideMargin": 100,
+    "hookCenterY": 470,
+    "titleCenterY": 640,
+    "captionCenterY": 1250,
     "labelY": 300
   }
 }

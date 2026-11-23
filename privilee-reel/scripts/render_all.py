@@ -101,7 +101,7 @@ def render_one(rid: str, r: dict, dest_dir: Path, allow_template: bool) -> dict 
 
 def stems(dest_dir: Path) -> list[str]:
     """Separate VO / ambience / music stems for the main film, aligned to picture (WAV 48 kHz)."""
-    base = load_json(PROCESSED / "props" / "instagram_main.json")
+    base = load_json(PROCESSED / "props" / "main.json")
     if not base:
         return []
     made = []
