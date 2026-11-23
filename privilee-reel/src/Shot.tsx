@@ -86,7 +86,7 @@ export const Shot: React.FC<{ shot: ShotProps; ambience: boolean }> = ({ shot, a
             width: `${m.w * 100}%`,
             height: `${m.h * 100}%`,
             borderRadius: 16,
-            background: "rgba(236,229,218,0.96)",
+            background: "rgba(16,16,20,0.95)",
             backdropFilter: "blur(30px)",
           }}
         />

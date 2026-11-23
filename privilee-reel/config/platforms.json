@@ -4,9 +4,14 @@
     "label": "Instagram Reels (approximate)",
     "topUnsafe": 220,
     "bottomUnsafe": 440,
-    "rightRail": { "x": 930, "y": 1060, "w": 150, "h": 640 },
+    "rightRail": {
+      "x": 930,
+      "y": 1060,
+      "w": 150,
+      "h": 640
+    },
     "sideMargin": 96,
-    "hookCenterY": 560,
+    "hookCenterY": 470,
     "titleCenterY": 640,
     "captionCenterY": 1320,
     "labelY": 300
@@ -15,9 +20,14 @@
     "label": "TikTok (approximate)",
     "topUnsafe": 200,
     "bottomUnsafe": 500,
-    "rightRail": { "x": 920, "y": 900, "w": 160, "h": 780 },
+    "rightRail": {
+      "x": 920,
+      "y": 900,
+      "w": 160,
+      "h": 780
+    },
     "sideMargin": 100,
-    "hookCenterY": 560,
+    "hookCenterY": 470,
     "titleCenterY": 640,
     "captionCenterY": 1250,
     "labelY": 290
@@ -26,9 +36,14 @@
     "label": "Clean master (no app layout)",
     "topUnsafe": 0,
     "bottomUnsafe": 0,
-    "rightRail": { "x": 1080, "y": 0, "w": 0, "h": 0 },
+    "rightRail": {
+      "x": 1080,
+      "y": 0,
+      "w": 0,
+      "h": 0
+    },
     "sideMargin": 96,
-    "hookCenterY": 560,
+    "hookCenterY": 470,
     "titleCenterY": 640,
     "captionCenterY": 1320,
     "labelY": 300

@@ -1,0 +1,5158 @@
+{
+  "assets": {
+    "04758E40-B1B3-43A5-8694-25466945AD30.MP4": {
+      "path": "media/04758E40-B1B3-43A5-8694-25466945AD30.MP4",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/04758E40-B1B3-43A5-8694-25466945AD30.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 35.966667,
+        "coded_size": [
+          720,
+          1280
+        ],
+        "display_size": [
+          720,
+          1280
+        ],
+        "orientation": "portrait",
+        "rotation": 0,
+        "avg_fps": 30.0,
+        "r_fps": 30.0,
+        "vfr_suspected": false,
+        "pix_fmt": "yuv420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "tv",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 44100
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "0BBB92FA-F4B7-46F5-8E2C-388041A923A3.jpg": {
+      "path": "media/0BBB92FA-F4B7-46F5-8E2C-388041A923A3.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/0BBB92FA-F4B7-46F5-8E2C-388041A923A3.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1290,
+          2293
+        ],
+        "orientation": "portrait",
+        "icc_profile": false,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "1C623E83-CB82-4390-A04D-9F4614FEDD61.MP4": {
+      "path": "media/1C623E83-CB82-4390-A04D-9F4614FEDD61.MP4",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/1C623E83-CB82-4390-A04D-9F4614FEDD61.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 23.833333,
+        "coded_size": [
+          720,
+          1280
+        ],
+        "display_size": [
+          720,
+          1280
+        ],
+        "orientation": "portrait",
+        "rotation": 0,
+        "avg_fps": 30.0,
+        "r_fps": 30.0,
+        "vfr_suspected": false,
+        "pix_fmt": "yuv420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "tv",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 44100
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "1fcea98c-d4cc-495b-9d38-b4bcda9535ce.jpg": {
+      "path": "media/1fcea98c-d4cc-495b-9d38-b4bcda9535ce.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/1fcea98c-d4cc-495b-9d38-b4bcda9535ce.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          3024,
+          4032
+        ],
+        "orientation": "portrait",
+        "icc_profile": false,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "232C0348-06BF-4C05-A1F6-C193EA349811.jpg": {
+      "path": "media/232C0348-06BF-4C05-A1F6-C193EA349811.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/232C0348-06BF-4C05-A1F6-C193EA349811.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          2160,
+          3840
+        ],
+        "orientation": "portrait",
+        "icc_profile": false,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "266513EC-BEF3-4F39-A81D-996A0E13893C.MP4": {
+      "path": "media/266513EC-BEF3-4F39-A81D-996A0E13893C.MP4",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/266513EC-BEF3-4F39-A81D-996A0E13893C.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 3.533333,
+        "coded_size": [
+          720,
+          1280
+        ],
+        "display_size": [
+          720,
+          1280
+        ],
+        "orientation": "portrait",
+        "rotation": 0,
+        "avg_fps": 30.0,
+        "r_fps": 30.0,
+        "vfr_suspected": false,
+        "pix_fmt": "yuv420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "tv",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 44100
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "3D06D48A-71C8-4ACB-83AF-E95AE10FA483.jpg": {
+      "path": "media/3D06D48A-71C8-4ACB-83AF-E95AE10FA483.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/3D06D48A-71C8-4ACB-83AF-E95AE10FA483.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1320,
+          2346
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "426ACC4E-24E0-4587-A502-6A04AFD2EEB5.jpg": {
+      "path": "media/426ACC4E-24E0-4587-A502-6A04AFD2EEB5.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/426ACC4E-24E0-4587-A502-6A04AFD2EEB5.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1290,
+          2293
+        ],
+        "orientation": "portrait",
+        "icc_profile": false,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "446B4FE6-2A55-46EF-86F0-37A8F42CFA22.jpg": {
+      "path": "media/446B4FE6-2A55-46EF-86F0-37A8F42CFA22.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/446B4FE6-2A55-46EF-86F0-37A8F42CFA22.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1290,
+          2293
+        ],
+        "orientation": "portrait",
+        "icc_profile": false,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "5719DD3E-04BA-4A82-A6C0-B05858B6D2C2.MP4": {
+      "path": "media/5719DD3E-04BA-4A82-A6C0-B05858B6D2C2.MP4",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/5719DD3E-04BA-4A82-A6C0-B05858B6D2C2.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 49.966667,
+        "coded_size": [
+          720,
+          1280
+        ],
+        "display_size": [
+          720,
+          1280
+        ],
+        "orientation": "portrait",
+        "rotation": 0,
+        "avg_fps": 30.0,
+        "r_fps": 30.0,
+        "vfr_suspected": false,
+        "pix_fmt": "yuv420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "tv",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 44100
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "66DC7D82-75DC-49AD-B349-4DF135972201.jpg": {
+      "path": "media/66DC7D82-75DC-49AD-B349-4DF135972201.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/66DC7D82-75DC-49AD-B349-4DF135972201.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          2160,
+          3840
+        ],
+        "orientation": "portrait",
+        "icc_profile": false,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "8D22FE8B-A8AD-4F7B-A1C5-73F6917599AF.JPG": {
+      "path": "media/8D22FE8B-A8AD-4F7B-A1C5-73F6917599AF.JPG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/8D22FE8B-A8AD-4F7B-A1C5-73F6917599AF.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1290,
+          2293
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "8D518E7F-4F06-4205-BD46-BBDA13754D6E.jpg": {
+      "path": "media/8D518E7F-4F06-4205-BD46-BBDA13754D6E.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/8D518E7F-4F06-4205-BD46-BBDA13754D6E.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1290,
+          2293
+        ],
+        "orientation": "portrait",
+        "icc_profile": false,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "9041407C-FD3D-43DF-BBCC-2679EA6454FE.jpg": {
+      "path": "media/9041407C-FD3D-43DF-BBCC-2679EA6454FE.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/9041407C-FD3D-43DF-BBCC-2679EA6454FE.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1290,
+          2293
+        ],
+        "orientation": "portrait",
+        "icc_profile": false,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "9DF88B99-FEFE-4103-A7DA-4A9725FEC411.MP4": {
+      "path": "media/9DF88B99-FEFE-4103-A7DA-4A9725FEC411.MP4",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/9DF88B99-FEFE-4103-A7DA-4A9725FEC411.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 54.033333,
+        "coded_size": [
+          720,
+          1280
+        ],
+        "display_size": [
+          720,
+          1280
+        ],
+        "orientation": "portrait",
+        "rotation": 0,
+        "avg_fps": 30.0,
+        "r_fps": 30.0,
+        "vfr_suspected": false,
+        "pix_fmt": "yuv420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "tv",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 44100
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "C08713EA-8E5A-46BE-BF59-4C73E0D48D52.jpg": {
+      "path": "media/C08713EA-8E5A-46BE-BF59-4C73E0D48D52.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/C08713EA-8E5A-46BE-BF59-4C73E0D48D52.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1290,
+          2293
+        ],
+        "orientation": "portrait",
+        "icc_profile": false,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "C68CA62F-3919-41A6-B480-CC3637E0F0AA.jpg": {
+      "path": "media/C68CA62F-3919-41A6-B480-CC3637E0F0AA.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/C68CA62F-3919-41A6-B480-CC3637E0F0AA.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1290,
+          2293
+        ],
+        "orientation": "portrait",
+        "icc_profile": false,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "CD9F4FF0-6A5D-4719-B864-C2BB256EB01B.jpg": {
+      "path": "media/CD9F4FF0-6A5D-4719-B864-C2BB256EB01B.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/CD9F4FF0-6A5D-4719-B864-C2BB256EB01B.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1320,
+          2346
+        ],
+        "orientation": "portrait",
+        "icc_profile": false,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_0152.JPEG": {
+      "path": "media/IMG_0152.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_0152.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_0152.MOV": {
+      "path": "media/IMG_0152.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_0152.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 1.91,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 28.796,
+        "r_fps": 29.97,
+        "vfr_suspected": true,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 48000
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "variable frame rate suspected: conform to 30 fps CFR during normalize",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_0730.JPG": {
+      "path": "media/IMG_0730.JPG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_0730.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          4284,
+          5712
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_0782.JPEG": {
+      "path": "media/IMG_0782.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_0782.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_1123.JPEG": {
+      "path": "media/IMG_1123.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_1123.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_1127.JPEG": {
+      "path": "media/IMG_1127.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_1127.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_1279.JPEG": {
+      "path": "media/IMG_1279.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_1279.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_1279.MOV": {
+      "path": "media/IMG_1279.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_1279.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 1.833333,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 29.455,
+        "r_fps": 150.0,
+        "vfr_suspected": true,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 48000
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "variable frame rate suspected: conform to 30 fps CFR during normalize",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_1301.MOV": {
+      "path": "media/IMG_1301.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_1301.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "hevc",
+        "duration": 16.99,
+        "coded_size": [
+          1920,
+          1080
+        ],
+        "display_size": [
+          1080,
+          1920
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 30.018,
+        "r_fps": 30.0,
+        "vfr_suspected": false,
+        "pix_fmt": "yuv420p10le",
+        "bit_depth": null,
+        "color_primaries": "bt2020",
+        "color_transfer": "arib-std-b67",
+        "color_space": "bt2020nc",
+        "color_range": "tv",
+        "dynamic_range": "HLG",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 48000
+      },
+      "auto_issues": [
+        "HLG HDR: tone-map to SDR Rec.709 (automatic in normalize)",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_1313.MP4": {
+      "path": "media/IMG_1313.MP4",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_1313.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 44.218333,
+        "coded_size": [
+          1280,
+          720
+        ],
+        "display_size": [
+          720,
+          1280
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 29.988,
+        "r_fps": 29.97,
+        "vfr_suspected": false,
+        "pix_fmt": "yuv420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "tv",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 48000
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_1339.JPEG": {
+      "path": "media/IMG_1339.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_1339.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_1339.MOV": {
+      "path": "media/IMG_1339.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_1339.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 1.78,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 29.213,
+        "r_fps": 60.0,
+        "vfr_suspected": true,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 48000
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "variable frame rate suspected: conform to 30 fps CFR during normalize",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_1739.JPG": {
+      "path": "media/IMG_1739.JPG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_1739.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1320,
+          2347
+        ],
+        "orientation": "portrait",
+        "icc_profile": false,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_1814.JPG": {
+      "path": "media/IMG_1814.JPG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_1814.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          3024,
+          4032
+        ],
+        "orientation": "portrait",
+        "icc_profile": false,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_1929.JPEG": {
+      "path": "media/IMG_1929.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_1929.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_1929.MOV": {
+      "path": "media/IMG_1929.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_1929.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 2.645,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 28.733,
+        "r_fps": 30.0,
+        "vfr_suspected": true,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 48000
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "variable frame rate suspected: conform to 30 fps CFR during normalize",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_2659.JPEG": {
+      "path": "media/IMG_2659.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_2659.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_2659.MOV": {
+      "path": "media/IMG_2659.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_2659.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 2.38,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 29.412,
+        "r_fps": 60.0,
+        "vfr_suspected": true,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 48000
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "variable frame rate suspected: conform to 30 fps CFR during normalize",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_2681.JPEG": {
+      "path": "media/IMG_2681.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_2681.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_2681.MOV": {
+      "path": "media/IMG_2681.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_2681.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 2.18,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 17.89,
+        "r_fps": 22.917,
+        "vfr_suspected": true,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 48000
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "variable frame rate suspected: conform to 30 fps CFR during normalize",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_2708.MP4": {
+      "path": "media/IMG_2708.MP4",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_2708.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 185.71,
+        "coded_size": [
+          1280,
+          720
+        ],
+        "display_size": [
+          720,
+          1280
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 29.988,
+        "r_fps": 29.97,
+        "vfr_suspected": false,
+        "pix_fmt": "yuv420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "tv",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 48000
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_2849.JPEG": {
+      "path": "media/IMG_2849.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_2849.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_2880.JPEG": {
+      "path": "media/IMG_2880.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_2880.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_2880.MOV": {
+      "path": "media/IMG_2880.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_2880.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 1.645,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 24.71,
+        "r_fps": 240.0,
+        "vfr_suspected": true,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": false,
+        "audio_codec": null,
+        "audio_rate": null
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "variable frame rate suspected: conform to 30 fps CFR during normalize"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_2919.JPEG": {
+      "path": "media/IMG_2919.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_2919.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_3201.JPG": {
+      "path": "media/IMG_3201.JPG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_3201.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1320,
+          1337
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_3606.JPEG": {
+      "path": "media/IMG_3606.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_3606.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_3606.MOV": {
+      "path": "media/IMG_3606.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_3606.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 1.343333,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 28.288,
+        "r_fps": 600.0,
+        "vfr_suspected": true,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 44100
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "variable frame rate suspected: conform to 30 fps CFR during normalize",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_3818.JPG": {
+      "path": "media/IMG_3818.JPG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_3818.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1290,
+          2216
+        ],
+        "orientation": "portrait",
+        "icc_profile": false,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_3834.JPEG": {
+      "path": "media/IMG_3834.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_3834.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_3834.MOV": {
+      "path": "media/IMG_3834.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_3834.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 1.966667,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 30.0,
+        "r_fps": 30.0,
+        "vfr_suspected": false,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 44100
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_3835.JPEG": {
+      "path": "media/IMG_3835.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_3835.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_3842.JPEG": {
+      "path": "media/IMG_3842.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_3842.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_3842.MOV": {
+      "path": "media/IMG_3842.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_3842.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 2.708333,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 24.738,
+        "r_fps": 30.0,
+        "vfr_suspected": true,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 44100
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "variable frame rate suspected: conform to 30 fps CFR during normalize",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_3880.JPG": {
+      "path": "media/IMG_3880.JPG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_3880.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          3072,
+          4096
+        ],
+        "orientation": "portrait",
+        "icc_profile": false,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_3887.JPG": {
+      "path": "media/IMG_3887.JPG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_3887.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          305,
+          299
+        ],
+        "orientation": "landscape",
+        "icc_profile": false,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [
+        "short side 299 px < 1080: upscaling needed for full-frame use",
+        "landscape: crop to 9:16 loses ~68% of width — check action stays in frame or use framed layout"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_3888.JPEG": {
+      "path": "media/IMG_3888.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_3888.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_3888.MOV": {
+      "path": "media/IMG_3888.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_3888.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 2.871667,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 29.6,
+        "r_fps": 29.917,
+        "vfr_suspected": false,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 48000
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_3920.jpg": {
+      "path": "media/IMG_3920.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_3920.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          2108,
+          3373
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_3976.JPG": {
+      "path": "media/IMG_3976.JPG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_3976.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          3072,
+          4096
+        ],
+        "orientation": "portrait",
+        "icc_profile": false,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_4149.JPG": {
+      "path": "media/IMG_4149.JPG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_4149.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          3064,
+          4096
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_4162.JPEG": {
+      "path": "media/IMG_4162.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_4162.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_4162.MOV": {
+      "path": "media/IMG_4162.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_4162.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 2.045,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 29.34,
+        "r_fps": 240.0,
+        "vfr_suspected": true,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 44100
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "variable frame rate suspected: conform to 30 fps CFR during normalize",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_4165.JPEG": {
+      "path": "media/IMG_4165.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_4165.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_4165.MOV": {
+      "path": "media/IMG_4165.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_4165.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 1.843333,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 28.752,
+        "r_fps": 240.0,
+        "vfr_suspected": true,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 44100
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "variable frame rate suspected: conform to 30 fps CFR during normalize",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_4530.JPG": {
+      "path": "media/IMG_4530.JPG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_4530.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          2284,
+          1289
+        ],
+        "orientation": "landscape",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [
+        "landscape: crop to 9:16 loses ~68% of width — check action stays in frame or use framed layout"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_4955.JPEG": {
+      "path": "media/IMG_4955.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_4955.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_4955.MOV": {
+      "path": "media/IMG_4955.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_4955.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 1.823333,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 29.068,
+        "r_fps": 300.0,
+        "vfr_suspected": true,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 44100
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "variable frame rate suspected: conform to 30 fps CFR during normalize",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_4964.MOV": {
+      "path": "media/IMG_4964.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_4964.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "hevc",
+        "duration": 9.713333,
+        "coded_size": [
+          1920,
+          1080
+        ],
+        "display_size": [
+          1080,
+          1920
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 28.514,
+        "r_fps": 30.0,
+        "vfr_suspected": true,
+        "pix_fmt": "yuv420p10le",
+        "bit_depth": null,
+        "color_primaries": "bt2020",
+        "color_transfer": "arib-std-b67",
+        "color_space": "bt2020nc",
+        "color_range": "tv",
+        "dynamic_range": "HLG",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 44100
+      },
+      "auto_issues": [
+        "variable frame rate suspected: conform to 30 fps CFR during normalize",
+        "HLG HDR: tone-map to SDR Rec.709 (automatic in normalize)",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5243.JPEG": {
+      "path": "media/IMG_5243.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_5243.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5243.MOV": {
+      "path": "media/IMG_5243.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_5243.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 1.633333,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 29.388,
+        "r_fps": 150.0,
+        "vfr_suspected": true,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 48000
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "variable frame rate suspected: conform to 30 fps CFR during normalize",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5280.JPEG": {
+      "path": "media/IMG_5280.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_5280.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5280.MOV": {
+      "path": "media/IMG_5280.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_5280.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 2.133333,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 30.0,
+        "r_fps": 30.0,
+        "vfr_suspected": false,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 44100
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5281.JPEG": {
+      "path": "media/IMG_5281.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_5281.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5281.MOV": {
+      "path": "media/IMG_5281.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_5281.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 1.646667,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 29.15,
+        "r_fps": 300.0,
+        "vfr_suspected": true,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 44100
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "variable frame rate suspected: conform to 30 fps CFR during normalize",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5351.JPEG": {
+      "path": "media/IMG_5351.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_5351.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5351.MOV": {
+      "path": "media/IMG_5351.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_5351.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 2.216667,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 29.323,
+        "r_fps": 29.833,
+        "vfr_suspected": true,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 48000
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "variable frame rate suspected: conform to 30 fps CFR during normalize",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5353.JPEG": {
+      "path": "media/IMG_5353.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_5353.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5353.MOV": {
+      "path": "media/IMG_5353.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_5353.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 2.121667,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 28.751,
+        "r_fps": 29.75,
+        "vfr_suspected": true,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 48000
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "variable frame rate suspected: conform to 30 fps CFR during normalize",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5429.JPEG": {
+      "path": "media/IMG_5429.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_5429.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5429.MOV": {
+      "path": "media/IMG_5429.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_5429.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 2.333333,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 30.0,
+        "r_fps": 30.0,
+        "vfr_suspected": false,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 44100
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5547.JPG": {
+      "path": "media/IMG_5547.JPG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_5547.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1320,
+          2347
+        ],
+        "orientation": "portrait",
+        "icc_profile": false,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5553.JPEG": {
+      "path": "media/IMG_5553.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_5553.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5606.JPEG": {
+      "path": "media/IMG_5606.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_5606.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5606.MOV": {
+      "path": "media/IMG_5606.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_5606.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 1.843333,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 28.752,
+        "r_fps": 240.0,
+        "vfr_suspected": true,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 44100
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "variable frame rate suspected: conform to 30 fps CFR during normalize",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5670.jpg": {
+      "path": "media/IMG_5670.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_5670.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1714,
+          2897
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5772.JPEG": {
+      "path": "media/IMG_5772.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_5772.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5772.MOV": {
+      "path": "media/IMG_5772.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_5772.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 2.623333,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 22.49,
+        "r_fps": 27.417,
+        "vfr_suspected": true,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 44100
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "variable frame rate suspected: conform to 30 fps CFR during normalize",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5776.jpg": {
+      "path": "media/IMG_5776.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_5776.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          4284,
+          5712
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5780.JPEG": {
+      "path": "media/IMG_5780.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_5780.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5780.MOV": {
+      "path": "media/IMG_5780.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_5780.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 1.903333,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 23.117,
+        "r_fps": 240.0,
+        "vfr_suspected": true,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 48000
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "variable frame rate suspected: conform to 30 fps CFR during normalize",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5782.jpg": {
+      "path": "media/IMG_5782.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_5782.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          4284,
+          5712
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5783.JPEG": {
+      "path": "media/IMG_5783.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_5783.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5783.MOV": {
+      "path": "media/IMG_5783.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_5783.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 2.208333,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 23.547,
+        "r_fps": 24.0,
+        "vfr_suspected": false,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": false,
+        "audio_codec": null,
+        "audio_rate": null
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5789.jpg": {
+      "path": "media/IMG_5789.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_5789.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          4284,
+          5712
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5790.JPEG": {
+      "path": "media/IMG_5790.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_5790.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5790.MOV": {
+      "path": "media/IMG_5790.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_5790.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 2.311667,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 28.983,
+        "r_fps": 30.0,
+        "vfr_suspected": true,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": false,
+        "audio_codec": null,
+        "audio_rate": null
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "variable frame rate suspected: conform to 30 fps CFR during normalize"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5804.JPEG": {
+      "path": "media/IMG_5804.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_5804.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5804.MOV": {
+      "path": "media/IMG_5804.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_5804.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 2.245,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 28.953,
+        "r_fps": 240.0,
+        "vfr_suspected": true,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": false,
+        "audio_codec": null,
+        "audio_rate": null
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "variable frame rate suspected: conform to 30 fps CFR during normalize"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5809.JPEG": {
+      "path": "media/IMG_5809.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_5809.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5809.MOV": {
+      "path": "media/IMG_5809.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_5809.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 3.0,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 29.667,
+        "r_fps": 30.0,
+        "vfr_suspected": false,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": false,
+        "audio_codec": null,
+        "audio_rate": null
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5843.JPEG": {
+      "path": "media/IMG_5843.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_5843.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5843.MOV": {
+      "path": "media/IMG_5843.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_5843.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 2.236667,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 12.519,
+        "r_fps": 16.5,
+        "vfr_suspected": true,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 44100
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "variable frame rate suspected: conform to 30 fps CFR during normalize",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5965.JPEG": {
+      "path": "media/IMG_5965.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_5965.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5965.MOV": {
+      "path": "media/IMG_5965.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_5965.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 1.633333,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 29.388,
+        "r_fps": 30.0,
+        "vfr_suspected": true,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 44100
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "variable frame rate suspected: conform to 30 fps CFR during normalize",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5969.JPEG": {
+      "path": "media/IMG_5969.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_5969.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5969.MOV": {
+      "path": "media/IMG_5969.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_5969.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 1.823333,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 29.068,
+        "r_fps": 300.0,
+        "vfr_suspected": true,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 44100
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "variable frame rate suspected: conform to 30 fps CFR during normalize",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_5998.JPEG": {
+      "path": "media/IMG_5998.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_5998.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1330,
+          2364
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_6039.JPEG": {
+      "path": "media/IMG_6039.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_6039.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1330,
+          2364
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_6039.MOV": {
+      "path": "media/IMG_6039.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_6039.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 2.878333,
+        "coded_size": [
+          1280,
+          720
+        ],
+        "display_size": [
+          720,
+          1280
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 29.184,
+        "r_fps": 30.0,
+        "vfr_suspected": true,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 44100
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "variable frame rate suspected: conform to 30 fps CFR during normalize",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_6045.JPEG": {
+      "path": "media/IMG_6045.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_6045.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_6045.MOV": {
+      "path": "media/IMG_6045.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_6045.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 1.878333,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 28.749,
+        "r_fps": 240.0,
+        "vfr_suspected": true,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 44100
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "variable frame rate suspected: conform to 30 fps CFR during normalize",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_6079.JPEG": {
+      "path": "media/IMG_6079.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_6079.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_6079.MOV": {
+      "path": "media/IMG_6079.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_6079.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 2.446667,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 29.428,
+        "r_fps": 300.0,
+        "vfr_suspected": true,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 44100
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "variable frame rate suspected: conform to 30 fps CFR during normalize",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_6106.JPEG": {
+      "path": "media/IMG_6106.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_6106.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1330,
+          2364
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_6106.MOV": {
+      "path": "media/IMG_6106.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_6106.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 1.878333,
+        "coded_size": [
+          1280,
+          720
+        ],
+        "display_size": [
+          720,
+          1280
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 28.749,
+        "r_fps": 240.0,
+        "vfr_suspected": true,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 44100
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "variable frame rate suspected: conform to 30 fps CFR during normalize",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_6138.JPEG": {
+      "path": "media/IMG_6138.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_6138.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_6138.MOV": {
+      "path": "media/IMG_6138.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_6138.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 2.82,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 23.404,
+        "r_fps": 24.167,
+        "vfr_suspected": true,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 48000
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "variable frame rate suspected: conform to 30 fps CFR during normalize",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_6164.JPEG": {
+      "path": "media/IMG_6164.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_6164.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_6164.MOV": {
+      "path": "media/IMG_6164.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_6164.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 1.833333,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 29.455,
+        "r_fps": 150.0,
+        "vfr_suspected": true,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": false,
+        "audio_codec": null,
+        "audio_rate": null
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "variable frame rate suspected: conform to 30 fps CFR during normalize"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_6173.JPG": {
+      "path": "media/IMG_6173.JPG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_6173.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          3072,
+          4096
+        ],
+        "orientation": "portrait",
+        "icc_profile": false,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_6211.JPEG": {
+      "path": "media/IMG_6211.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_6211.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_6211.MOV": {
+      "path": "media/IMG_6211.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_6211.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 2.445,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 29.039,
+        "r_fps": 30.0,
+        "vfr_suspected": true,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 48000
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "variable frame rate suspected: conform to 30 fps CFR during normalize",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_6226.JPEG": {
+      "path": "media/IMG_6226.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_6226.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_6226.MOV": {
+      "path": "media/IMG_6226.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_6226.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 2.8,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 29.643,
+        "r_fps": 150.0,
+        "vfr_suspected": true,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 48000
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "variable frame rate suspected: conform to 30 fps CFR during normalize",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_6229.JPEG": {
+      "path": "media/IMG_6229.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_6229.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_6229.MOV": {
+      "path": "media/IMG_6229.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_6229.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 2.266667,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 29.559,
+        "r_fps": 150.0,
+        "vfr_suspected": true,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 48000
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "variable frame rate suspected: conform to 30 fps CFR during normalize",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_6644.JPEG": {
+      "path": "media/IMG_6644.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_6644.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          2048,
+          1536
+        ],
+        "orientation": "landscape",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [
+        "landscape: crop to 9:16 loses ~68% of width — check action stays in frame or use framed layout"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_6762.MOV": {
+      "path": "media/IMG_6762.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_6762.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "hevc",
+        "duration": 10.585,
+        "coded_size": [
+          1080,
+          1920
+        ],
+        "display_size": [
+          1080,
+          1920
+        ],
+        "orientation": "portrait",
+        "rotation": 0,
+        "avg_fps": 30.043,
+        "r_fps": 30.0,
+        "vfr_suspected": false,
+        "pix_fmt": "yuv420p10le",
+        "bit_depth": null,
+        "color_primaries": "bt2020",
+        "color_transfer": "arib-std-b67",
+        "color_space": "bt2020nc",
+        "color_range": "tv",
+        "dynamic_range": "HLG",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 48000
+      },
+      "auto_issues": [
+        "HLG HDR: tone-map to SDR Rec.709 (automatic in normalize)",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_6770.jpg": {
+      "path": "media/IMG_6770.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_6770.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          4284,
+          5712
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_6963.JPEG": {
+      "path": "media/IMG_6963.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_6963.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_6963.MOV": {
+      "path": "media/IMG_6963.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_6963.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 2.45,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 27.347,
+        "r_fps": 27.333,
+        "vfr_suspected": false,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 48000
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_6985.JPG": {
+      "path": "media/IMG_6985.JPG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_6985.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1320,
+          2347
+        ],
+        "orientation": "portrait",
+        "icc_profile": false,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_7144.JPG": {
+      "path": "media/IMG_7144.JPG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_7144.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1290,
+          2208
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_7151.JPEG": {
+      "path": "media/IMG_7151.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_7151.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_7151.MOV": {
+      "path": "media/IMG_7151.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_7151.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 2.848333,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 29.491,
+        "r_fps": 60.0,
+        "vfr_suspected": true,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 48000
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "variable frame rate suspected: conform to 30 fps CFR during normalize",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_7176.JPEG": {
+      "path": "media/IMG_7176.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_7176.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1536,
+          2048
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_7176.MOV": {
+      "path": "media/IMG_7176.MOV",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/IMG_7176.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 1.133333,
+        "coded_size": [
+          960,
+          720
+        ],
+        "display_size": [
+          720,
+          960
+        ],
+        "orientation": "portrait",
+        "rotation": -90,
+        "avg_fps": 29.118,
+        "r_fps": 30.0,
+        "vfr_suspected": true,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": true,
+        "audio_codec": "aac",
+        "audio_rate": 48000
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use",
+        "variable frame rate suspected: conform to 30 fps CFR during normalize",
+        "has audio: listen for copyrighted gym music before using clip sound"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "IMG_9819.jpg": {
+      "path": "media/IMG_9819.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/IMG_9819.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          3024,
+          4032
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "ISIMG-893046.JPG": {
+      "path": "media/ISIMG-893046.JPG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/ISIMG-893046.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          576,
+          1025
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [
+        "short side 576 px < 1080: upscaling needed for full-frame use"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "cd1d5181a2aa4c2e8f5afeed300c63fa.MP4": {
+      "path": "media/cd1d5181a2aa4c2e8f5afeed300c63fa.MP4",
+      "type": "video",
+      "contact_sheet": "qa/contact_sheets/cd1d5181a2aa4c2e8f5afeed300c63fa.jpg",
+      "technical": {
+        "decodable": true,
+        "codec": "h264",
+        "duration": 5.0,
+        "coded_size": [
+          720,
+          1280
+        ],
+        "display_size": [
+          720,
+          1280
+        ],
+        "orientation": "portrait",
+        "rotation": 0,
+        "avg_fps": 30.0,
+        "r_fps": 30.0,
+        "vfr_suspected": false,
+        "pix_fmt": "yuvj420p",
+        "bit_depth": "8",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "pc",
+        "dynamic_range": "SDR",
+        "audio": false,
+        "audio_codec": null,
+        "audio_rate": null
+      },
+      "auto_issues": [
+        "short side 720 px < 1080: upscaling needed for full-frame use"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "d4e56bfd-cc4a-4c6e-aee3-80ab445f646c.jpg": {
+      "path": "media/d4e56bfd-cc4a-4c6e-aee3-80ab445f646c.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/d4e56bfd-cc4a-4c6e-aee3-80ab445f646c.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          941,
+          1600
+        ],
+        "orientation": "portrait",
+        "icc_profile": false,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [
+        "short side 941 px < 1080: upscaling needed for full-frame use"
+      ],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "shared104.jpg": {
+      "path": "media/shared104.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/shared104.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          2135,
+          3796
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "shared106.jpg": {
+      "path": "media/shared106.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/shared106.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          2304,
+          4096
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "shared115.jpg": {
+      "path": "media/shared115.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/shared115.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          2002,
+          3559
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "shared118.jpg": {
+      "path": "media/shared118.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/shared118.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          2268,
+          4032
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "shared120.JPEG": {
+      "path": "media/shared120.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/shared120.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          2268,
+          4032
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "shared158.jpg": {
+      "path": "media/shared158.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/shared158.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          2268,
+          4032
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "shared171.jpg": {
+      "path": "media/shared171.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/shared171.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          1737,
+          3088
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "shared2-1.jpg": {
+      "path": "media/shared2-1.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/shared2-1.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          3072,
+          4096
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "shared2.jpg": {
+      "path": "media/shared2.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/shared2.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          2754,
+          4896
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "shared30.jpg": {
+      "path": "media/shared30.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/shared30.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          4284,
+          5712
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "shared39.jpg": {
+      "path": "media/shared39.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/shared39.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          3072,
+          4096
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "shared43.jpg": {
+      "path": "media/shared43.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/shared43.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          2304,
+          4096
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "shared52.jpg": {
+      "path": "media/shared52.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/shared52.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          2303,
+          4096
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "shared64-1.jpg": {
+      "path": "media/shared64-1.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/shared64-1.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          2304,
+          4096
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "shared64.jpg": {
+      "path": "media/shared64.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/shared64.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          3213,
+          5712
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "shared78.jpg": {
+      "path": "media/shared78.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/shared78.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          2180,
+          3876
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "shared8.jpg": {
+      "path": "media/shared8.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/shared8.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          2608,
+          4096
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "shared81.jpg": {
+      "path": "media/shared81.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/shared81.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          2304,
+          4096
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "shared86.JPEG": {
+      "path": "media/shared86.JPEG",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/shared86.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          2340,
+          4096
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    },
+    "shared96.jpg": {
+      "path": "media/shared96.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/shared96.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          2304,
+          4096
+        ],
+        "orientation": "portrait",
+        "icc_profile": true,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "",
+      "role": "",
+      "best_in": null,
+      "best_out": null,
+      "location": null,
+      "location_status": "unconfirmed",
+      "location_evidence": "",
+      "issues": [],
+      "selected": false
+    }
+  },
+  "_readme": "Technical fields are generated. Fill editorial fields after inspecting contact sheets/frames. role: personal hook | work context | gym variety | workout action | country coverage | pool/beach relaxation | closing portrait. location_status must stay 'unconfirmed' unless evidence (user note or corroborated recognisable place) is recorded — a filename alone is not evidence."
+}

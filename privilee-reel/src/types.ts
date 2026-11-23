@@ -36,7 +36,7 @@ export type ShotProps = {
 };
 
 export type Overlay = {
-  type: "hook" | "title" | "coverage" | "label" | "brand";
+  type: "hook" | "title" | "coverage" | "label" | "brand" | "line";
   text: string;
   from: number;
   durationInFrames: number;
@@ -72,6 +72,7 @@ export type FilmProps = {
   offer: OfferProps | null;
   showGuides: boolean;
   isTemplate: boolean;
+  textLedReview?: boolean;
 };
 
 export type CoverProps = {

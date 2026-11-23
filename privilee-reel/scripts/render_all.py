@@ -64,9 +64,11 @@ def loudness_finish(src: Path, dst: Path, muted: bool) -> dict:
     return {"audio": note}
 
 
-def out_name(rid: str, r: dict) -> str:
+def out_name(rid: str, r: dict, props: dict) -> str:
     name = r["out"]
-    if r["variant"] == "white_friday" and not load_json(CONFIG / "offer.json").get("verified"):
+    if props.get("textLedReview") and r.get("overlays"):  # narration expected but not integrated yet
+        name = name.replace(".mp4", "_textled.mp4")
+    if props.get("textLedReview") or (r["variant"] == "white_friday" and not load_json(CONFIG / "offer.json").get("verified")):
         name = name.replace(".mp4", "_review.mp4")
     return name
 
@@ -78,7 +80,7 @@ def render_one(rid: str, r: dict, dest_dir: Path, allow_template: bool) -> dict 
         print(f"SKIP {rid}: {len(missing)} shots still have no media ({', '.join(missing[:6])}{'…' if len(missing) > 6 else ''})")
         return None
     pfile = PROCESSED / "props" / f"{rid}.json"
-    dest = dest_dir / out_name(rid, r)
+    dest = dest_dir / out_name(rid, r, props)
     with tempfile.TemporaryDirectory() as td:
         raw = Path(td) / "raw.mp4"
         extra = ["--codec=h264", "--crf=18", "--pixel-format=yuv420p", "--color-space=bt709", "--audio-codec=aac", "--audio-bitrate=320k"]

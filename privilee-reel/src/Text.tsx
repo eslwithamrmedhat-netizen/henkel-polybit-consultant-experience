@@ -51,6 +51,14 @@ export const OverlayText: React.FC<{ o: Overlay; layout: PlatformLayout; onLight
       </div>
     );
   }
+  if (o.type === "line") {
+    // text-led review lines: sit where captions will go once narration exists
+    return (
+      <div style={{ ...box, top: layout.captionCenterY - 70, height: 140, display: "flex", alignItems: "center", justifyContent: "center", textShadow: "none" }}>
+        <span style={{ fontSize: 52, fontWeight: 600, lineHeight: 1.2, color: colors.text, background: colors.captionBg, padding: "12px 26px 14px", borderRadius: 18 }}>{o.text}</span>
+      </div>
+    );
+  }
   // label / brand: small, quiet, top-left inside the safe area
   return (
     <div style={{ ...box, left: layout.sideMargin, right: undefined, top: layout.labelY, textAlign: "left", fontSize: 34, fontWeight: 500, letterSpacing: "0.06em" }}>

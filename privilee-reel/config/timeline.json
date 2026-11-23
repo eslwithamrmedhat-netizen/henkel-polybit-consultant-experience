@@ -1,200 +1,32 @@
 {
-  "_readme": "Editable edit decision list. 'shots' is a library; each variant lists shot ids in order, optionally overriding fields. Times are seconds. src paths are relative to media/. src=null renders a labelled slate (QA template only, never a deliverable). Location labels render only when verified=true with evidence recorded in asset_manifest.json.",
+  "_readme": "Edit decision list built from the audited album (23 Nov 2026). 'shots' is a library; variants list shot ids in order with optional overrides. Times in seconds; src relative to media/. All clip audio muted (clipVolume 0) until it has been listened to for copyrighted music. 'textLed' overlays appear only when narration is missing. Location labels render only with verified=true + evidence.",
   "fps": 30,
   "width": 1080,
   "height": 1920,
   "shots": {
-    "hook_portrait": {
-      "beat": "Personal hook — face / expressive selfie",
-      "src": null,
-      "kind": "image",
-      "dur": 1.6,
-      "crop": {
-        "x": 0.5,
-        "y": 0.4
-      },
-      "move": {
-        "from": 1.0,
-        "to": 1.04
-      },
-      "grade": {
-        "look": "golden_portrait"
-      }
-    },
     "hook_action": {
-      "beat": "Personal hook — decisive workout movement",
-      "src": null,
+      "beat": "Hook — shadowboxing on a rooftop between towers (iPhone HLG)",
+      "src": "IMG_4964.MOV",
       "kind": "video",
-      "in": 0,
-      "dur": 1.4,
+      "in": 3.9,
+      "dur": 1.5,
       "crop": {
         "x": 0.5,
         "y": 0.5
-      },
-      "grade": {
-        "look": "gym_indoor"
-      },
-      "clipVolume": 0.25
-    },
-    "hook_outdoor": {
-      "beat": "Hook payoff — brief pool/beach flash",
-      "src": null,
-      "kind": "video",
-      "in": 0,
-      "dur": 1.0,
-      "crop": {
-        "x": 0.5,
-        "y": 0.5
-      },
-      "grade": {
-        "look": "pool_beach"
-      }
-    },
-    "work_1": {
-      "beat": "Work moves me around — portrait / walking",
-      "src": null,
-      "kind": "video",
-      "in": 0,
-      "dur": 1.4,
-      "crop": {
-        "x": 0.5,
-        "y": 0.45
       },
       "grade": {
         "look": "work_city"
       },
-      "clipVolume": 0.3
+      "clipVolume": 0.0
     },
-    "work_2": {
-      "beat": "Work — city or venue context (verified only)",
-      "src": null,
+    "hook_portrait": {
+      "beat": "Hook — smiling portrait",
+      "src": "shared43.jpg",
       "kind": "image",
-      "dur": 1.2,
+      "dur": 0.9,
       "crop": {
         "x": 0.5,
-        "y": 0.5
-      },
-      "move": {
-        "from": 1.03,
-        "to": 1.0
-      },
-      "grade": {
-        "look": "work_city"
-      }
-    },
-    "work_3": {
-      "beat": "Work — laptop closing / bag / leaving",
-      "src": null,
-      "kind": "video",
-      "in": 0,
-      "dur": 1.4,
-      "crop": {
-        "x": 0.5,
-        "y": 0.5
-      },
-      "grade": {
-        "look": "work_city"
-      },
-      "clipVolume": 0.4
-    },
-    "reveal_app": {
-      "beat": "Useful choice — genuine Privilee app moment (QR/account masked)",
-      "src": null,
-      "kind": "video",
-      "in": 0,
-      "dur": 1.8,
-      "crop": {
-        "x": 0.5,
-        "y": 0.5
-      },
-      "grade": {
-        "look": "neutral"
-      },
-      "masks": []
-    },
-    "reveal_arrival": {
-      "beat": "Venue arrival / gym entrance",
-      "src": null,
-      "kind": "video",
-      "in": 0,
-      "dur": 1.2,
-      "crop": {
-        "x": 0.5,
-        "y": 0.5
-      },
-      "grade": {
-        "look": "gym_indoor"
-      },
-      "clipVolume": 0.3
-    },
-    "gym_a_action": {
-      "beat": "Gym A — clear workout action",
-      "src": null,
-      "kind": "video",
-      "in": 0,
-      "dur": 2.4,
-      "crop": {
-        "x": 0.5,
-        "y": 0.5
-      },
-      "grade": {
-        "look": "gym_indoor"
-      },
-      "clipVolume": 0.35
-    },
-    "gym_a_detail": {
-      "beat": "Gym A — detail (hands, plates, shoes)",
-      "src": null,
-      "kind": "video",
-      "in": 0,
-      "dur": 1.2,
-      "crop": {
-        "x": 0.5,
-        "y": 0.5
-      },
-      "grade": {
-        "look": "gym_indoor"
-      },
-      "clipVolume": 0.35
-    },
-    "gym_b_match": {
-      "beat": "Gym B — MATCH CUT: same movement/body position, new place",
-      "src": null,
-      "kind": "video",
-      "in": 0,
-      "dur": 2.2,
-      "crop": {
-        "x": 0.5,
-        "y": 0.5
-      },
-      "grade": {
-        "look": "gym_indoor"
-      },
-      "clipVolume": 0.35
-    },
-    "gym_b_wide": {
-      "beat": "Gym B — wider view of the space",
-      "src": null,
-      "kind": "video",
-      "in": 0,
-      "dur": 1.8,
-      "crop": {
-        "x": 0.5,
-        "y": 0.5
-      },
-      "grade": {
-        "look": "gym_indoor"
-      },
-      "clipVolume": 0.3
-    },
-    "selfie_transition": {
-      "beat": "Brief selfie — different expression/context",
-      "src": null,
-      "kind": "image",
-      "dur": 1.0,
-      "crop": {
-        "x": 0.5,
-        "y": 0.4
+        "y": 0.32
       },
       "move": {
         "from": 1.0,
@@ -204,158 +36,436 @@
         "look": "gym_indoor"
       }
     },
-    "gym_c_action": {
-      "beat": "Gym C — workout action",
-      "src": null,
-      "kind": "video",
-      "in": 0,
-      "dur": 2.4,
+    "hook_outdoor": {
+      "beat": "Hook payoff — beach flash",
+      "src": "CD9F4FF0-6A5D-4719-B864-C2BB256EB01B.jpg",
+      "kind": "image",
+      "dur": 0.8,
       "crop": {
         "x": 0.5,
         "y": 0.5
       },
-      "grade": {
-        "look": "gym_indoor"
+      "move": {
+        "from": 1.04,
+        "to": 1.0
       },
-      "clipVolume": 0.35
+      "grade": {
+        "look": "pool_beach"
+      }
     },
-    "gym_c_detail": {
-      "beat": "Gym C — detail",
-      "src": null,
-      "kind": "video",
-      "in": 0,
+    "work_1": {
+      "beat": "On the move — Sheikh Zayed Rd skyline from the road",
+      "src": "IMG_2880.JPEG",
+      "kind": "image",
+      "dur": 1.3,
+      "crop": {
+        "x": 0.5,
+        "y": 0.45
+      },
+      "move": {
+        "from": 1.0,
+        "to": 1.05
+      },
+      "grade": {
+        "look": "work_city"
+      }
+    },
+    "work_2": {
+      "beat": "Work — lobby with skyline windows",
+      "src": "IMG_7176.JPEG",
+      "kind": "image",
       "dur": 1.2,
       "crop": {
         "x": 0.5,
         "y": 0.5
       },
-      "grade": {
-        "look": "gym_indoor"
-      },
-      "clipVolume": 0.35
-    },
-    "gym_d_action": {
-      "beat": "Gym D / outdoor training — action",
-      "src": null,
-      "kind": "video",
-      "in": 0,
-      "dur": 2.2,
-      "crop": {
-        "x": 0.5,
-        "y": 0.5
+      "move": {
+        "from": 1.04,
+        "to": 1.0
       },
       "grade": {
-        "look": "gym_indoor"
-      },
-      "clipVolume": 0.35
-    },
-    "gym_wide_end": {
-      "beat": "Training sequence closer — wide / exhale",
-      "src": null,
-      "kind": "video",
-      "in": 0,
-      "dur": 1.8,
-      "crop": {
-        "x": 0.5,
-        "y": 0.5
-      },
-      "grade": {
-        "look": "gym_indoor"
-      },
-      "clipVolume": 0.3
-    },
-    "gym_extra_uae": {
-      "beat": "White Friday cut only — another UAE training moment",
-      "src": null,
-      "kind": "video",
-      "in": 0,
-      "dur": 1.8,
-      "crop": {
-        "x": 0.5,
-        "y": 0.5
-      },
-      "grade": {
-        "look": "gym_indoor"
-      },
-      "clipVolume": 0.35
-    },
-    "qatar_insert": {
-      "beat": "Coverage — neutral graphic (or confirmed Qatar footage / genuine app capture)",
-      "src": null,
-      "kind": "coverage",
-      "dur": 3.0,
-      "grade": {
-        "look": "neutral"
+        "look": "work_city"
       }
     },
-    "weekend_pool_1": {
-      "beat": "Weekend release — pool, let it breathe",
-      "src": null,
-      "kind": "video",
-      "in": 0,
-      "dur": 3.6,
-      "crop": {
-        "x": 0.5,
-        "y": 0.5
-      },
-      "grade": {
-        "look": "pool_beach"
-      },
-      "clipVolume": 0.6,
-      "transitionIn": 0.4
-    },
-    "weekend_beach": {
-      "beat": "Weekend — beach / water",
-      "src": null,
-      "kind": "video",
-      "in": 0,
-      "dur": 3.6,
-      "crop": {
-        "x": 0.5,
-        "y": 0.5
-      },
-      "grade": {
-        "look": "pool_beach"
-      },
-      "clipVolume": 0.6
-    },
-    "weekend_detail": {
-      "beat": "Weekend — detail (water, towel, light)",
-      "src": null,
+    "work_3": {
+      "beat": "Work — city from above",
+      "src": "d4e56bfd-cc4a-4c6e-aee3-80ab445f646c.jpg",
       "kind": "image",
-      "dur": 2.4,
+      "dur": 1.2,
+      "crop": {
+        "x": 0.5,
+        "y": 0.4
+      },
+      "move": {
+        "from": 1.0,
+        "to": 1.04
+      },
+      "grade": {
+        "look": "work_city"
+      }
+    },
+    "reveal_arrival": {
+      "beat": "Arrival — gym face-recognition check-in (device info masked)",
+      "src": "9041407C-FD3D-43DF-BBCC-2679EA6454FE.jpg",
+      "kind": "image",
+      "dur": 1.6,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "move": null,
+      "grade": {
+        "look": "gym_indoor"
+      },
+      "masks": [
+        {
+          "x": 0.18,
+          "y": 0.015,
+          "w": 0.82,
+          "h": 0.06
+        },
+        {
+          "x": 0.4,
+          "y": 0.64,
+          "w": 0.5,
+          "h": 0.085
+        }
+      ]
+    },
+    "gym_a_action": {
+      "beat": "Gym A — deadlift (NorthFit)",
+      "src": "5719DD3E-04BA-4A82-A6C0-B05858B6D2C2.MP4",
+      "kind": "video",
+      "in": 1.2,
+      "dur": 2.0,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "grade": {
+        "look": "gym_indoor"
+      },
+      "clipVolume": 0.0
+    },
+    "gym_a_detail": {
+      "beat": "Detail — hand wraps",
+      "src": "IMG_5280.JPEG",
+      "kind": "image",
+      "dur": 0.8,
       "crop": {
         "x": 0.5,
         "y": 0.5
       },
       "move": {
         "from": 1.0,
-        "to": 1.035
+        "to": 1.03
+      },
+      "grade": {
+        "look": "gym_indoor"
+      }
+    },
+    "gym_b_action": {
+      "beat": "Gym B — box jump",
+      "src": "9DF88B99-FEFE-4103-A7DA-4A9725FEC411.MP4",
+      "kind": "video",
+      "in": 23.6,
+      "dur": 1.8,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "grade": {
+        "look": "gym_indoor"
+      },
+      "clipVolume": 0.0
+    },
+    "gym_c_action": {
+      "beat": "Gym C — kicks on the red floor (iPhone HLG)",
+      "src": "IMG_6762.MOV",
+      "kind": "video",
+      "in": 3.7,
+      "dur": 1.6,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "grade": {
+        "look": "gym_indoor"
+      },
+      "clipVolume": 0.0
+    },
+    "match_a": {
+      "beat": "MATCH CUT A — pull-up, teal gym",
+      "src": "04758E40-B1B3-43A5-8694-25466945AD30.MP4",
+      "kind": "video",
+      "in": 0.6,
+      "dur": 1.8,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "grade": {
+        "look": "gym_indoor"
+      },
+      "clipVolume": 0.0
+    },
+    "match_b": {
+      "beat": "MATCH CUT B — same pull-up, neon gym",
+      "src": "1C623E83-CB82-4390-A04D-9F4614FEDD61.MP4",
+      "kind": "video",
+      "in": 12.3,
+      "dur": 1.8,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "grade": {
+        "look": "gym_indoor",
+        "saturation": 0.88
+      },
+      "clipVolume": 0.0
+    },
+    "sel_1": {
+      "beat": "Same routine montage — mirror selfie 1",
+      "src": "shared2-1.jpg",
+      "kind": "image",
+      "dur": 0.45,
+      "crop": {
+        "x": 0.5,
+        "y": 0.45
+      },
+      "move": {
+        "from": 1.0,
+        "to": 1.0
+      },
+      "grade": {
+        "look": "gym_indoor"
+      }
+    },
+    "sel_2": {
+      "beat": "Same routine montage — mirror selfie 2",
+      "src": "shared120.JPEG",
+      "kind": "image",
+      "dur": 0.45,
+      "crop": {
+        "x": 0.5,
+        "y": 0.45
+      },
+      "move": {
+        "from": 1.0,
+        "to": 1.0
+      },
+      "grade": {
+        "look": "gym_indoor"
+      }
+    },
+    "sel_3": {
+      "beat": "Same routine montage — mirror selfie 3",
+      "src": "shared158.jpg",
+      "kind": "image",
+      "dur": 0.45,
+      "crop": {
+        "x": 0.5,
+        "y": 0.45
+      },
+      "move": {
+        "from": 1.0,
+        "to": 1.0
+      },
+      "grade": {
+        "look": "gym_indoor"
+      }
+    },
+    "sel_4": {
+      "beat": "Same routine montage — mirror selfie 4",
+      "src": "shared171.jpg",
+      "kind": "image",
+      "dur": 0.45,
+      "crop": {
+        "x": 0.5,
+        "y": 0.45
+      },
+      "move": {
+        "from": 1.0,
+        "to": 1.0
+      },
+      "grade": {
+        "look": "gym_indoor"
+      }
+    },
+    "sel_5": {
+      "beat": "Same routine montage — mirror selfie 5 (outdoor)",
+      "src": "shared81.jpg",
+      "kind": "image",
+      "dur": 0.45,
+      "crop": {
+        "x": 0.5,
+        "y": 0.45
+      },
+      "move": {
+        "from": 1.0,
+        "to": 1.0
+      },
+      "grade": {
+        "look": "work_city"
+      }
+    },
+    "sel_6": {
+      "beat": "Same routine montage — mirror selfie 6",
+      "src": "shared86.JPEG",
+      "kind": "image",
+      "dur": 0.6,
+      "crop": {
+        "x": 0.5,
+        "y": 0.45
+      },
+      "move": {
+        "from": 1.0,
+        "to": 1.02
+      },
+      "grade": {
+        "look": "gym_indoor"
+      }
+    },
+    "gym_city": {
+      "beat": "Open-air gym with towers — curls (iPhone HLG, GPS Dubai)",
+      "src": "IMG_1301.MOV",
+      "kind": "video",
+      "in": 1.8,
+      "dur": 2.4,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "grade": {
+        "look": "work_city"
+      },
+      "clipVolume": 0.0
+    },
+    "gym_outdoor": {
+      "beat": "Rooftop shadowboxing in the sun",
+      "src": "IMG_1313.MP4",
+      "kind": "video",
+      "in": 9.0,
+      "dur": 1.6,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "grade": {
+        "look": "work_city"
+      },
+      "clipVolume": 0.0
+    },
+    "gym_extra_uae": {
+      "beat": "White Friday cut only — kettlebell swing",
+      "src": "9DF88B99-FEFE-4103-A7DA-4A9725FEC411.MP4",
+      "kind": "video",
+      "in": 37.6,
+      "dur": 1.8,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "grade": {
+        "look": "gym_indoor"
+      },
+      "clipVolume": 0.0
+    },
+    "qatar_insert": {
+      "beat": "Coverage — neutral graphic (no confirmed Qatar footage)",
+      "src": null,
+      "kind": "coverage",
+      "dur": 2.8,
+      "grade": {
+        "look": "neutral"
+      }
+    },
+    "weekend_pool_1": {
+      "beat": "Weekend — infinity pool, golden skyline",
+      "src": "shared39.jpg",
+      "kind": "image",
+      "dur": 3.2,
+      "crop": {
+        "x": 0.5,
+        "y": 0.55
+      },
+      "move": {
+        "from": 1.0,
+        "to": 1.045
+      },
+      "grade": {
+        "look": "golden_portrait"
+      },
+      "transitionIn": 0.4
+    },
+    "weekend_water": {
+      "beat": "Weekend — water huts + marina skyline (Live Photo motion)",
+      "src": "IMG_5790.MOV",
+      "kind": "video",
+      "in": 0.05,
+      "dur": 2.2,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "grade": {
+        "look": "pool_beach"
+      },
+      "clipVolume": 0.0
+    },
+    "weekend_pool_2": {
+      "beat": "Weekend — resort pool & palms",
+      "src": "3D06D48A-71C8-4ACB-83AF-E95AE10FA483.jpg",
+      "kind": "image",
+      "dur": 2.6,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "move": {
+        "from": 1.04,
+        "to": 1.0
       },
       "grade": {
         "look": "pool_beach"
       }
     },
-    "weekend_walk": {
-      "beat": "Weekend — relaxed walk / sunlit portrait",
-      "src": null,
+    "weekend_sea": {
+      "beat": "Weekend — sea, buoy, Burj Al Arab (Live Photo motion)",
+      "src": "IMG_6211.MOV",
       "kind": "video",
-      "in": 0,
-      "dur": 3.6,
+      "in": 0.1,
+      "dur": 2.2,
       "crop": {
         "x": 0.5,
-        "y": 0.45
+        "y": 0.5
       },
       "grade": {
-        "look": "golden_portrait"
+        "look": "pool_beach"
       },
-      "clipVolume": 0.5
+      "clipVolume": 0.0
     },
-    "closing_portrait": {
-      "beat": "Personal conclusion — strong closing portrait (echo opening framing)",
-      "src": null,
+    "weekend_rooftop": {
+      "beat": "Weekend — rooftop lap pool (Live Photo motion)",
+      "src": "IMG_4955.MOV",
+      "kind": "video",
+      "in": 0.0,
+      "dur": 1.8,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "grade": {
+        "look": "pool_beach"
+      },
+      "clipVolume": 0.0
+    },
+    "weekend_walk": {
+      "beat": "Weekend — golden-hour portrait",
+      "src": "IMG_5670.jpg",
       "kind": "image",
-      "dur": 3.4,
+      "dur": 2.8,
       "crop": {
         "x": 0.5,
         "y": 0.4
@@ -368,36 +478,57 @@
         "look": "golden_portrait"
       }
     },
+    "closing_portrait": {
+      "beat": "Closing — smiling at the pool, Burj Khalifa behind",
+      "src": "shared52.jpg",
+      "kind": "image",
+      "dur": 3.6,
+      "crop": {
+        "x": 0.5,
+        "y": 0.45
+      },
+      "move": {
+        "from": 1.0,
+        "to": 1.045
+      },
+      "grade": {
+        "look": "golden_portrait"
+      }
+    },
     "final_image": {
-      "beat": "Ending — moving final image that completes the thought",
-      "src": null,
-      "kind": "video",
-      "in": 0,
-      "dur": 4.4,
+      "beat": "Ending — marina pool view, fade",
+      "src": "C08713EA-8E5A-46BE-BF59-4C73E0D48D52.jpg",
+      "kind": "image",
+      "dur": 3.0,
       "crop": {
         "x": 0.5,
         "y": 0.5
       },
+      "move": {
+        "from": 1.0,
+        "to": 1.05
+      },
       "grade": {
         "look": "pool_beach"
       },
-      "clipVolume": 0.6,
-      "fadeOut": 0.6
+      "fadeOut": 0.7
     },
     "offer_card": {
-      "beat": "White Friday end card over own pool clip (offer.json)",
-      "src": null,
+      "beat": "White Friday end card over own pool photo",
+      "src": "shared39.jpg",
       "kind": "offer",
-      "in": 0,
-      "dur": 4.6,
+      "dur": 5.0,
       "crop": {
         "x": 0.5,
-        "y": 0.5
+        "y": 0.55
+      },
+      "move": {
+        "from": 1.02,
+        "to": 1.06
       },
       "grade": {
-        "look": "pool_beach"
+        "look": "golden_portrait"
       },
-      "clipVolume": 0.4,
       "transitionIn": 0.4
     }
   },
@@ -407,27 +538,33 @@
       "voiceover": "vo_main",
       "voStart": 0.25,
       "shots": [
-        "hook_portrait",
         "hook_action",
+        "hook_portrait",
         "hook_outdoor",
         "work_1",
         "work_2",
         "work_3",
-        "reveal_app",
         "reveal_arrival",
         "gym_a_action",
         "gym_a_detail",
-        "gym_b_match",
-        "gym_b_wide",
-        "selfie_transition",
+        "gym_b_action",
         "gym_c_action",
-        "gym_c_detail",
-        "gym_d_action",
-        "gym_wide_end",
+        "match_a",
+        "match_b",
+        "sel_1",
+        "sel_2",
+        "sel_3",
+        "sel_4",
+        "sel_5",
+        "sel_6",
+        "gym_city",
+        "gym_outdoor",
         "qatar_insert",
         "weekend_pool_1",
-        "weekend_beach",
-        "weekend_detail",
+        "weekend_water",
+        "weekend_pool_2",
+        "weekend_sea",
+        "weekend_rooftop",
         "weekend_walk",
         "closing_portrait",
         "final_image"
@@ -440,16 +577,51 @@
           "end": 2.9
         },
         {
+          "type": "line",
+          "text": "My work moves me around.",
+          "shot": "work_1",
+          "endShot": "work_3",
+          "textLed": true
+        },
+        {
+          "type": "line",
+          "text": "Privilee gives me options.",
+          "shot": "reveal_arrival",
+          "endShot": "gym_a_action",
+          "textLed": true
+        },
+        {
+          "type": "line",
+          "text": "Different gyms keep it interesting.",
+          "shot": "gym_b_action",
+          "endShot": "match_b",
+          "textLed": true
+        },
+        {
+          "type": "line",
+          "text": "Options around my day keep me consistent.",
+          "shot": "gym_city",
+          "endShot": "gym_outdoor",
+          "textLed": true
+        },
+        {
           "type": "coverage",
           "text": "Also available in Qatar",
           "shot": "qatar_insert"
+        },
+        {
+          "type": "line",
+          "text": "Then the weekend: pool or beach.",
+          "shot": "weekend_pool_1",
+          "endShot": "weekend_pool_2",
+          "textLed": true
         },
         {
           "type": "title",
           "text": "Different cities.\nSame routine.",
           "shot": "closing_portrait",
           "endShot": "final_image",
-          "endOffset": -0.6
+          "endOffset": -0.7
         }
       ]
     },
@@ -458,38 +630,53 @@
       "extends": "main",
       "shots": [
         {
-          "id": "hook_action",
-          "dur": 1.5
+          "id": "match_a",
+          "dur": 1.2
         },
         {
-          "id": "gym_b_match",
-          "dur": 1.1
+          "id": "match_b",
+          "dur": 1.0
         },
         {
           "id": "hook_portrait",
-          "dur": 1.4
+          "dur": 0.9
         },
         "work_1",
         "work_2",
         "work_3",
-        "reveal_app",
         "reveal_arrival",
         "gym_a_action",
         "gym_a_detail",
-        "gym_b_wide",
-        {
-          "id": "gym_b_match",
-          "dur": 2.2
-        },
-        "selfie_transition",
+        "gym_b_action",
         "gym_c_action",
-        "gym_c_detail",
-        "gym_d_action",
-        "gym_wide_end",
+        {
+          "id": "hook_action",
+          "dur": 1.6
+        },
+        "sel_1",
+        "sel_2",
+        "sel_3",
+        "sel_4",
+        "sel_5",
+        "sel_6",
+        {
+          "id": "match_a",
+          "in": 2.6,
+          "dur": 1.4
+        },
+        {
+          "id": "match_b",
+          "in": 14.4,
+          "dur": 1.4
+        },
+        "gym_city",
+        "gym_outdoor",
         "qatar_insert",
         "weekend_pool_1",
-        "weekend_beach",
-        "weekend_detail",
+        "weekend_water",
+        "weekend_pool_2",
+        "weekend_sea",
+        "weekend_rooftop",
         "weekend_walk",
         "closing_portrait",
         "final_image"
@@ -499,7 +686,35 @@
           "type": "hook",
           "text": "DIFFERENT CITIES.\nSAME ROUTINE.",
           "start": 0.15,
-          "end": 3.0
+          "end": 2.9
+        },
+        {
+          "type": "line",
+          "text": "My work moves me around.",
+          "shot": "work_1",
+          "endShot": "work_3",
+          "textLed": true
+        },
+        {
+          "type": "line",
+          "text": "Privilee gives me options.",
+          "shot": "reveal_arrival",
+          "endShot": "gym_a_action",
+          "textLed": true
+        },
+        {
+          "type": "line",
+          "text": "Different gyms keep it interesting.",
+          "shot": "gym_b_action",
+          "endShot": "hook_action",
+          "textLed": true
+        },
+        {
+          "type": "line",
+          "text": "Options around my day keep me consistent.",
+          "shot": "gym_city",
+          "endShot": "gym_outdoor",
+          "textLed": true
         },
         {
           "type": "coverage",
@@ -507,11 +722,18 @@
           "shot": "qatar_insert"
         },
         {
+          "type": "line",
+          "text": "Then the weekend: pool or beach.",
+          "shot": "weekend_pool_1",
+          "endShot": "weekend_pool_2",
+          "textLed": true
+        },
+        {
           "type": "title",
           "text": "Different cities.\nSame routine.",
           "shot": "closing_portrait",
           "endShot": "final_image",
-          "endOffset": -0.6
+          "endOffset": -0.7
         }
       ]
     },
@@ -521,60 +743,80 @@
       "voStart": 0.2,
       "shots": [
         {
-          "id": "hook_portrait",
+          "id": "hook_action",
           "dur": 1.4
         },
         {
-          "id": "hook_action",
-          "dur": 1.2
+          "id": "hook_portrait",
+          "dur": 0.8
         },
         {
           "id": "work_1",
-          "dur": 1.2
+          "dur": 1.1
         },
         {
-          "id": "work_3",
-          "dur": 1.2
+          "id": "work_2",
+          "dur": 1.0
         },
         {
-          "id": "reveal_app",
-          "dur": 1.6
+          "id": "reveal_arrival",
+          "dur": 1.3
         },
         {
           "id": "gym_a_action",
-          "dur": 2.0
+          "dur": 1.6
         },
         {
-          "id": "gym_b_match",
-          "dur": 2.0
+          "id": "gym_b_action",
+          "dur": 1.4
         },
         {
-          "id": "gym_c_action",
-          "dur": 2.0
+          "id": "match_a",
+          "dur": 1.4
         },
         {
-          "id": "gym_d_action",
+          "id": "match_b",
+          "dur": 1.4
+        },
+        {
+          "id": "sel_1",
+          "dur": 0.4
+        },
+        {
+          "id": "sel_3",
+          "dur": 0.4
+        },
+        {
+          "id": "sel_4",
+          "dur": 0.4
+        },
+        {
+          "id": "sel_6",
+          "dur": 0.5
+        },
+        {
+          "id": "gym_city",
           "dur": 1.8
         },
         {
           "id": "qatar_insert",
-          "dur": 2.4
+          "dur": 2.2
         },
         {
           "id": "weekend_pool_1",
-          "dur": 3.0
+          "dur": 2.6
         },
         {
-          "id": "weekend_beach",
-          "dur": 3.0
+          "id": "weekend_water",
+          "dur": 2.0
         },
         {
           "id": "closing_portrait",
-          "dur": 3.6
+          "dur": 3.2
         },
         {
           "id": "final_image",
-          "dur": 2.0
+          "dur": 1.8
         }
       ],
       "overlays": [
@@ -582,12 +824,40 @@
           "type": "hook",
           "text": "MY BEST\nDUBAI LIFE HACK",
           "start": 0.15,
-          "end": 2.5
+          "end": 2.2
+        },
+        {
+          "type": "line",
+          "text": "My work moves me around.",
+          "shot": "work_1",
+          "endShot": "work_2",
+          "textLed": true
+        },
+        {
+          "type": "line",
+          "text": "Privilee gives me options.",
+          "shot": "reveal_arrival",
+          "endShot": "gym_a_action",
+          "textLed": true
+        },
+        {
+          "type": "line",
+          "text": "Different gyms. Same habit.",
+          "shot": "gym_b_action",
+          "endShot": "match_b",
+          "textLed": true
         },
         {
           "type": "coverage",
           "text": "Also available in Qatar",
           "shot": "qatar_insert"
+        },
+        {
+          "type": "line",
+          "text": "Then the weekend.",
+          "shot": "weekend_pool_1",
+          "endShot": "weekend_water",
+          "textLed": true
         },
         {
           "type": "title",
@@ -599,46 +869,43 @@
       ]
     },
     "white_friday": {
-      "title": "White Friday campaign cut — UAE only, offer end card (REVIEW until offer verified)",
+      "title": "White Friday campaign cut — UAE only (REVIEW until offer verified)",
       "voiceover": "vo_white_friday",
       "voStart": 0.25,
       "offer": true,
       "shots": [
-        "hook_portrait",
         "hook_action",
+        "hook_portrait",
         "hook_outdoor",
         "work_1",
         "work_2",
         "work_3",
-        "reveal_app",
         "reveal_arrival",
         "gym_a_action",
         "gym_a_detail",
-        "gym_b_match",
-        "gym_b_wide",
-        "selfie_transition",
+        "gym_b_action",
         "gym_c_action",
-        "gym_c_detail",
-        "gym_d_action",
+        "match_a",
+        "match_b",
+        "sel_1",
+        "sel_2",
+        "sel_3",
+        "sel_4",
+        "sel_5",
+        "sel_6",
+        "gym_city",
+        "gym_extra_uae",
+        "gym_outdoor",
+        "weekend_pool_2",
+        "weekend_water",
+        "weekend_sea",
+        "weekend_rooftop",
+        "weekend_walk",
         {
-          "id": "gym_extra_uae",
-          "dur": 2.2
+          "id": "closing_portrait",
+          "dur": 3.2
         },
-        "weekend_pool_1",
-        "weekend_beach",
-        {
-          "id": "weekend_detail",
-          "dur": 3.0
-        },
-        {
-          "id": "weekend_walk",
-          "dur": 4.0
-        },
-        "closing_portrait",
-        {
-          "id": "offer_card",
-          "dur": 5.0
-        }
+        "offer_card"
       ],
       "overlays": [
         {
@@ -648,6 +915,41 @@
           "end": 2.9
         },
         {
+          "type": "line",
+          "text": "My work moves me around.",
+          "shot": "work_1",
+          "endShot": "work_3",
+          "textLed": true
+        },
+        {
+          "type": "line",
+          "text": "Privilee gives me options.",
+          "shot": "reveal_arrival",
+          "endShot": "gym_a_action",
+          "textLed": true
+        },
+        {
+          "type": "line",
+          "text": "Different gyms keep it interesting.",
+          "shot": "gym_b_action",
+          "endShot": "match_b",
+          "textLed": true
+        },
+        {
+          "type": "line",
+          "text": "Options around my day keep me consistent.",
+          "shot": "gym_city",
+          "endShot": "gym_outdoor",
+          "textLed": true
+        },
+        {
+          "type": "line",
+          "text": "Then the weekend: pool or beach.",
+          "shot": "weekend_pool_2",
+          "endShot": "weekend_water",
+          "textLed": true
+        },
+        {
           "type": "title",
           "text": "Different cities.\nSame routine.",
           "shot": "closing_portrait"
@@ -655,9 +957,5 @@
       ]
     }
   },
-  "locationLabels": [
-    {
-      "_example": "Only add after verification, e.g. { \"shot\": \"gym_a_action\", \"text\": \"Dubai\", \"verified\": true, \"evidence\": \"user note 2026-11-23\" }"
-    }
-  ]
+  "locationLabels": []
 }

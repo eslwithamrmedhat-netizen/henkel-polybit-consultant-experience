@@ -97,6 +97,9 @@ def build(render_id: str, guides: bool = False) -> dict:
     overlays = []
     if r.get("overlays"):
         for o in v.get("overlays", []):
+            # text-led lines tell the story only when no narration is integrated; captions take over otherwise
+            if o.get("textLed") and vo:
+                continue
             if "shot" in o:
                 a = starts[o["shot"]] + f(o.get("offset", 0))
                 b = ends[o.get("endShot", o["shot"])] + f(o.get("endOffset", 0))
@@ -142,6 +145,7 @@ def build(render_id: str, guides: bool = False) -> dict:
         "offer": offer,
         "showGuides": guides,
         "isTemplate": template,
+        "textLedReview": bool(r.get("voiceover")) and vo is None,
     }
     save_json(PROCESSED / "props" / f"{render_id}{'_guides' if guides else ''}.json", props)
     return props
