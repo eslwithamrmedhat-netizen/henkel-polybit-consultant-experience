@@ -121,7 +121,7 @@
       "src": "5719DD3E-04BA-4A82-A6C0-B05858B6D2C2.MP4",
       "kind": "video",
       "in": 1.2,
-      "dur": 2.0,
+      "dur": 1.6,
       "crop": {
         "x": 0.5,
         "y": 0.5
@@ -153,7 +153,7 @@
       "src": "9DF88B99-FEFE-4103-A7DA-4A9725FEC411.MP4",
       "kind": "video",
       "in": 23.6,
-      "dur": 1.8,
+      "dur": 1.4,
       "crop": {
         "x": 0.5,
         "y": 0.5
@@ -168,7 +168,7 @@
       "src": "04758E40-B1B3-43A5-8694-25466945AD30.MP4",
       "kind": "video",
       "in": 0.6,
-      "dur": 1.8,
+      "dur": 1.5,
       "crop": {
         "x": 0.5,
         "y": 0.5
@@ -183,7 +183,7 @@
       "src": "1C623E83-CB82-4390-A04D-9F4614FEDD61.MP4",
       "kind": "video",
       "in": 12.3,
-      "dur": 1.8,
+      "dur": 1.5,
       "crop": {
         "x": 0.5,
         "y": 0.5
@@ -198,7 +198,7 @@
       "beat": "Same routine montage — mirror selfie 1",
       "src": "shared2-1.jpg",
       "kind": "image",
-      "dur": 0.45,
+      "dur": 0.4,
       "crop": {
         "x": 0.5,
         "y": 0.45
@@ -215,7 +215,7 @@
       "beat": "Same routine montage — mirror selfie 2",
       "src": "shared120.JPEG",
       "kind": "image",
-      "dur": 0.45,
+      "dur": 0.4,
       "crop": {
         "x": 0.5,
         "y": 0.45
@@ -232,7 +232,7 @@
       "beat": "Same routine montage — mirror selfie 3",
       "src": "shared158.jpg",
       "kind": "image",
-      "dur": 0.45,
+      "dur": 0.4,
       "crop": {
         "x": 0.5,
         "y": 0.45
@@ -249,7 +249,7 @@
       "beat": "Same routine montage — mirror selfie 4",
       "src": "shared171.jpg",
       "kind": "image",
-      "dur": 0.45,
+      "dur": 0.4,
       "crop": {
         "x": 0.5,
         "y": 0.45
@@ -266,7 +266,7 @@
       "beat": "Same routine montage — mirror selfie 5 (outdoor)",
       "src": "shared81.jpg",
       "kind": "image",
-      "dur": 0.45,
+      "dur": 0.4,
       "crop": {
         "x": 0.5,
         "y": 0.45
@@ -283,7 +283,7 @@
       "beat": "Same routine montage — mirror selfie 6",
       "src": "shared86.JPEG",
       "kind": "image",
-      "dur": 0.6,
+      "dur": 0.5,
       "crop": {
         "x": 0.5,
         "y": 0.45
@@ -330,7 +330,7 @@
       "beat": "Coverage — Doha, Qatar (West Bay from the Corniche; confirmed by Amr)",
       "src": "IMG_4530.JPG",
       "kind": "image",
-      "dur": 2.8,
+      "dur": 2.6,
       "crop": {
         "x": 0.4,
         "y": 0.5
@@ -347,7 +347,7 @@
       "beat": "Weekend — infinity pool, golden skyline",
       "src": "shared39.jpg",
       "kind": "image",
-      "dur": 3.2,
+      "dur": 3.0,
       "crop": {
         "x": 0.5,
         "y": 0.55
@@ -367,7 +367,7 @@
       "src": "IMG_5790.MOV",
       "kind": "video",
       "in": 0.05,
-      "dur": 2.2,
+      "dur": 2.0,
       "crop": {
         "x": 0.5,
         "y": 0.5
@@ -381,7 +381,7 @@
       "beat": "Weekend — resort pool & palms",
       "src": "3D06D48A-71C8-4ACB-83AF-E95AE10FA483.jpg",
       "kind": "image",
-      "dur": 2.6,
+      "dur": 2.2,
       "crop": {
         "x": 0.5,
         "y": 0.5
@@ -399,7 +399,7 @@
       "src": "IMG_6211.MOV",
       "kind": "video",
       "in": 0.1,
-      "dur": 2.2,
+      "dur": 2.0,
       "crop": {
         "x": 0.5,
         "y": 0.5
@@ -414,7 +414,7 @@
       "src": "IMG_4955.MOV",
       "kind": "video",
       "in": 0.0,
-      "dur": 1.8,
+      "dur": 1.6,
       "crop": {
         "x": 0.5,
         "y": 0.5
@@ -428,7 +428,7 @@
       "beat": "Weekend — beach with Ain Dubai, natural light",
       "src": "IMG_3606.JPEG",
       "kind": "image",
-      "dur": 2.8,
+      "dur": 2.4,
       "crop": {
         "x": 0.5,
         "y": 0.5
@@ -445,7 +445,7 @@
       "beat": "Closing — smiling at the pool, Burj Khalifa behind",
       "src": "shared52.jpg",
       "kind": "image",
-      "dur": 3.6,
+      "dur": 3.4,
       "crop": {
         "x": 0.5,
         "y": 0.45
@@ -462,7 +462,7 @@
       "beat": "Ending — marina pool view, fade",
       "src": "C08713EA-8E5A-46BE-BF59-4C73E0D48D52.jpg",
       "kind": "image",
-      "dur": 3.0,
+      "dur": 2.8,
       "crop": {
         "x": 0.5,
         "y": 0.5
@@ -514,7 +514,7 @@
       "src": "5719DD3E-04BA-4A82-A6C0-B05858B6D2C2.MP4",
       "kind": "video",
       "in": 18.6,
-      "dur": 1.8,
+      "dur": 1.2,
       "crop": {
         "x": 0.5,
         "y": 0.5
@@ -529,13 +529,266 @@
       "src": "04758E40-B1B3-43A5-8694-25466945AD30.MP4",
       "kind": "video",
       "in": 28.3,
-      "dur": 2.0,
+      "dur": 1.4,
       "crop": {
         "x": 0.5,
         "y": 0.5
       },
       "grade": {
         "look": "gym_indoor"
+      },
+      "clipVolume": 0.0
+    },
+    "loc_padel": {
+      "beat": "Location — rooftop padel court with skyline",
+      "src": "IMG_9819.jpg",
+      "kind": "image",
+      "dur": 0.6,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "move": {
+        "from": 1.0,
+        "to": 1.03
+      },
+      "grade": {
+        "look": "work_city"
+      }
+    },
+    "loc_turf": {
+      "beat": "Location — blue sprint turf",
+      "src": "232C0348-06BF-4C05-A1F6-C193EA349811.jpg",
+      "kind": "image",
+      "dur": 0.6,
+      "crop": {
+        "x": 0.5,
+        "y": 0.6
+      },
+      "move": {
+        "from": 1.03,
+        "to": 1.0
+      },
+      "grade": {
+        "look": "gym_indoor"
+      }
+    },
+    "loc_ropes": {
+      "beat": "Location — outdoor rig with battle ropes",
+      "src": "426ACC4E-24E0-4587-A502-6A04AFD2EEB5.jpg",
+      "kind": "image",
+      "dur": 0.6,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "move": {
+        "from": 1.0,
+        "to": 1.03
+      },
+      "grade": {
+        "look": "work_city"
+      }
+    },
+    "loc_roof": {
+      "beat": "Location — rooftop gym between towers",
+      "src": "IMG_1279.JPEG",
+      "kind": "image",
+      "dur": 0.6,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "move": {
+        "from": 1.03,
+        "to": 1.0
+      },
+      "grade": {
+        "look": "work_city"
+      }
+    },
+    "sel_7": {
+      "beat": "Same routine montage — mirror selfie 7",
+      "src": "IMG_4149.JPG",
+      "kind": "image",
+      "dur": 0.4,
+      "crop": {
+        "x": 0.5,
+        "y": 0.45
+      },
+      "move": {
+        "from": 1.0,
+        "to": 1.0
+      },
+      "grade": {
+        "look": "gym_indoor"
+      }
+    },
+    "sel_8": {
+      "beat": "Same routine montage — mirror selfie 8",
+      "src": "IMG_0730.JPG",
+      "kind": "image",
+      "dur": 0.4,
+      "crop": {
+        "x": 0.5,
+        "y": 0.45
+      },
+      "move": {
+        "from": 1.0,
+        "to": 1.0
+      },
+      "grade": {
+        "look": "gym_indoor"
+      }
+    },
+    "sel_9": {
+      "beat": "Same routine montage — mirror selfie 9",
+      "src": "IMG_1814.JPG",
+      "kind": "image",
+      "dur": 0.4,
+      "crop": {
+        "x": 0.5,
+        "y": 0.45
+      },
+      "move": {
+        "from": 1.0,
+        "to": 1.0
+      },
+      "grade": {
+        "look": "gym_indoor"
+      }
+    },
+    "sel_10": {
+      "beat": "Same routine montage — mirror selfie 10",
+      "src": "shared30.jpg",
+      "kind": "image",
+      "dur": 0.4,
+      "crop": {
+        "x": 0.5,
+        "y": 0.45
+      },
+      "move": {
+        "from": 1.0,
+        "to": 1.0
+      },
+      "grade": {
+        "look": "gym_indoor"
+      }
+    },
+    "fight_corridor": {
+      "beat": "Fight — walking into the red heavy-bag corridor",
+      "src": "IMG_3920.jpg",
+      "kind": "image",
+      "dur": 0.8,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "move": {
+        "from": 1.0,
+        "to": 1.04
+      },
+      "grade": {
+        "look": "gym_indoor",
+        "match": 0.5
+      }
+    },
+    "fight_wraps": {
+      "beat": "Fight — hand wraps",
+      "src": "IMG_5280.JPEG",
+      "kind": "image",
+      "dur": 0.6,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "move": {
+        "from": 1.0,
+        "to": 1.03
+      },
+      "grade": {
+        "look": "gym_indoor"
+      }
+    },
+    "fight_mouthguard": {
+      "beat": "Fight — mouthguard selfie with wraps",
+      "src": "IMG_3976.JPG",
+      "kind": "image",
+      "dur": 0.8,
+      "crop": {
+        "x": 0.5,
+        "y": 0.4
+      },
+      "move": {
+        "from": 1.0,
+        "to": 1.03
+      },
+      "grade": {
+        "look": "gym_indoor"
+      }
+    },
+    "fight_shadowkick": {
+      "beat": "Fight — rooftop shadowboxing knee/kick (iPhone HLG)",
+      "src": "IMG_4964.MOV",
+      "kind": "video",
+      "in": 4.0,
+      "dur": 1.3,
+      "crop": {
+        "x": 0.55,
+        "y": 0.55,
+        "zoom": 1.15
+      },
+      "grade": {
+        "look": "work_city"
+      },
+      "clipVolume": 0.0
+    },
+    "fight_cage": {
+      "beat": "Fight — in the cage with red gloves",
+      "src": "IMG_3880.JPG",
+      "kind": "image",
+      "dur": 0.8,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "move": {
+        "from": 1.0,
+        "to": 1.03
+      },
+      "grade": {
+        "look": "gym_indoor"
+      }
+    },
+    "fight_glove": {
+      "beat": "Fight — glove on the knee",
+      "src": "IMG_0782.JPEG",
+      "kind": "image",
+      "dur": 0.5,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "move": {
+        "from": 1.03,
+        "to": 1.0
+      },
+      "grade": {
+        "look": "gym_indoor"
+      }
+    },
+    "fight_rooftop": {
+      "beat": "Fight — rooftop shadowboxing in the sun",
+      "src": "IMG_1313.MP4",
+      "kind": "video",
+      "in": 9.0,
+      "dur": 1.3,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "grade": {
+        "look": "work_city"
       },
       "clipVolume": 0.0
     }
@@ -554,19 +807,32 @@
         "work_3",
         "reveal_arrival",
         "gym_a_action",
-        "gym_a_detail",
         "gym_b_action",
         "gym_kb_a",
+        "loc_padel",
+        "loc_turf",
+        "loc_ropes",
+        "loc_roof",
         "match_a",
         "match_b",
         "sel_1",
         "sel_2",
+        "sel_7",
         "sel_3",
+        "sel_8",
         "sel_4",
+        "sel_9",
         "sel_5",
+        "sel_10",
         "sel_6",
+        "fight_corridor",
+        "fight_wraps",
+        "fight_mouthguard",
+        "fight_shadowkick",
+        "fight_cage",
+        "fight_glove",
+        "fight_rooftop",
         "gym_kb_b",
-        "gym_outdoor",
         "qatar_insert",
         "weekend_pool_1",
         "weekend_water",
@@ -608,8 +874,8 @@
         {
           "type": "line",
           "text": "Options around my day keep me consistent.",
-          "shot": "gym_kb_b",
-          "endShot": "gym_outdoor",
+          "shot": "sel_1",
+          "endShot": "sel_6",
           "textLed": true
         },
         {
@@ -654,26 +920,38 @@
         "work_3",
         "reveal_arrival",
         "gym_a_action",
-        "gym_a_detail",
         "gym_b_action",
-        {
-          "id": "hook_action",
-          "dur": 1.6
-        },
         "gym_kb_a",
-        "sel_1",
-        "sel_2",
-        "sel_3",
-        "sel_4",
-        "sel_5",
-        "sel_6",
+        "loc_padel",
+        "loc_turf",
+        "loc_ropes",
+        "loc_roof",
         {
           "id": "hook_city",
-          "in": 1.8,
-          "dur": 2.4
+          "dur": 1.5
         },
+        {
+          "id": "hook_action",
+          "dur": 1.3
+        },
+        "sel_1",
+        "sel_2",
+        "sel_7",
+        "sel_3",
+        "sel_8",
+        "sel_4",
+        "sel_9",
+        "sel_5",
+        "sel_10",
+        "sel_6",
+        "fight_corridor",
+        "fight_wraps",
+        "fight_mouthguard",
+        "fight_shadowkick",
+        "fight_cage",
+        "fight_glove",
+        "fight_rooftop",
         "gym_kb_b",
-        "gym_outdoor",
         "qatar_insert",
         "weekend_pool_1",
         "weekend_water",
@@ -709,14 +987,14 @@
           "type": "line",
           "text": "Different gyms keep it interesting.",
           "shot": "gym_b_action",
-          "endShot": "gym_kb_a",
+          "endShot": "hook_action",
           "textLed": true
         },
         {
           "type": "line",
           "text": "Options around my day keep me consistent.",
-          "shot": "gym_kb_b",
-          "endShot": "gym_outdoor",
+          "shot": "sel_1",
+          "endShot": "sel_6",
           "textLed": true
         },
         {
@@ -767,19 +1045,27 @@
         },
         {
           "id": "gym_a_action",
-          "dur": 1.6
+          "dur": 1.4
         },
         {
           "id": "gym_b_action",
-          "dur": 1.4
+          "dur": 1.2
+        },
+        {
+          "id": "loc_padel",
+          "dur": 0.5
+        },
+        {
+          "id": "loc_turf",
+          "dur": 0.5
         },
         {
           "id": "match_a",
-          "dur": 1.4
+          "dur": 1.3
         },
         {
           "id": "match_b",
-          "dur": 1.4
+          "dur": 1.3
         },
         {
           "id": "sel_1",
@@ -795,31 +1081,39 @@
         },
         {
           "id": "sel_6",
-          "dur": 0.5
+          "dur": 0.4
         },
         {
-          "id": "gym_kb_b",
-          "dur": 1.6
+          "id": "fight_mouthguard",
+          "dur": 0.6
+        },
+        {
+          "id": "fight_shadowkick",
+          "dur": 1.0
+        },
+        {
+          "id": "fight_glove",
+          "dur": 0.4
         },
         {
           "id": "qatar_insert",
-          "dur": 2.2
-        },
-        {
-          "id": "weekend_pool_1",
-          "dur": 2.6
-        },
-        {
-          "id": "weekend_water",
           "dur": 2.0
         },
         {
+          "id": "weekend_pool_1",
+          "dur": 2.4
+        },
+        {
+          "id": "weekend_water",
+          "dur": 1.8
+        },
+        {
           "id": "closing_portrait",
-          "dur": 3.2
+          "dur": 3.0
         },
         {
           "id": "final_image",
-          "dur": 1.8
+          "dur": 1.6
         }
       ],
       "overlays": [
@@ -885,20 +1179,33 @@
         "work_3",
         "reveal_arrival",
         "gym_a_action",
-        "gym_a_detail",
         "gym_b_action",
         "gym_kb_a",
+        "loc_padel",
+        "loc_turf",
+        "loc_ropes",
+        "loc_roof",
         "match_a",
         "match_b",
         "sel_1",
         "sel_2",
+        "sel_7",
         "sel_3",
+        "sel_8",
         "sel_4",
+        "sel_9",
         "sel_5",
+        "sel_10",
         "sel_6",
+        "fight_corridor",
+        "fight_wraps",
+        "fight_mouthguard",
+        "fight_shadowkick",
+        "fight_cage",
+        "fight_glove",
+        "fight_rooftop",
         "gym_kb_b",
         "gym_extra_uae",
-        "gym_outdoor",
         "weekend_pool_1",
         "weekend_water",
         "weekend_pool_2",
@@ -907,7 +1214,7 @@
         "weekend_walk",
         {
           "id": "closing_portrait",
-          "dur": 3.2
+          "dur": 3.0
         },
         "offer_card"
       ],
@@ -942,8 +1249,8 @@
         {
           "type": "line",
           "text": "Options around my day keep me consistent.",
-          "shot": "gym_kb_b",
-          "endShot": "gym_outdoor",
+          "shot": "sel_1",
+          "endShot": "sel_6",
           "textLed": true
         },
         {

@@ -163,15 +163,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Location — blue sprint turf",
+      "role": "gym variety",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "266513EC-BEF3-4F39-A81D-996A0E13893C.MP4": {
       "path": "media/266513EC-BEF3-4F39-A81D-996A0E13893C.MP4",
@@ -262,15 +262,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Location — outdoor rig with battle ropes",
+      "role": "gym variety",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "446B4FE6-2A55-46EF-86F0-37A8F42CFA22.jpg": {
       "path": "media/446B4FE6-2A55-46EF-86F0-37A8F42CFA22.jpg",
@@ -657,15 +657,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Same routine montage — mirror selfie 8",
+      "role": "gym variety",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "IMG_0782.JPEG": {
       "path": "media/IMG_0782.JPEG",
@@ -682,15 +682,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Fight — glove on the knee",
+      "role": "workout action",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "IMG_1123.JPEG": {
       "path": "media/IMG_1123.JPEG",
@@ -757,15 +757,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Location — rooftop gym between towers",
+      "role": "gym variety",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "IMG_1279.MOV": {
       "path": "media/IMG_1279.MOV",
@@ -896,8 +896,8 @@
         "short side 720 px < 1080: upscaling needed for full-frame use",
         "has audio: listen for copyrighted gym music before using clip sound"
       ],
-      "description": "Rooftop shadowboxing in the sun",
-      "role": "gym variety",
+      "description": "Fight — rooftop shadowboxing in the sun",
+      "role": "workout action",
       "best_in": 9.0,
       "best_out": 10.6,
       "location": null,
@@ -1020,15 +1020,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Same routine montage — mirror selfie 9",
+      "role": "gym variety",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "IMG_1929.JPEG": {
       "path": "media/IMG_1929.JPEG",
@@ -1726,15 +1726,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Fight — in the cage with red gloves",
+      "role": "workout action",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "IMG_3887.JPG": {
       "path": "media/IMG_3887.JPG",
@@ -1852,15 +1852,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Fight — walking into the red heavy-bag corridor",
+      "role": "workout action",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "IMG_3976.JPG": {
       "path": "media/IMG_3976.JPG",
@@ -1877,15 +1877,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Fight — mouthguard selfie with wraps",
+      "role": "workout action",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "IMG_4149.JPG": {
       "path": "media/IMG_4149.JPG",
@@ -1902,15 +1902,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Same routine montage — mirror selfie 7",
+      "role": "gym variety",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "IMG_4162.JPEG": {
       "path": "media/IMG_4162.JPEG",
@@ -2194,17 +2194,17 @@
         "HLG HDR: tone-map to SDR Rec.709 (automatic in normalize)",
         "has audio: listen for copyrighted gym music before using clip sound"
       ],
-      "description": "Hook — shadowboxing on a rooftop between towers (iPhone HLG)",
-      "role": "personal hook",
+      "description": "Fight — rooftop shadowboxing knee/kick (iPhone HLG)",
+      "role": "workout action",
       "best_in": 3.9,
       "best_out": 5.4,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [
-        "Removed from the hook at Amr's request (23 Nov 2026)"
+        "Not used as the hook (Amr's request); used mid-film in the fight sequence"
       ],
-      "selected": false
+      "selected": true
     },
     "IMG_5243.JPEG": {
       "path": "media/IMG_5243.JPEG",
@@ -2293,8 +2293,8 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "Detail — hand wraps",
-      "role": "gym variety",
+      "description": "Fight — hand wraps",
+      "role": "workout action",
       "best_in": null,
       "best_out": null,
       "location": null,
@@ -4587,15 +4587,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Location — rooftop padel court with skyline",
+      "role": "gym variety",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "ISIMG-893046.JPG": {
       "path": "media/ISIMG-893046.JPG",
@@ -4936,15 +4936,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Same routine montage — mirror selfie 10",
+      "role": "gym variety",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "shared39.jpg": {
       "path": "media/shared39.jpg",
