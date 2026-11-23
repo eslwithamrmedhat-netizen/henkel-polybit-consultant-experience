@@ -1234,24 +1234,6 @@
           "shot": "closing_portrait",
           "endShot": "final_image",
           "endOffset": -0.7
-        },
-        {
-          "type": "chapter",
-          "text": "01|The workweek",
-          "shot": "work_1",
-          "endShot": "work_3"
-        },
-        {
-          "type": "chapter",
-          "text": "02|The routine",
-          "shot": "gym_a_action",
-          "endShot": "gym_kb_a"
-        },
-        {
-          "type": "chapter",
-          "text": "03|The weekend",
-          "shot": "weekend_pool_1",
-          "endShot": "weekend_water"
         }
       ]
     },
@@ -1388,24 +1370,6 @@
           "shot": "closing_portrait",
           "endShot": "final_image",
           "endOffset": -0.7
-        },
-        {
-          "type": "chapter",
-          "text": "01|The workweek",
-          "shot": "work_1",
-          "endShot": "work_3"
-        },
-        {
-          "type": "chapter",
-          "text": "02|The routine",
-          "shot": "gym_a_action",
-          "endShot": "gym_kb_a"
-        },
-        {
-          "type": "chapter",
-          "text": "03|The weekend",
-          "shot": "weekend_pool_1",
-          "endShot": "weekend_water"
         }
       ]
     },
@@ -1677,24 +1641,6 @@
           "type": "title",
           "text": "Different cities.\nSame routine.",
           "shot": "closing_portrait"
-        },
-        {
-          "type": "chapter",
-          "text": "01|The workweek",
-          "shot": "work_1",
-          "endShot": "work_3"
-        },
-        {
-          "type": "chapter",
-          "text": "02|The routine",
-          "shot": "gym_a_action",
-          "endShot": "gym_kb_a"
-        },
-        {
-          "type": "chapter",
-          "text": "03|The weekend",
-          "shot": "weekend_pool_1",
-          "endShot": "weekend_water"
         }
       ]
     }

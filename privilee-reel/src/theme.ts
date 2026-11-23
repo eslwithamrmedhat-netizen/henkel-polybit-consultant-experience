@@ -1,38 +1,37 @@
 import { continueRender, delayRender, staticFile } from "remotion";
 
 /**
- * Editorial type system (both SIL OFL, files + licences in processed/fonts/):
- *  - SERIF  Fraunces — sturdy, warm display serif for hook, titles, places, cover
- *  - SANS   Plus Jakarta Sans — confident supporting lines, captions, tracked labels
- * Colour: warm ivory text; champagne for italic emphasis (used sparingly).
+ * Bold editorial type system (all SIL OFL; files + licences in processed/fonts/):
+ *  - DISPLAY  Anton — heavy condensed capitals: the punch (hook, titles, places)
+ *  - SCRIPT   Instrument Serif Italic — the elegant accent word(s), in champagne
+ *  - SANS     Inter Tight — supporting lines, captions, tracked labels
  */
-export const SERIF = "Fraunces, Georgia, serif";
-export const SANS = "'Plus Jakarta Sans', 'Helvetica Neue', Arial, sans-serif";
+export const DISPLAY = "Anton, 'Arial Narrow', sans-serif";
+export const SCRIPT = "'Instrument Serif', Georgia, serif";
+export const SANS = "'Inter Tight', 'Helvetica Neue', Arial, sans-serif";
+export const SERIF = DISPLAY; // legacy alias (offer card / cover headline)
 export const FONT = SANS;
 
 export const colors = {
-  text: "#F6F1E6",
-  accent: "#E8D2A2",
+  text: "#F7F3EA",
+  accent: "#E9D3A3",
   ink: "#1F1D1A",
   sand: "#ECE5DA",
   sandDeep: "#D9CEBF",
-  shadow: "0 2px 30px rgba(0,0,0,0.50), 0 1px 3px rgba(0,0,0,0.55)",
-  softShadow: "0 2px 22px rgba(0,0,0,0.60), 0 1px 2px rgba(0,0,0,0.65)",
+  shadow: "0 4px 34px rgba(0,0,0,0.45), 0 1px 3px rgba(0,0,0,0.5)",
+  softShadow: "0 2px 22px rgba(0,0,0,0.6), 0 1px 2px rgba(0,0,0,0.65)",
   captionBg: "rgba(14,13,12,0.40)",
   review: "#B3261E",
 };
 
 const faces: [string, string, string, string][] = [
-  ["Fraunces", "500", "normal", "fraunces-latin-500-normal.woff2"],
-  ["Fraunces", "600", "normal", "fraunces-latin-600-normal.woff2"],
-  ["Fraunces", "700", "normal", "fraunces-latin-700-normal.woff2"],
-  ["Fraunces", "500", "italic", "fraunces-latin-500-italic.woff2"],
-  ["Fraunces", "600", "italic", "fraunces-latin-600-italic.woff2"],
-  ["Fraunces", "700", "italic", "fraunces-latin-700-italic.woff2"],
-  ["Plus Jakarta Sans", "500", "normal", "plus-jakarta-sans-latin-500-normal.woff2"],
-  ["Plus Jakarta Sans", "600", "normal", "plus-jakarta-sans-latin-600-normal.woff2"],
-  ["Plus Jakarta Sans", "700", "normal", "plus-jakarta-sans-latin-700-normal.woff2"],
-  ["Plus Jakarta Sans", "800", "normal", "plus-jakarta-sans-latin-800-normal.woff2"],
+  ["Anton", "400", "normal", "anton-latin-400-normal.woff2"],
+  ["Instrument Serif", "400", "normal", "instrument-serif-latin-400-normal.woff2"],
+  ["Instrument Serif", "400", "italic", "instrument-serif-latin-400-italic.woff2"],
+  ["Inter Tight", "500", "normal", "inter-tight-latin-500-normal.woff2"],
+  ["Inter Tight", "600", "normal", "inter-tight-latin-600-normal.woff2"],
+  ["Inter Tight", "700", "normal", "inter-tight-latin-700-normal.woff2"],
+  ["Inter Tight", "800", "normal", "inter-tight-latin-800-normal.woff2"],
 ];
 
 let loaded = false;
