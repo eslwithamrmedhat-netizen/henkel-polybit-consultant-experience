@@ -336,7 +336,7 @@
       "beat": "Coverage — Doha photo (confirmed by Amr) under 'Also available in Qatar and Oman' (Oman per Privilee FAQ; no Oman footage)",
       "src": "IMG_4530.JPG",
       "kind": "image",
-      "dur": 2.4,
+      "dur": 1.4,
       "crop": {
         "x": 0.4,
         "y": 0.5
@@ -1058,6 +1058,24 @@
       "src": "IMG_3887.JPG",
       "kind": "brand",
       "dur": 1.0
+    },
+    "oman_insert": {
+      "beat": "Coverage — Muscat Corniche, Oman (Pexels stock, NOT Amr's footage — see copy/stock_credits.md)",
+      "src": "_stock/pexels-16460677-muscat-corniche.jpg",
+      "kind": "image",
+      "dur": 1.4,
+      "crop": {
+        "x": 0.45,
+        "y": 0.5
+      },
+      "move": {
+        "from": 1.04,
+        "to": 1.0
+      },
+      "grade": {
+        "look": "pool_beach"
+      },
+      "stock": true
     }
   },
   "variants": {
@@ -1115,6 +1133,7 @@
         "fight_rooftop",
         "gym_kb_b",
         "qatar_insert",
+        "oman_insert",
         "weekend_pool_1",
         "weekend_water",
         "weekend_pool_2",
@@ -1162,7 +1181,8 @@
         {
           "type": "coverage",
           "text": "Also available in\nQatar and Oman",
-          "shot": "qatar_insert"
+          "shot": "qatar_insert",
+          "endShot": "oman_insert"
         },
         {
           "type": "line",
@@ -1248,6 +1268,7 @@
         "fight_rooftop",
         "gym_kb_b",
         "qatar_insert",
+        "oman_insert",
         "weekend_pool_1",
         "weekend_water",
         "weekend_pool_2",
@@ -1295,7 +1316,8 @@
         {
           "type": "coverage",
           "text": "Also available in\nQatar and Oman",
-          "shot": "qatar_insert"
+          "shot": "qatar_insert",
+          "endShot": "oman_insert"
         },
         {
           "type": "line",
@@ -1385,7 +1407,11 @@
         },
         {
           "id": "qatar_insert",
-          "dur": 2.0
+          "dur": 1.1
+        },
+        {
+          "id": "oman_insert",
+          "dur": 1.1
         },
         {
           "id": "weekend_pool_1",
@@ -1439,7 +1465,8 @@
         {
           "type": "coverage",
           "text": "Also available in\nQatar and Oman",
-          "shot": "qatar_insert"
+          "shot": "qatar_insert",
+          "endShot": "oman_insert"
         },
         {
           "type": "line",

@@ -46,12 +46,7 @@
       "issues": [
         "Saved/edited app export (720p): clip audio muted — may contain music; not listened to"
       ],
-      "selected": true,
-      "freeze_frames": [
-        13.5,
-        22.5,
-        28.5
-      ]
+      "selected": true
     },
     "0BBB92FA-F4B7-46F5-8E2C-388041A923A3.jpg": {
       "path": "media/0BBB92FA-F4B7-46F5-8E2C-388041A923A3.jpg",
@@ -124,10 +119,7 @@
       "issues": [
         "Saved/edited app export (720p): clip audio muted — may contain music; not listened to"
       ],
-      "selected": true,
-      "freeze_frames": [
-        9.0
-      ]
+      "selected": true
     },
     "1fcea98c-d4cc-495b-9d38-b4bcda9535ce.jpg": {
       "path": "media/1fcea98c-d4cc-495b-9d38-b4bcda9535ce.jpg",
@@ -351,13 +343,7 @@
       "issues": [
         "Saved/edited app export (720p): clip audio muted — may contain music; not listened to"
       ],
-      "selected": true,
-      "freeze_frames": [
-        10.4,
-        14.6,
-        31.2,
-        43.7
-      ]
+      "selected": true
     },
     "66DC7D82-75DC-49AD-B349-4DF135972201.jpg": {
       "path": "media/66DC7D82-75DC-49AD-B349-4DF135972201.jpg",
@@ -507,11 +493,7 @@
       "issues": [
         "Saved/edited app export (720p): clip audio muted — may contain music; not listened to"
       ],
-      "selected": true,
-      "freeze_frames": [
-        11.2,
-        26.0
-      ]
+      "selected": true
     },
     "C08713EA-8E5A-46BE-BF59-4C73E0D48D52.jpg": {
       "path": "media/C08713EA-8E5A-46BE-BF59-4C73E0D48D52.jpg",
@@ -876,10 +858,7 @@
       "location_status": "confirmed",
       "location_evidence": "Embedded QuickTime GPS (private sidecar) + Dubai skyline visible; NOT used as an on-screen label",
       "issues": [],
-      "selected": true,
-      "freeze_frames": [
-        5.0
-      ]
+      "selected": true
     },
     "IMG_1313.MP4": {
       "path": "media/IMG_1313.MP4",
@@ -2225,10 +2204,7 @@
       "issues": [
         "Not used as the hook (Amr's request); used mid-film in the fight sequence"
       ],
-      "selected": true,
-      "freeze_frames": [
-        7.7
-      ]
+      "selected": true
     },
     "IMG_5243.JPEG": {
       "path": "media/IMG_5243.JPEG",
@@ -4302,10 +4278,7 @@
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": true,
-      "freeze_frames": [
-        7.7
-      ]
+      "selected": true
     },
     "IMG_6770.jpg": {
       "path": "media/IMG_6770.jpg",
@@ -5224,6 +5197,33 @@
       "location_evidence": "",
       "issues": [],
       "selected": false
+    },
+    "_stock/pexels-16460677-muscat-corniche.jpg": {
+      "path": "media/_stock/pexels-16460677-muscat-corniche.jpg",
+      "type": "image",
+      "thumbnail": "qa/thumbnails/pexels-16460677-muscat-corniche.jpg",
+      "technical": {
+        "decodable": true,
+        "display_size": [
+          2400,
+          3200
+        ],
+        "orientation": "portrait",
+        "icc_profile": false,
+        "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
+      },
+      "auto_issues": [],
+      "description": "STOCK (Pexels): Muscat Corniche road, sea and mountains",
+      "role": "country coverage",
+      "best_in": null,
+      "best_out": null,
+      "location": "Muscat, Oman",
+      "location_status": "confirmed",
+      "location_evidence": "Pexels photo page title + recognisable Muttrah Corniche; illustrative stock, not personal evidence",
+      "issues": [
+        "Stock image — must not be presented as Amr's own trip; licence in copy/stock_credits.md"
+      ],
+      "selected": true
     }
   },
   "_readme": "Technical fields are generated. Fill editorial fields after inspecting contact sheets/frames. role: personal hook | work context | gym variety | workout action | country coverage | pool/beach relaxation | closing portrait. location_status must stay 'unconfirmed' unless evidence (user note or corroborated recognisable place) is recorded — a filename alone is not evidence."
