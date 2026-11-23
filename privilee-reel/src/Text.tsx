@@ -52,7 +52,7 @@ const Eyebrow: React.FC<{ children: React.ReactNode; delay?: number; color?: str
 const Words: React.FC<{ text: string; size: number; delay?: number }> = ({ text, size, delay = 0 }) => {
   const frame = useCurrentFrame();
   return (
-    <span style={{ fontFamily: SANS, fontWeight: 700, fontSize: size, lineHeight: 1.18, letterSpacing: "-0.012em" }}>
+    <span style={{ fontFamily: SANS, fontWeight: 700, fontSize: size, lineHeight: 1.18, letterSpacing: "-0.012em", textWrap: "balance" } as React.CSSProperties}>
       {text.split(" ").map((w, i) => {
         const t = interpolate(frame, [delay + i * 2, delay + i * 2 + 10], [0, 1], { ...clamp, easing: ease });
         return (
@@ -145,7 +145,7 @@ export const OverlayText: React.FC<{ o: Overlay; layout: PlatformLayout; onLight
     return (
       <div style={{ ...box, top: 760 }}>
         <Eyebrow>{lines[0]}</Eyebrow>
-        <div style={{ fontFamily: SERIF, fontSize: 124, lineHeight: 1.0, letterSpacing: "-0.018em", textShadow: colors.shadow }}>
+        <div style={{ fontFamily: SERIF, fontSize: 104, lineHeight: 1.0, letterSpacing: "-0.02em", textShadow: colors.shadow, whiteSpace: "nowrap" }}>
           <MaskLine delay={3} style={{ fontWeight: 600 }}>
             {p1}
             {p2 ? (
@@ -164,7 +164,7 @@ export const OverlayText: React.FC<{ o: Overlay; layout: PlatformLayout; onLight
   }
   if (o.type === "line") {
     return (
-      <div style={{ ...box, top: layout.captionCenterY - 80, height: 160, display: "flex", alignItems: "center", justifyContent: "center", textShadow: o.boxed ? "none" : colors.softShadow }}>
+      <div style={{ ...box, top: layout.captionCenterY - 80, height: 160, display: "flex", alignItems: "center", justifyContent: "center", textShadow: o.boxed ? "none" : colors.softShadow, textWrap: "balance" } as React.CSSProperties}>
         <span style={o.boxed ? { background: "rgba(16,22,34,0.66)", backdropFilter: "blur(14px)", padding: "16px 32px 18px", borderRadius: 28 } : {}}>
           <Words text={o.text} size={56} />
         </span>

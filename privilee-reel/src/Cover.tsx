@@ -13,13 +13,13 @@ loadFonts();
 export const Cover: React.FC<CoverProps> = ({ title, shot }) => (
   <AbsoluteFill style={{ backgroundColor: "#000" }}>
     <Media shot={shot} ambience={false} still />
-    <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(0,0,0,0) 45%, rgba(0,0,0,0.38) 100%)" }} />
+    <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(0,0,0,0.10) 25%, rgba(0,0,0,0.30) 45%, rgba(0,0,0,0) 62%)" }} />
     <div
       style={{
         position: "absolute",
         left: 90,
         right: 90,
-        top: 1120,
+        top: 700,
         textAlign: "center",
         fontFamily: SERIF,
         fontWeight: 500,
