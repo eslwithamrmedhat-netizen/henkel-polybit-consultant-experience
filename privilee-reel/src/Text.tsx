@@ -91,7 +91,18 @@ export const OverlayText: React.FC<{ o: Overlay; layout: PlatformLayout; onLight
     // text-led review lines sit where captions will go once narration exists
     return (
       <div style={{ ...box, top: layout.captionCenterY - 70, height: 140, display: "flex", alignItems: "center", justifyContent: "center", textShadow: colors.softShadow }}>
-        <span style={{ fontFamily: SANS, fontSize: 48, fontWeight: 600, lineHeight: 1.22, letterSpacing: "-0.005em" }}>{o.text}</span>
+        <span
+          style={{
+            fontFamily: SANS,
+            fontSize: 48,
+            fontWeight: 600,
+            lineHeight: 1.22,
+            letterSpacing: "-0.005em",
+            ...(o.boxed ? { background: "rgba(18,24,36,0.62)", backdropFilter: "blur(14px)", padding: "14px 30px 16px", borderRadius: 26, textShadow: "none" } : {}),
+          }}
+        >
+          {o.text}
+        </span>
       </div>
     );
   }

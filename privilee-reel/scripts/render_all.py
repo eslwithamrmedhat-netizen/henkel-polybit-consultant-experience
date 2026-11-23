@@ -83,7 +83,7 @@ def out_name(rid: str, r: dict, props: dict) -> str:
 def render_one(rid: str, r: dict, dest_dir: Path, allow_template: bool) -> dict | None:
     props = build_props.build(rid)
     if props["isTemplate"] and not allow_template:
-        missing = [s["id"] for s in props["shots"] if s["src"] is None and s["kind"] != "coverage"]
+        missing = [s["id"] for s in props["shots"] if s["src"] is None and s["kind"] not in ("coverage", "phone", "brand")]
         print(f"SKIP {rid}: {len(missing)} shots still have no media ({', '.join(missing[:6])}{'…' if len(missing) > 6 else ''})")
         return None
     pfile = PROCESSED / "props" / f"{rid}.json"

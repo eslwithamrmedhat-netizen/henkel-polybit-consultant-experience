@@ -35,13 +35,24 @@ export type ShotProps = {
   trimBefore?: number;
   /** brand cards: a processed still shown blurred behind the logo so the frame is full */
   backdrop?: string | null;
-  /** phone shots: cropped Privilee icon (brand/…_icon.png) */
-  icon?: string;
+  /** phone shots: real app-moment assets */
+  phone?: PhoneSpec;
+};
+
+export type PhoneSpec = {
+  home: string;
+  homeSize: [number, number];
+  iconRect: [number, number, number, number];
+  icon: string;
+  splash: string;
+  screens: { src: string; size: [number, number]; weight: number; scroll?: number; tap?: [number, number, number, number] }[];
 };
 
 export type Overlay = {
   type: "hook" | "title" | "coverage" | "label" | "brand" | "line";
   text: string;
+  /** frosted backing for lines that sit over light UI (e.g. app screens) */
+  boxed?: boolean;
   from: number;
   durationInFrames: number;
 };

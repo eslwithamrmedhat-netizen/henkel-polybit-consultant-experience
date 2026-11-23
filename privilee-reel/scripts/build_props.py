@@ -56,7 +56,21 @@ def shot_props(shot: dict, mm: dict, looks: dict, start: int, cut_frames: int) -
         "hasAudio": bool(entry and entry.get("hasAudio")),
     }
     if p["kind"] == "phone":
-        p["icon"] = f"brand/{__import__('pathlib').Path(shot['icon']).stem}_icon.png"
+        from pathlib import Path as _P
+
+        from PIL import Image
+
+        ui = lambda src: f"brand/ui/{_P(src).stem}.png"
+        size = lambda rel: list(Image.open(PROCESSED / rel).size)
+        p["phone"] = {
+            "home": ui(shot["home"]["src"]),
+            "homeSize": size(ui(shot["home"]["src"])),
+            "iconRect": shot["iconRect"],
+            "icon": "brand/ui/privilee_icon.png",
+            "splash": ui(shot["splash"]["src"]),
+            "screens": [{"src": ui(sc["src"]), "size": size(ui(sc["src"])), "weight": sc.get("weight", 1.0), **({"scroll": sc["scroll"]} if "scroll" in sc else {}), **({"tap": sc["tap"]} if "tap" in sc else {})} for sc in shot["screens"]],
+        }
+        return p
     if shot.get("freeze"):
         p["kind"] = "image"
     elif entry and p["kind"] in ("video", "offer", "coverage"):
@@ -134,7 +148,7 @@ def build(render_id: str, guides: bool = False) -> dict:
                 b = a + f(o.get("hold", 2.0))
             else:
                 a, b = f(o["start"]), f(o["end"])
-            overlays.append({"type": o["type"], "text": o["text"], "from": a, "durationInFrames": max(1, b - a)})
+            overlays.append({"type": o["type"], "text": o["text"], "from": a, "durationInFrames": max(1, b - a), **({"boxed": True} if o.get("boxed") else {})})
         for lab in tl.get("locationLabels", []):
             if lab.get("verified") is True and lab.get("evidence") and lab.get("shot") in starts:
                 a = starts[lab["shot"]]
@@ -149,7 +163,7 @@ def build(render_id: str, guides: bool = False) -> dict:
             "showText": r.get("overlays", True),
         }
 
-    template = any(s["src"] is None and s["kind"] not in ("coverage",) for s in shots)
+    template = any(s["src"] is None and s["kind"] not in ("coverage", "phone", "brand") for s in shots)
     props = {
         "renderId": render_id,
         "variant": r["variant"],
