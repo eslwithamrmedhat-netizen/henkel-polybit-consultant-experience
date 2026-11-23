@@ -36,15 +36,17 @@
         "short side 720 px < 1080: upscaling needed for full-frame use",
         "has audio: listen for copyrighted gym music before using clip sound"
       ],
-      "description": "",
-      "role": "",
-      "best_in": null,
-      "best_out": null,
+      "description": "MATCH CUT A — pull-up, teal gym",
+      "role": "workout action",
+      "best_in": 0.6,
+      "best_out": 2.4,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
-      "issues": [],
-      "selected": false
+      "issues": [
+        "Saved/edited app export (720p): clip audio muted — may contain music; not listened to"
+      ],
+      "selected": true
     },
     "0BBB92FA-F4B7-46F5-8E2C-388041A923A3.jpg": {
       "path": "media/0BBB92FA-F4B7-46F5-8E2C-388041A923A3.jpg",
@@ -107,15 +109,17 @@
         "short side 720 px < 1080: upscaling needed for full-frame use",
         "has audio: listen for copyrighted gym music before using clip sound"
       ],
-      "description": "",
-      "role": "",
-      "best_in": null,
-      "best_out": null,
+      "description": "MATCH CUT B — same pull-up, neon gym",
+      "role": "workout action",
+      "best_in": 12.3,
+      "best_out": 14.1,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
-      "issues": [],
-      "selected": false
+      "issues": [
+        "Saved/edited app export (720p): clip audio muted — may contain music; not listened to"
+      ],
+      "selected": true
     },
     "1fcea98c-d4cc-495b-9d38-b4bcda9535ce.jpg": {
       "path": "media/1fcea98c-d4cc-495b-9d38-b4bcda9535ce.jpg",
@@ -139,7 +143,9 @@
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
-      "issues": [],
+      "issues": [
+        "Group photo with other identifiable people — excluded"
+      ],
       "selected": false
     },
     "232C0348-06BF-4C05-A1F6-C193EA349811.jpg": {
@@ -210,7 +216,10 @@
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
-      "issues": [],
+      "issues": [
+        "Padel court with sponsor banners + QR code — excluded",
+        "Saved/edited app export (720p): clip audio muted — may contain music; not listened to"
+      ],
       "selected": false
     },
     "3D06D48A-71C8-4ACB-83AF-E95AE10FA483.jpg": {
@@ -228,15 +237,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Weekend — resort pool & palms",
+      "role": "pool/beach relaxation",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "426ACC4E-24E0-4587-A502-6A04AFD2EEB5.jpg": {
       "path": "media/426ACC4E-24E0-4587-A502-6A04AFD2EEB5.jpg",
@@ -324,15 +333,17 @@
         "short side 720 px < 1080: upscaling needed for full-frame use",
         "has audio: listen for copyrighted gym music before using clip sound"
       ],
-      "description": "",
-      "role": "",
-      "best_in": null,
-      "best_out": null,
+      "description": "Gym A — deadlift (NorthFit)",
+      "role": "gym variety",
+      "best_in": 1.2,
+      "best_out": 3.2,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
-      "issues": [],
-      "selected": false
+      "issues": [
+        "Saved/edited app export (720p): clip audio muted — may contain music; not listened to"
+      ],
+      "selected": true
     },
     "66DC7D82-75DC-49AD-B349-4DF135972201.jpg": {
       "path": "media/66DC7D82-75DC-49AD-B349-4DF135972201.jpg",
@@ -424,15 +435,17 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Arrival — gym face-recognition check-in (device info masked)",
+      "role": "work context",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
-      "issues": [],
-      "selected": false
+      "issues": [
+        "Kiosk shows device IP / serial / IDs — masked in edit"
+      ],
+      "selected": true
     },
     "9DF88B99-FEFE-4103-A7DA-4A9725FEC411.MP4": {
       "path": "media/9DF88B99-FEFE-4103-A7DA-4A9725FEC411.MP4",
@@ -470,15 +483,17 @@
         "short side 720 px < 1080: upscaling needed for full-frame use",
         "has audio: listen for copyrighted gym music before using clip sound"
       ],
-      "description": "",
-      "role": "",
-      "best_in": null,
-      "best_out": null,
+      "description": "Gym B — box jump",
+      "role": "gym variety",
+      "best_in": 23.6,
+      "best_out": 39.4,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
-      "issues": [],
-      "selected": false
+      "issues": [
+        "Saved/edited app export (720p): clip audio muted — may contain music; not listened to"
+      ],
+      "selected": true
     },
     "C08713EA-8E5A-46BE-BF59-4C73E0D48D52.jpg": {
       "path": "media/C08713EA-8E5A-46BE-BF59-4C73E0D48D52.jpg",
@@ -495,15 +510,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Ending — marina pool view, fade",
+      "role": "pool/beach relaxation",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "C68CA62F-3919-41A6-B480-CC3637E0F0AA.jpg": {
       "path": "media/C68CA62F-3919-41A6-B480-CC3637E0F0AA.jpg",
@@ -545,15 +560,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Hook payoff — beach flash",
+      "role": "personal hook",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "IMG_0152.JPEG": {
       "path": "media/IMG_0152.JPEG",
@@ -835,15 +850,15 @@
         "HLG HDR: tone-map to SDR Rec.709 (automatic in normalize)",
         "has audio: listen for copyrighted gym music before using clip sound"
       ],
-      "description": "",
-      "role": "",
-      "best_in": null,
-      "best_out": null,
-      "location": null,
-      "location_status": "unconfirmed",
-      "location_evidence": "",
+      "description": "Open-air gym with towers — curls (iPhone HLG, GPS Dubai)",
+      "role": "gym variety",
+      "best_in": 1.8,
+      "best_out": 4.2,
+      "location": "Dubai",
+      "location_status": "confirmed",
+      "location_evidence": "Embedded QuickTime GPS (private sidecar) + Dubai skyline visible; NOT used as an on-screen label",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "IMG_1313.MP4": {
       "path": "media/IMG_1313.MP4",
@@ -881,15 +896,15 @@
         "short side 720 px < 1080: upscaling needed for full-frame use",
         "has audio: listen for copyrighted gym music before using clip sound"
       ],
-      "description": "",
-      "role": "",
-      "best_in": null,
-      "best_out": null,
+      "description": "Rooftop shadowboxing in the sun",
+      "role": "gym variety",
+      "best_in": 9.0,
+      "best_out": 10.6,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "IMG_1339.JPEG": {
       "path": "media/IMG_1339.JPEG",
@@ -985,7 +1000,9 @@
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
-      "issues": [],
+      "issues": [
+        "Third-party WHOOP stats overlay — excluded"
+      ],
       "selected": false
     },
     "IMG_1814.JPG": {
@@ -1272,7 +1289,9 @@
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
-      "issues": [],
+      "issues": [
+        "Muay Thai class with many identifiable people — excluded"
+      ],
       "selected": false
     },
     "IMG_2849.JPEG": {
@@ -1315,15 +1334,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "On the move — Sheikh Zayed Rd skyline from the road",
+      "role": "work context",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "IMG_2880.MOV": {
       "path": "media/IMG_2880.MOV",
@@ -1418,7 +1437,9 @@
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
-      "issues": [],
+      "issues": [
+        "White Friday offer artwork (reference, not personal footage) — copied to brand/; not used as a shot"
+      ],
       "selected": false
     },
     "IMG_3606.JPEG": {
@@ -1515,7 +1536,9 @@
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
-      "issues": [],
+      "issues": [
+        "Third-party WHOOP stats overlay — excluded"
+      ],
       "selected": false
     },
     "IMG_3834.JPEG": {
@@ -1611,7 +1634,9 @@
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
-      "issues": [],
+      "issues": [
+        "Copyrighted UFC fight posters — excluded"
+      ],
       "selected": false
     },
     "IMG_3842.JPEG": {
@@ -1736,7 +1761,9 @@
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
-      "issues": [],
+      "issues": [
+        "Privilee app icon screenshot, only 305x299 px — too small for full-frame use; brand mention done as text instead"
+      ],
       "selected": false
     },
     "IMG_3888.JPEG": {
@@ -2053,7 +2080,9 @@
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
-      "issues": [],
+      "issues": [
+        "Skyline possibly Doha — no GPS/notes, so NOT labelled or used as Qatar evidence"
+      ],
       "selected": false
     },
     "IMG_4955.JPEG": {
@@ -2118,15 +2147,15 @@
         "variable frame rate suspected: conform to 30 fps CFR during normalize",
         "has audio: listen for copyrighted gym music before using clip sound"
       ],
-      "description": "",
-      "role": "",
-      "best_in": null,
-      "best_out": null,
+      "description": "Weekend — rooftop lap pool (Live Photo motion)",
+      "role": "pool/beach relaxation",
+      "best_in": 0.0,
+      "best_out": 1.8,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "IMG_4964.MOV": {
       "path": "media/IMG_4964.MOV",
@@ -2165,15 +2194,15 @@
         "HLG HDR: tone-map to SDR Rec.709 (automatic in normalize)",
         "has audio: listen for copyrighted gym music before using clip sound"
       ],
-      "description": "",
-      "role": "",
-      "best_in": null,
-      "best_out": null,
+      "description": "Hook — shadowboxing on a rooftop between towers (iPhone HLG)",
+      "role": "personal hook",
+      "best_in": 3.9,
+      "best_out": 5.4,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "IMG_5243.JPEG": {
       "path": "media/IMG_5243.JPEG",
@@ -2262,15 +2291,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Detail — hand wraps",
+      "role": "gym variety",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "IMG_5280.MOV": {
       "path": "media/IMG_5280.MOV",
@@ -2627,7 +2656,9 @@
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
-      "issues": [],
+      "issues": [
+        "Third-party WHOOP stats overlay — excluded"
+      ],
       "selected": false
     },
     "IMG_5553.JPEG": {
@@ -2742,15 +2773,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Weekend — golden-hour portrait",
+      "role": "pool/beach relaxation",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "IMG_5772.JPEG": {
       "path": "media/IMG_5772.JPEG",
@@ -2943,7 +2974,9 @@
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
-      "issues": [],
+      "issues": [
+        "Food photo — off-story"
+      ],
       "selected": false
     },
     "IMG_5783.JPEG": {
@@ -3102,15 +3135,15 @@
         "short side 720 px < 1080: upscaling needed for full-frame use",
         "variable frame rate suspected: conform to 30 fps CFR during normalize"
       ],
-      "description": "",
-      "role": "",
-      "best_in": null,
-      "best_out": null,
+      "description": "Weekend — water huts + marina skyline (Live Photo motion)",
+      "role": "pool/beach relaxation",
+      "best_in": 0.05,
+      "best_out": 2.25,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "IMG_5804.JPEG": {
       "path": "media/IMG_5804.JPEG",
@@ -4012,15 +4045,15 @@
         "variable frame rate suspected: conform to 30 fps CFR during normalize",
         "has audio: listen for copyrighted gym music before using clip sound"
       ],
-      "description": "",
-      "role": "",
-      "best_in": null,
-      "best_out": null,
+      "description": "Weekend — sea, buoy, Burj Al Arab (Live Photo motion)",
+      "role": "pool/beach relaxation",
+      "best_in": 0.1,
+      "best_out": 2.3,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "IMG_6226.JPEG": {
       "path": "media/IMG_6226.JPEG",
@@ -4190,7 +4223,9 @@
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
-      "issues": [],
+      "issues": [
+        "Group photo with other identifiable people — excluded"
+      ],
       "selected": false
     },
     "IMG_6762.MOV": {
@@ -4229,15 +4264,15 @@
         "HLG HDR: tone-map to SDR Rec.709 (automatic in normalize)",
         "has audio: listen for copyrighted gym music before using clip sound"
       ],
-      "description": "",
-      "role": "",
-      "best_in": null,
-      "best_out": null,
+      "description": "Gym C — kicks on the red floor (iPhone HLG)",
+      "role": "gym variety",
+      "best_in": 3.7,
+      "best_out": 5.3,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "IMG_6770.jpg": {
       "path": "media/IMG_6770.jpg",
@@ -4357,7 +4392,9 @@
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
-      "issues": [],
+      "issues": [
+        "Third-party WHOOP stats overlay — excluded"
+      ],
       "selected": false
     },
     "IMG_7144.JPG": {
@@ -4472,15 +4509,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Work — lobby with skyline windows",
+      "role": "work context",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "IMG_7176.MOV": {
       "path": "media/IMG_7176.MOV",
@@ -4643,15 +4680,15 @@
       "auto_issues": [
         "short side 941 px < 1080: upscaling needed for full-frame use"
       ],
-      "description": "",
-      "role": "",
+      "description": "Work — city from above",
+      "role": "work context",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "shared104.jpg": {
       "path": "media/shared104.jpg",
@@ -4768,15 +4805,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Same routine montage — mirror selfie 2",
+      "role": "gym variety",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "shared158.jpg": {
       "path": "media/shared158.jpg",
@@ -4793,15 +4830,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Same routine montage — mirror selfie 3",
+      "role": "gym variety",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "shared171.jpg": {
       "path": "media/shared171.jpg",
@@ -4818,15 +4855,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Same routine montage — mirror selfie 4",
+      "role": "gym variety",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "shared2-1.jpg": {
       "path": "media/shared2-1.jpg",
@@ -4843,15 +4880,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Same routine montage — mirror selfie 1",
+      "role": "gym variety",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "shared2.jpg": {
       "path": "media/shared2.jpg",
@@ -4918,15 +4955,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Weekend — infinity pool, golden skyline",
+      "role": "pool/beach relaxation",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "shared43.jpg": {
       "path": "media/shared43.jpg",
@@ -4943,15 +4980,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Hook — smiling portrait",
+      "role": "personal hook",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "shared52.jpg": {
       "path": "media/shared52.jpg",
@@ -4968,15 +5005,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Closing — smiling at the pool, Burj Khalifa behind",
+      "role": "closing portrait",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "shared64-1.jpg": {
       "path": "media/shared64-1.jpg",
@@ -5093,15 +5130,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Same routine montage — mirror selfie 5 (outdoor)",
+      "role": "gym variety",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "shared86.JPEG": {
       "path": "media/shared86.JPEG",
@@ -5118,15 +5155,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Same routine montage — mirror selfie 6",
+      "role": "gym variety",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "shared96.jpg": {
       "path": "media/shared96.jpg",
