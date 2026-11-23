@@ -47,6 +47,13 @@ def loudness_finish(src: Path, dst: Path, muted: bool) -> dict:
         run(cmd)
         LOG.append({"step": f"finish {dst.name}", "cmd": " ".join(cmd)})
         return {"audio": "none"}
+    has_audio = any(s.get("codec_type") == "audio" for s in __import__("common").ffprobe(src).get("streams", []))
+    if not has_audio:  # Remotion omits the track when every source is silent: add an explicit silent one
+        cmd = ["ffmpeg", "-v", "error", "-y", "-i", str(src), "-f", "lavfi", "-i", "anullsrc=r=48000:cl=stereo",
+               "-map", "0:v:0", "-map", "1:a:0", "-c:v", "copy", "-c:a", "aac", "-b:a", "128k", "-shortest", "-movflags", "+faststart", str(dst)]
+        run(cmd)
+        LOG.append({"step": f"finish {dst.name}", "cmd": " ".join(cmd)})
+        return {"audio": "silent track (no narration/music/ambience integrated yet)"}
     probe = run(["ffmpeg", "-hide_banner", "-i", str(src), "-af", f"loudnorm=I={TARGET_I}:TP={TARGET_TP}:LRA={TARGET_LRA}:print_format=json", "-f", "null", "-"], check=False)
     txt = probe.stderr
     m = json.loads(txt[txt.rfind("{"): txt.rfind("}") + 1]) if "{" in txt else {}
