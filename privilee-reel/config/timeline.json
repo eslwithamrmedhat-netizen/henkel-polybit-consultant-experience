@@ -1113,35 +1113,6 @@
       },
       "clipVolume": 0.0
     },
-    "rc_padel": {
-      "beat": "Recap — rooftop padel court, skyline",
-      "src": "IMG_9819.jpg",
-      "kind": "image",
-      "dur": 0.17,
-      "crop": {
-        "x": 0.5,
-        "y": 0.5
-      },
-      "move": null,
-      "grade": {
-        "look": "work_city"
-      }
-    },
-    "rc_mouthguard": {
-      "beat": "Recap — mouthguard + wraps",
-      "src": "IMG_3976.JPG",
-      "kind": "image",
-      "dur": 0.17,
-      "crop": {
-        "x": 0.5,
-        "y": 0.4
-      },
-      "move": null,
-      "grade": {
-        "look": "gym_indoor"
-      },
-      "selfie": true
-    },
     "rc_burj_palms": {
       "beat": "Recap — Burj Khalifa framed by palms",
       "src": "IMG_5965.JPEG",
@@ -1184,29 +1155,6 @@
         "look": "pool_beach"
       }
     },
-    "rc_corridor": {
-      "beat": "Recap — red heavy-bag corridor",
-      "src": "IMG_3920.jpg",
-      "kind": "image",
-      "dur": 0.17,
-      "crop": {
-        "x": 0.5,
-        "y": 0.5
-      },
-      "move": null,
-      "grade": {
-        "look": "gym_indoor",
-        "match": 0.9,
-        "gamma": 1.14,
-        "huesat": [
-          {
-            "colors": "r+m",
-            "saturation": -0.45,
-            "strength": 3
-          }
-        ]
-      }
-    },
     "rc_muscat": {
       "beat": "Recap — Muscat corniche",
       "src": "_stock/pexels-16460677-muscat-corniche.jpg",
@@ -1234,20 +1182,6 @@
       "move": null,
       "grade": {
         "look": "pool_beach"
-      }
-    },
-    "rc_glove": {
-      "beat": "Recap — glove on the knee",
-      "src": "IMG_0782.JPEG",
-      "kind": "image",
-      "dur": 0.17,
-      "crop": {
-        "x": 0.5,
-        "y": 0.5
-      },
-      "move": null,
-      "grade": {
-        "look": "gym_indoor"
       }
     },
     "rc_marina": {
@@ -1278,20 +1212,6 @@
         "look": "pool_beach"
       }
     },
-    "rc_lobby": {
-      "beat": "Recap — lobby with skyline windows",
-      "src": "IMG_7176.JPEG",
-      "kind": "image",
-      "dur": 0.17,
-      "crop": {
-        "x": 0.5,
-        "y": 0.5
-      },
-      "move": null,
-      "grade": {
-        "look": "work_city"
-      }
-    },
     "rc_infinity": {
       "beat": "Recap — infinity pool against rocks",
       "src": "IMG_6164.JPEG",
@@ -1309,6 +1229,123 @@
     "rc_tower_pool": {
       "beat": "Recap — pool between towers with palm",
       "src": "IMG_6106.JPEG",
+      "kind": "image",
+      "dur": 0.17,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "move": null,
+      "grade": {
+        "look": "pool_beach"
+      }
+    },
+    "rc_rooftop_sunset": {
+      "beat": "Recap — rooftop gym at sunset",
+      "src": "IMG_0152.JPEG",
+      "kind": "image",
+      "dur": 0.17,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "move": null,
+      "grade": {
+        "look": "golden_portrait"
+      }
+    },
+    "rc_red_gloves": {
+      "beat": "Recap — red boxing gloves on the mat",
+      "src": "C68CA62F-3919-41A6-B480-CC3637E0F0AA.jpg",
+      "kind": "image",
+      "dur": 0.17,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "move": null,
+      "grade": {
+        "look": "neutral",
+        "match": 0.25,
+        "tameNeon": false
+      }
+    },
+    "rc_flame_tree": {
+      "beat": "Recap — flame tree in bloom",
+      "src": "IMG_6229.JPEG",
+      "kind": "image",
+      "dur": 0.17,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "move": null,
+      "grade": {
+        "look": "work_city"
+      }
+    },
+    "rc_dumbbells": {
+      "beat": "Recap — dumbbells + kettlebell from above",
+      "src": "IMG_5969.JPEG",
+      "kind": "image",
+      "dur": 0.17,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "move": null,
+      "grade": {
+        "look": "gym_indoor",
+        "tameNeon": false
+      }
+    },
+    "rc_atlantis": {
+      "beat": "Recap — Atlantis across the sea",
+      "src": "IMG_5353.JPEG",
+      "kind": "image",
+      "dur": 0.17,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "move": null,
+      "grade": {
+        "look": "pool_beach"
+      }
+    },
+    "rc_gear": {
+      "beat": "Recap — Fairtex shin guards + wraps",
+      "src": "8D518E7F-4F06-4205-BD46-BBDA13754D6E.jpg",
+      "kind": "image",
+      "dur": 0.17,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "move": null,
+      "grade": {
+        "look": "neutral",
+        "match": 0.25,
+        "tameNeon": false
+      }
+    },
+    "rc_sunset_gym": {
+      "beat": "Recap — gym window at sunset",
+      "src": "IMG_5606.JPEG",
+      "kind": "image",
+      "dur": 0.17,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "move": null,
+      "grade": {
+        "look": "golden_portrait"
+      }
+    },
+    "rc_burj_pool": {
+      "beat": "Recap — Burj Khalifa over a pool",
+      "src": "IMG_6039.JPEG",
       "kind": "image",
       "dur": 0.17,
       "crop": {
@@ -1382,19 +1419,22 @@
         "weekend_sea",
         "weekend_rooftop",
         "weekend_walk",
-        "rc_padel",
-        "rc_mouthguard",
+        "rc_rooftop_sunset",
         "rc_burj_palms",
+        "rc_red_gloves",
         "rc_tower_pool",
         "rc_doha",
+        "rc_flame_tree",
         "rc_palm_pool",
-        "rc_corridor",
+        "rc_dumbbells",
         "rc_muscat",
         "rc_rooftop_pool",
-        "rc_glove",
+        "rc_atlantis",
+        "rc_gear",
         "rc_marina",
         "rc_burj_arab",
-        "rc_lobby",
+        "rc_sunset_gym",
+        "rc_burj_pool",
         "rc_infinity",
         {
           "id": "closing_portrait",
@@ -1458,7 +1498,7 @@
         {
           "type": "title",
           "text": "Different cities.\nSame routine.",
-          "shot": "rc_padel",
+          "shot": "rc_rooftop_sunset",
           "endShot": "final_image",
           "endOffset": -0.6
         }
@@ -1538,19 +1578,22 @@
         "weekend_sea",
         "weekend_rooftop",
         "weekend_walk",
-        "rc_padel",
-        "rc_mouthguard",
+        "rc_rooftop_sunset",
         "rc_burj_palms",
+        "rc_red_gloves",
         "rc_tower_pool",
         "rc_doha",
+        "rc_flame_tree",
         "rc_palm_pool",
-        "rc_corridor",
+        "rc_dumbbells",
         "rc_muscat",
         "rc_rooftop_pool",
-        "rc_glove",
+        "rc_atlantis",
+        "rc_gear",
         "rc_marina",
         "rc_burj_arab",
-        "rc_lobby",
+        "rc_sunset_gym",
+        "rc_burj_pool",
         "rc_infinity",
         {
           "id": "closing_portrait",
@@ -1614,7 +1657,7 @@
         {
           "type": "title",
           "text": "Different cities.\nSame routine.",
-          "shot": "rc_padel",
+          "shot": "rc_rooftop_sunset",
           "endShot": "final_image",
           "endOffset": -0.6
         }
@@ -1713,14 +1756,14 @@
           "id": "weekend_sea",
           "dur": 1.4
         },
-        "rc_padel",
-        "rc_mouthguard",
+        "rc_rooftop_sunset",
         "rc_burj_palms",
         "rc_doha",
-        "rc_tower_pool",
+        "rc_red_gloves",
         "rc_muscat",
+        "rc_flame_tree",
         "rc_rooftop_pool",
-        "rc_palm_pool",
+        "rc_infinity",
         {
           "id": "closing_portrait",
           "dur": 1.4
@@ -1776,7 +1819,7 @@
         {
           "type": "title",
           "text": "Different cities.\nSame routine.",
-          "shot": "rc_padel",
+          "shot": "rc_rooftop_sunset",
           "endShot": "final_image",
           "endOffset": -0.6
         }
@@ -1842,17 +1885,20 @@
         "weekend_sea",
         "weekend_rooftop",
         "weekend_walk",
-        "rc_padel",
-        "rc_mouthguard",
+        "rc_rooftop_sunset",
         "rc_burj_palms",
+        "rc_red_gloves",
         "rc_tower_pool",
+        "rc_flame_tree",
         "rc_palm_pool",
-        "rc_corridor",
+        "rc_dumbbells",
         "rc_rooftop_pool",
-        "rc_glove",
+        "rc_atlantis",
+        "rc_gear",
         "rc_marina",
         "rc_burj_arab",
-        "rc_lobby",
+        "rc_sunset_gym",
+        "rc_burj_pool",
         "rc_infinity",
         {
           "id": "closing_portrait",
@@ -1907,7 +1953,7 @@
         {
           "type": "title",
           "text": "Different cities.\nSame routine.",
-          "shot": "rc_padel",
+          "shot": "rc_rooftop_sunset",
           "endShot": "closing_portrait"
         }
       ]
