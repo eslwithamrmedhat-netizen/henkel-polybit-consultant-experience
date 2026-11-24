@@ -732,15 +732,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Recap — palm-lined pool",
+      "role": "recap still",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "IMG_1279.JPEG": {
       "path": "media/IMG_1279.JPEG",
@@ -2100,15 +2100,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Recap — rooftop pool between towers",
+      "role": "recap still",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "IMG_4955.MOV": {
       "path": "media/IMG_4955.MOV",
@@ -2222,15 +2222,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Recap — turquoise marina canal + skyline",
+      "role": "recap still",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "IMG_5243.MOV": {
       "path": "media/IMG_5243.MOV",
@@ -2875,15 +2875,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Recap — Burj Al Arab across the sea",
+      "role": "recap still",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "IMG_5780.JPEG": {
       "path": "media/IMG_5780.JPEG",
@@ -3378,15 +3378,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Recap — Burj Khalifa framed by palms",
+      "role": "recap still",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "IMG_5965.MOV": {
       "path": "media/IMG_5965.MOV",
@@ -3763,15 +3763,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Pool between towers with palm",
+      "role": "recap still",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "IMG_6106.MOV": {
       "path": "media/IMG_6106.MOV",
@@ -3907,15 +3907,15 @@
         "dynamic_range": "SDR (still; HDR gain map, if any, ignored)"
       },
       "auto_issues": [],
-      "description": "",
-      "role": "",
+      "description": "Recap — infinity pool against rocks",
+      "role": "recap still",
       "best_in": null,
       "best_out": null,
       "location": null,
       "location_status": "unconfirmed",
       "location_evidence": "",
       "issues": [],
-      "selected": false
+      "selected": true
     },
     "IMG_6164.MOV": {
       "path": "media/IMG_6164.MOV",

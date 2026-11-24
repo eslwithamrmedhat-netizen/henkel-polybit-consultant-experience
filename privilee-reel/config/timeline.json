@@ -1113,24 +1113,8 @@
       },
       "clipVolume": 0.0
     },
-    "rc_frz_1": {
-      "beat": "Recap — Freeze — front squat (NorthFit)",
-      "src": "5719DD3E-04BA-4A82-A6C0-B05858B6D2C2.MP4",
-      "kind": "video",
-      "freeze": true,
-      "in": 10.4,
-      "dur": 0.17,
-      "crop": {
-        "x": 0.5,
-        "y": 0.5
-      },
-      "move": null,
-      "grade": {
-        "look": "gym_indoor"
-      }
-    },
-    "rc_loc_padel": {
-      "beat": "Recap — Location — rooftop padel court with skyline",
+    "rc_padel": {
+      "beat": "Recap — rooftop padel court, skyline",
       "src": "IMG_9819.jpg",
       "kind": "image",
       "dur": 0.17,
@@ -1143,143 +1127,8 @@
         "look": "work_city"
       }
     },
-    "rc_frz_9": {
-      "beat": "Recap — Freeze — rope climb (NorthFit)",
-      "src": "5719DD3E-04BA-4A82-A6C0-B05858B6D2C2.MP4",
-      "kind": "video",
-      "freeze": true,
-      "in": 31.2,
-      "dur": 0.17,
-      "crop": {
-        "x": 0.5,
-        "y": 0.5
-      },
-      "move": null,
-      "grade": {
-        "look": "gym_indoor"
-      }
-    },
-    "rc_qatar_insert": {
-      "beat": "Recap — Coverage — Doha photo (confirmed by Amr) under 'Also available in Qatar and Oman' (Oman per Privilee FAQ; no Oman footage)",
-      "src": "IMG_4530.JPG",
-      "kind": "image",
-      "dur": 0.17,
-      "crop": {
-        "x": 0.4,
-        "y": 0.5
-      },
-      "move": null,
-      "grade": {
-        "look": "work_city"
-      }
-    },
-    "rc_sel_3": {
-      "beat": "Recap — Same routine montage — mirror selfie 3",
-      "src": "shared158.jpg",
-      "kind": "image",
-      "dur": 0.17,
-      "crop": {
-        "x": 0.5,
-        "y": 0.45
-      },
-      "move": null,
-      "grade": {
-        "look": "gym_indoor"
-      },
-      "selfie": true
-    },
-    "rc_frz_12": {
-      "beat": "Recap — Freeze — football kick, red floor",
-      "src": "IMG_6762.MOV",
-      "kind": "video",
-      "freeze": true,
-      "in": 7.7,
-      "dur": 0.17,
-      "crop": {
-        "x": 0.52,
-        "y": 0.47,
-        "zoom": 1.5
-      },
-      "move": null,
-      "grade": {
-        "look": "gym_indoor"
-      }
-    },
-    "rc_oman_insert": {
-      "beat": "Recap — Coverage — Muscat Corniche, Oman (Pexels stock, NOT Amr's footage — see copy/stock_credits.md)",
-      "src": "_stock/pexels-16460677-muscat-corniche.jpg",
-      "kind": "image",
-      "dur": 0.17,
-      "crop": {
-        "x": 0.45,
-        "y": 0.5
-      },
-      "move": null,
-      "grade": {
-        "look": "pool_beach"
-      },
-      "stock": true
-    },
-    "rc_fight_cage": {
-      "beat": "Recap — Fight — in the cage with red gloves",
-      "src": "IMG_3880.JPG",
-      "kind": "image",
-      "dur": 0.17,
-      "crop": {
-        "x": 0.5,
-        "y": 0.5
-      },
-      "move": null,
-      "grade": {
-        "look": "gym_indoor"
-      }
-    },
-    "rc_loc_roof": {
-      "beat": "Recap — Location — rooftop gym between towers",
-      "src": "IMG_1279.JPEG",
-      "kind": "image",
-      "dur": 0.17,
-      "crop": {
-        "x": 0.5,
-        "y": 0.5
-      },
-      "move": null,
-      "grade": {
-        "look": "work_city"
-      }
-    },
-    "rc_frz_5": {
-      "beat": "Recap — Freeze — overhead kettlebell press (NorthFit)",
-      "src": "5719DD3E-04BA-4A82-A6C0-B05858B6D2C2.MP4",
-      "kind": "video",
-      "freeze": true,
-      "in": 14.6,
-      "dur": 0.17,
-      "crop": {
-        "x": 0.5,
-        "y": 0.5
-      },
-      "move": null,
-      "grade": {
-        "look": "gym_indoor"
-      }
-    },
-    "rc_work_2": {
-      "beat": "Recap — Work — lobby with skyline windows",
-      "src": "IMG_7176.JPEG",
-      "kind": "image",
-      "dur": 0.17,
-      "crop": {
-        "x": 0.5,
-        "y": 0.5
-      },
-      "move": null,
-      "grade": {
-        "look": "work_city"
-      }
-    },
-    "rc_fight_mouthguard": {
-      "beat": "Recap — Fight — mouthguard selfie with wraps",
+    "rc_mouthguard": {
+      "beat": "Recap — mouthguard + wraps",
       "src": "IMG_3976.JPG",
       "kind": "image",
       "dur": 0.17,
@@ -1293,9 +1142,37 @@
       },
       "selfie": true
     },
-    "rc_weekend_pool_2": {
-      "beat": "Recap — Weekend — resort pool & palms",
-      "src": "3D06D48A-71C8-4ACB-83AF-E95AE10FA483.jpg",
+    "rc_burj_palms": {
+      "beat": "Recap — Burj Khalifa framed by palms",
+      "src": "IMG_5965.JPEG",
+      "kind": "image",
+      "dur": 0.17,
+      "crop": {
+        "x": 0.5,
+        "y": 0.45
+      },
+      "move": null,
+      "grade": {
+        "look": "work_city"
+      }
+    },
+    "rc_doha": {
+      "beat": "Recap — Doha West Bay",
+      "src": "IMG_4530.JPG",
+      "kind": "image",
+      "dur": 0.17,
+      "crop": {
+        "x": 0.4,
+        "y": 0.5
+      },
+      "move": null,
+      "grade": {
+        "look": "work_city"
+      }
+    },
+    "rc_palm_pool": {
+      "beat": "Recap — palm-lined pool",
+      "src": "IMG_1127.JPEG",
       "kind": "image",
       "dur": 0.17,
       "crop": {
@@ -1307,9 +1184,131 @@
         "look": "pool_beach"
       }
     },
-    "rc_hook_outdoor": {
-      "beat": "Recap — beach (echoes the opening)",
-      "src": "CD9F4FF0-6A5D-4719-B864-C2BB256EB01B.jpg",
+    "rc_corridor": {
+      "beat": "Recap — red heavy-bag corridor",
+      "src": "IMG_3920.jpg",
+      "kind": "image",
+      "dur": 0.17,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "move": null,
+      "grade": {
+        "look": "gym_indoor",
+        "match": 0.9,
+        "gamma": 1.14,
+        "huesat": [
+          {
+            "colors": "r+m",
+            "saturation": -0.45,
+            "strength": 3
+          }
+        ]
+      }
+    },
+    "rc_muscat": {
+      "beat": "Recap — Muscat corniche",
+      "src": "_stock/pexels-16460677-muscat-corniche.jpg",
+      "kind": "image",
+      "dur": 0.17,
+      "crop": {
+        "x": 0.45,
+        "y": 0.5
+      },
+      "move": null,
+      "grade": {
+        "look": "pool_beach"
+      },
+      "stock": true
+    },
+    "rc_rooftop_pool": {
+      "beat": "Recap — rooftop pool between towers",
+      "src": "IMG_4955.JPEG",
+      "kind": "image",
+      "dur": 0.17,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "move": null,
+      "grade": {
+        "look": "pool_beach"
+      }
+    },
+    "rc_glove": {
+      "beat": "Recap — glove on the knee",
+      "src": "IMG_0782.JPEG",
+      "kind": "image",
+      "dur": 0.17,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "move": null,
+      "grade": {
+        "look": "gym_indoor"
+      }
+    },
+    "rc_marina": {
+      "beat": "Recap — turquoise marina canal + skyline",
+      "src": "IMG_5243.JPEG",
+      "kind": "image",
+      "dur": 0.17,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "move": null,
+      "grade": {
+        "look": "pool_beach"
+      }
+    },
+    "rc_burj_arab": {
+      "beat": "Recap — Burj Al Arab across the sea",
+      "src": "IMG_5776.jpg",
+      "kind": "image",
+      "dur": 0.17,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "move": null,
+      "grade": {
+        "look": "pool_beach"
+      }
+    },
+    "rc_lobby": {
+      "beat": "Recap — lobby with skyline windows",
+      "src": "IMG_7176.JPEG",
+      "kind": "image",
+      "dur": 0.17,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "move": null,
+      "grade": {
+        "look": "work_city"
+      }
+    },
+    "rc_infinity": {
+      "beat": "Recap — infinity pool against rocks",
+      "src": "IMG_6164.JPEG",
+      "kind": "image",
+      "dur": 0.17,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "move": null,
+      "grade": {
+        "look": "pool_beach"
+      }
+    },
+    "rc_tower_pool": {
+      "beat": "Recap — pool between towers with palm",
+      "src": "IMG_6106.JPEG",
       "kind": "image",
       "dur": 0.17,
       "crop": {
@@ -1383,20 +1382,20 @@
         "weekend_sea",
         "weekend_rooftop",
         "weekend_walk",
-        "rc_frz_1",
-        "rc_loc_padel",
-        "rc_frz_9",
-        "rc_qatar_insert",
-        "rc_sel_3",
-        "rc_frz_12",
-        "rc_oman_insert",
-        "rc_fight_cage",
-        "rc_loc_roof",
-        "rc_frz_5",
-        "rc_work_2",
-        "rc_fight_mouthguard",
-        "rc_weekend_pool_2",
-        "rc_hook_outdoor",
+        "rc_padel",
+        "rc_mouthguard",
+        "rc_burj_palms",
+        "rc_tower_pool",
+        "rc_doha",
+        "rc_palm_pool",
+        "rc_corridor",
+        "rc_muscat",
+        "rc_rooftop_pool",
+        "rc_glove",
+        "rc_marina",
+        "rc_burj_arab",
+        "rc_lobby",
+        "rc_infinity",
         {
           "id": "closing_portrait",
           "dur": 1.6
@@ -1459,7 +1458,7 @@
         {
           "type": "title",
           "text": "Different cities.\nSame routine.",
-          "shot": "rc_frz_1",
+          "shot": "rc_padel",
           "endShot": "final_image",
           "endOffset": -0.6
         }
@@ -1539,20 +1538,20 @@
         "weekend_sea",
         "weekend_rooftop",
         "weekend_walk",
-        "rc_frz_1",
-        "rc_loc_padel",
-        "rc_frz_9",
-        "rc_qatar_insert",
-        "rc_sel_3",
-        "rc_frz_12",
-        "rc_oman_insert",
-        "rc_fight_cage",
-        "rc_loc_roof",
-        "rc_frz_5",
-        "rc_work_2",
-        "rc_fight_mouthguard",
-        "rc_weekend_pool_2",
-        "rc_hook_outdoor",
+        "rc_padel",
+        "rc_mouthguard",
+        "rc_burj_palms",
+        "rc_tower_pool",
+        "rc_doha",
+        "rc_palm_pool",
+        "rc_corridor",
+        "rc_muscat",
+        "rc_rooftop_pool",
+        "rc_glove",
+        "rc_marina",
+        "rc_burj_arab",
+        "rc_lobby",
+        "rc_infinity",
         {
           "id": "closing_portrait",
           "dur": 1.6
@@ -1615,7 +1614,7 @@
         {
           "type": "title",
           "text": "Different cities.\nSame routine.",
-          "shot": "rc_frz_1",
+          "shot": "rc_padel",
           "endShot": "final_image",
           "endOffset": -0.6
         }
@@ -1714,14 +1713,14 @@
           "id": "weekend_sea",
           "dur": 1.4
         },
-        "rc_frz_1",
-        "rc_loc_padel",
-        "rc_qatar_insert",
-        "rc_frz_12",
-        "rc_oman_insert",
-        "rc_fight_cage",
-        "rc_work_2",
-        "rc_hook_outdoor",
+        "rc_padel",
+        "rc_mouthguard",
+        "rc_burj_palms",
+        "rc_doha",
+        "rc_tower_pool",
+        "rc_muscat",
+        "rc_rooftop_pool",
+        "rc_palm_pool",
         {
           "id": "closing_portrait",
           "dur": 1.4
@@ -1777,7 +1776,7 @@
         {
           "type": "title",
           "text": "Different cities.\nSame routine.",
-          "shot": "rc_frz_1",
+          "shot": "rc_padel",
           "endShot": "final_image",
           "endOffset": -0.6
         }
@@ -1843,18 +1842,18 @@
         "weekend_sea",
         "weekend_rooftop",
         "weekend_walk",
-        "rc_frz_1",
-        "rc_loc_padel",
-        "rc_frz_9",
-        "rc_sel_3",
-        "rc_frz_12",
-        "rc_fight_cage",
-        "rc_loc_roof",
-        "rc_frz_5",
-        "rc_work_2",
-        "rc_fight_mouthguard",
-        "rc_weekend_pool_2",
-        "rc_hook_outdoor",
+        "rc_padel",
+        "rc_mouthguard",
+        "rc_burj_palms",
+        "rc_tower_pool",
+        "rc_palm_pool",
+        "rc_corridor",
+        "rc_rooftop_pool",
+        "rc_glove",
+        "rc_marina",
+        "rc_burj_arab",
+        "rc_lobby",
+        "rc_infinity",
         {
           "id": "closing_portrait",
           "dur": 1.4
@@ -1908,7 +1907,7 @@
         {
           "type": "title",
           "text": "Different cities.\nSame routine.",
-          "shot": "rc_frz_1",
+          "shot": "rc_padel",
           "endShot": "closing_portrait"
         }
       ]
