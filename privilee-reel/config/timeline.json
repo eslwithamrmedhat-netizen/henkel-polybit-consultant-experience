@@ -1112,6 +1112,214 @@
         "look": "gym_indoor"
       },
       "clipVolume": 0.0
+    },
+    "rc_frz_1": {
+      "beat": "Recap — Freeze — front squat (NorthFit)",
+      "src": "5719DD3E-04BA-4A82-A6C0-B05858B6D2C2.MP4",
+      "kind": "video",
+      "freeze": true,
+      "in": 10.4,
+      "dur": 0.17,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "move": null,
+      "grade": {
+        "look": "gym_indoor"
+      }
+    },
+    "rc_loc_padel": {
+      "beat": "Recap — Location — rooftop padel court with skyline",
+      "src": "IMG_9819.jpg",
+      "kind": "image",
+      "dur": 0.17,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "move": null,
+      "grade": {
+        "look": "work_city"
+      }
+    },
+    "rc_frz_9": {
+      "beat": "Recap — Freeze — rope climb (NorthFit)",
+      "src": "5719DD3E-04BA-4A82-A6C0-B05858B6D2C2.MP4",
+      "kind": "video",
+      "freeze": true,
+      "in": 31.2,
+      "dur": 0.17,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "move": null,
+      "grade": {
+        "look": "gym_indoor"
+      }
+    },
+    "rc_qatar_insert": {
+      "beat": "Recap — Coverage — Doha photo (confirmed by Amr) under 'Also available in Qatar and Oman' (Oman per Privilee FAQ; no Oman footage)",
+      "src": "IMG_4530.JPG",
+      "kind": "image",
+      "dur": 0.17,
+      "crop": {
+        "x": 0.4,
+        "y": 0.5
+      },
+      "move": null,
+      "grade": {
+        "look": "work_city"
+      }
+    },
+    "rc_sel_3": {
+      "beat": "Recap — Same routine montage — mirror selfie 3",
+      "src": "shared158.jpg",
+      "kind": "image",
+      "dur": 0.17,
+      "crop": {
+        "x": 0.5,
+        "y": 0.45
+      },
+      "move": null,
+      "grade": {
+        "look": "gym_indoor"
+      },
+      "selfie": true
+    },
+    "rc_frz_12": {
+      "beat": "Recap — Freeze — football kick, red floor",
+      "src": "IMG_6762.MOV",
+      "kind": "video",
+      "freeze": true,
+      "in": 7.7,
+      "dur": 0.17,
+      "crop": {
+        "x": 0.52,
+        "y": 0.47,
+        "zoom": 1.5
+      },
+      "move": null,
+      "grade": {
+        "look": "gym_indoor"
+      }
+    },
+    "rc_oman_insert": {
+      "beat": "Recap — Coverage — Muscat Corniche, Oman (Pexels stock, NOT Amr's footage — see copy/stock_credits.md)",
+      "src": "_stock/pexels-16460677-muscat-corniche.jpg",
+      "kind": "image",
+      "dur": 0.17,
+      "crop": {
+        "x": 0.45,
+        "y": 0.5
+      },
+      "move": null,
+      "grade": {
+        "look": "pool_beach"
+      },
+      "stock": true
+    },
+    "rc_fight_cage": {
+      "beat": "Recap — Fight — in the cage with red gloves",
+      "src": "IMG_3880.JPG",
+      "kind": "image",
+      "dur": 0.17,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "move": null,
+      "grade": {
+        "look": "gym_indoor"
+      }
+    },
+    "rc_loc_roof": {
+      "beat": "Recap — Location — rooftop gym between towers",
+      "src": "IMG_1279.JPEG",
+      "kind": "image",
+      "dur": 0.17,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "move": null,
+      "grade": {
+        "look": "work_city"
+      }
+    },
+    "rc_frz_5": {
+      "beat": "Recap — Freeze — overhead kettlebell press (NorthFit)",
+      "src": "5719DD3E-04BA-4A82-A6C0-B05858B6D2C2.MP4",
+      "kind": "video",
+      "freeze": true,
+      "in": 14.6,
+      "dur": 0.17,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "move": null,
+      "grade": {
+        "look": "gym_indoor"
+      }
+    },
+    "rc_work_2": {
+      "beat": "Recap — Work — lobby with skyline windows",
+      "src": "IMG_7176.JPEG",
+      "kind": "image",
+      "dur": 0.17,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "move": null,
+      "grade": {
+        "look": "work_city"
+      }
+    },
+    "rc_fight_mouthguard": {
+      "beat": "Recap — Fight — mouthguard selfie with wraps",
+      "src": "IMG_3976.JPG",
+      "kind": "image",
+      "dur": 0.17,
+      "crop": {
+        "x": 0.5,
+        "y": 0.4
+      },
+      "move": null,
+      "grade": {
+        "look": "gym_indoor"
+      },
+      "selfie": true
+    },
+    "rc_weekend_pool_2": {
+      "beat": "Recap — Weekend — resort pool & palms",
+      "src": "3D06D48A-71C8-4ACB-83AF-E95AE10FA483.jpg",
+      "kind": "image",
+      "dur": 0.17,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "move": null,
+      "grade": {
+        "look": "pool_beach"
+      }
+    },
+    "rc_hook_outdoor": {
+      "beat": "Recap — beach (echoes the opening)",
+      "src": "CD9F4FF0-6A5D-4719-B864-C2BB256EB01B.jpg",
+      "kind": "image",
+      "dur": 0.17,
+      "crop": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "move": null,
+      "grade": {
+        "look": "pool_beach"
+      }
     }
   },
   "variants": {
@@ -1175,8 +1383,28 @@
         "weekend_sea",
         "weekend_rooftop",
         "weekend_walk",
-        "closing_portrait",
-        "final_image"
+        "rc_frz_1",
+        "rc_loc_padel",
+        "rc_frz_9",
+        "rc_qatar_insert",
+        "rc_sel_3",
+        "rc_frz_12",
+        "rc_oman_insert",
+        "rc_fight_cage",
+        "rc_loc_roof",
+        "rc_frz_5",
+        "rc_work_2",
+        "rc_fight_mouthguard",
+        "rc_weekend_pool_2",
+        "rc_hook_outdoor",
+        {
+          "id": "closing_portrait",
+          "dur": 1.6
+        },
+        {
+          "id": "final_image",
+          "dur": 2.4
+        }
       ],
       "overlays": [
         {
@@ -1231,9 +1459,9 @@
         {
           "type": "title",
           "text": "Different cities.\nSame routine.",
-          "shot": "closing_portrait",
+          "shot": "rc_frz_1",
           "endShot": "final_image",
-          "endOffset": -0.7
+          "endOffset": -0.6
         }
       ]
     },
@@ -1311,8 +1539,28 @@
         "weekend_sea",
         "weekend_rooftop",
         "weekend_walk",
-        "closing_portrait",
-        "final_image"
+        "rc_frz_1",
+        "rc_loc_padel",
+        "rc_frz_9",
+        "rc_qatar_insert",
+        "rc_sel_3",
+        "rc_frz_12",
+        "rc_oman_insert",
+        "rc_fight_cage",
+        "rc_loc_roof",
+        "rc_frz_5",
+        "rc_work_2",
+        "rc_fight_mouthguard",
+        "rc_weekend_pool_2",
+        "rc_hook_outdoor",
+        {
+          "id": "closing_portrait",
+          "dur": 1.6
+        },
+        {
+          "id": "final_image",
+          "dur": 2.4
+        }
       ],
       "overlays": [
         {
@@ -1367,9 +1615,9 @@
         {
           "type": "title",
           "text": "Different cities.\nSame routine.",
-          "shot": "closing_portrait",
+          "shot": "rc_frz_1",
           "endShot": "final_image",
-          "endOffset": -0.7
+          "endOffset": -0.6
         }
       ]
     },
@@ -1466,13 +1714,21 @@
           "id": "weekend_sea",
           "dur": 1.4
         },
+        "rc_frz_1",
+        "rc_loc_padel",
+        "rc_qatar_insert",
+        "rc_frz_12",
+        "rc_oman_insert",
+        "rc_fight_cage",
+        "rc_work_2",
+        "rc_hook_outdoor",
         {
           "id": "closing_portrait",
-          "dur": 3.0
+          "dur": 1.4
         },
         {
           "id": "final_image",
-          "dur": 1.6
+          "dur": 1.4
         }
       ],
       "overlays": [
@@ -1521,9 +1777,9 @@
         {
           "type": "title",
           "text": "Different cities.\nSame routine.",
-          "shot": "closing_portrait",
+          "shot": "rc_frz_1",
           "endShot": "final_image",
-          "endOffset": -0.4
+          "endOffset": -0.6
         }
       ]
     },
@@ -1587,9 +1843,21 @@
         "weekend_sea",
         "weekend_rooftop",
         "weekend_walk",
+        "rc_frz_1",
+        "rc_loc_padel",
+        "rc_frz_9",
+        "rc_sel_3",
+        "rc_frz_12",
+        "rc_fight_cage",
+        "rc_loc_roof",
+        "rc_frz_5",
+        "rc_work_2",
+        "rc_fight_mouthguard",
+        "rc_weekend_pool_2",
+        "rc_hook_outdoor",
         {
           "id": "closing_portrait",
-          "dur": 3.0
+          "dur": 1.4
         },
         "offer_card"
       ],
@@ -1640,7 +1908,8 @@
         {
           "type": "title",
           "text": "Different cities.\nSame routine.",
-          "shot": "closing_portrait"
+          "shot": "rc_frz_1",
+          "endShot": "closing_portrait"
         }
       ]
     }
