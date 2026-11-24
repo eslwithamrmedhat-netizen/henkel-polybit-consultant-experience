@@ -28,11 +28,33 @@
       "text": "Different cities. Same routine.\n\nMy work takes me across the UAE, and Privilee has been my best life hack since moving to Dubai.\n\nHaving options around my day helps me stay consistent. There are options in Qatar and Oman too.\n\nAnd at the weekend, I can slow down by the pool."
     },
     "vo_white_friday": {
-      "text": "Different cities. Same routine.\n\nMy work takes me across the UAE, and Privilee has been my best life hack since moving to Dubai.\n\nDifferent gyms keep things interesting, and having options around my day helps me stay consistent.\n\nThen at the weekend, I can slow down by the pool or at the beach.\n\nFor me, that's the best part: keeping up with training, and still making time to switch off."
+      "text": "Here's my best life hack since moving to Dubai.\n\nMy work takes me all over the UAE… so I open Privilee and find a place to train around my day.\n\nDifferent gyms keep it interesting. And having options is what keeps me consistent.\n\nWeights one day. Muay Thai the next.\n\nThen the weekend comes… and I slow down by the pool, or at the beach.\n\nDifferent cities. Same routine.\n\nThe White Friday Edit is three months for AED 1,899.",
+      "note": "Final post script (timed cue sheet in copy/final_script_and_music.md). Offer verified 23 Nov 2026."
     },
     "vo_white_friday_offer_line": {
       "text": "The White Friday Edit is three months for AED 1,899.",
       "gated": "Generate only after config/offer.json verified=true and the line matches the verified price."
+    },
+    "vo_final_lines": {
+      "lines": [
+        "Here's my best life hack since moving to Dubai.",
+        "My work takes me all over the UAE… so I open Privilee and find a place to train around my day.",
+        "Different gyms keep it interesting. And having options is what keeps me consistent.",
+        "Weights one day. Muay Thai the next.",
+        "Then the weekend comes… and I slow down by the pool, or at the beach.",
+        "Different cities. Same routine.",
+        "The White Friday Edit is three months for AED 1,899."
+      ],
+      "cues_s": [
+        0.3,
+        3.1,
+        10.6,
+        24.9,
+        32.2,
+        42.1,
+        46.0
+      ],
+      "note": "Generate one clip per line for exact placement."
     }
   }
 }
