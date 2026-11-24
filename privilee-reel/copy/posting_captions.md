@@ -28,7 +28,7 @@ Different cities. Same routine.
 
 Privilee has made it easier for me to keep training around my work locations across the UAE—and enjoy a pool or beach day when the weekend comes.
 
-With eligible memberships it even works in Qatar and Oman.
+With eligible memberships it even works in Qatar, Oman and Bahrain.
 
 The White Friday Edit: 3 months for AED 1,899.
 

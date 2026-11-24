@@ -151,28 +151,28 @@ export const OverlayText: React.FC<{ o: Overlay; layout: PlatformLayout; onLight
     );
   }
   if (o.type === "coverage") {
-    const place = lines[1].replace(/ and /, " & ");
+    // "Qatar, Oman and Bahrain" → stacked capitals, script "&" before the last place
+    const places = lines[1].split(/,\s*|\s+and\s+|\s*&\s*/).filter(Boolean);
     const note = lines[2];
-    const [p1, p2] = place.split(" & ");
+    const size = places.length > 2 ? 132 : 150;
     return (
-      <div style={{ ...box, top: 700 }}>
+      <div style={{ ...box, top: places.length > 2 ? 620 : 700 }}>
         <Eyebrow>{lines[0]}</Eyebrow>
-        <div style={{ display: "flex", justifyContent: "center", alignItems: "baseline", gap: 22, whiteSpace: "nowrap" }}>
-          <Display size={128}>{p1}</Display>
-          {p2 ? (
-            <>
-              <Script size={112} delay={5}>
+        {places.map((pl, i) => (
+          <div key={i} style={{ display: "flex", justifyContent: "center", alignItems: "baseline", gap: 18, whiteSpace: "nowrap" }}>
+            {i === places.length - 1 && places.length > 1 ? (
+              <Script size={size * 0.82} delay={4 + i * 4}>
                 &amp;
               </Script>
-              <Display size={128} delay={8}>
-                {p2}
-              </Display>
-            </>
-          ) : null}
-        </div>
+            ) : null}
+            <Display size={size} delay={i * 4}>
+              {pl}
+            </Display>
+          </div>
+        ))}
         {note ? (
-          <div style={{ marginTop: 22, fontFamily: SANS, fontWeight: 700, fontSize: 44, letterSpacing: "0.01em", color: colors.text, textShadow: colors.softShadow }}>
-            <Words text={note} size={44} delay={12} />
+          <div style={{ marginTop: 24, fontFamily: SANS, fontWeight: 700, fontSize: 44, color: colors.text, textShadow: colors.softShadow }}>
+            <Words text={note} size={44} delay={10 + places.length * 4} />
           </div>
         ) : null}
       </div>
