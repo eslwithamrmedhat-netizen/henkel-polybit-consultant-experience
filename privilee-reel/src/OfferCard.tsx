@@ -44,7 +44,7 @@ export const OfferCard: React.FC<{ offer: OfferProps; layout: PlatformLayout; du
           </div>
           <div style={{ ...step(4), marginTop: 60, fontFamily: OFFER_SANS, fontWeight: 300, fontSize: 64, letterSpacing: "0.04em" }}>{months?.toUpperCase()}</div>
           <div style={{ ...step(5), marginTop: 6, fontFamily: OFFER_SANS, fontWeight: 500, fontSize: 92, letterSpacing: "0.01em" }}>{price}</div>
-          <div style={{ ...step(7), marginTop: 70, fontFamily: OFFER_SANS, fontWeight: 400, fontSize: 32, letterSpacing: "0.02em", opacity: 0.92 * Number(step(7).opacity) }}>{offer.qualifier}</div>
+          <div style={{ ...step(7), marginTop: 70, fontFamily: OFFER_SANS, fontWeight: 500, fontSize: 36, letterSpacing: "0.02em" }}>{offer.qualifier}</div>
           {/* "JOIN NOW" link-sticker look (visual only — Reels/TikTok posts can't hold a tappable link) */}
           <div style={{ ...step(8, 20), marginTop: 34, display: "flex", flexDirection: "column", alignItems: "center" }}>
             <div

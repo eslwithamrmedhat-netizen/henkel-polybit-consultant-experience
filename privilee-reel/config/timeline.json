@@ -1826,7 +1826,7 @@
       ]
     },
     "white_friday": {
-      "title": "White Friday campaign cut — UAE only (REVIEW until offer verified)",
+      "title": "Final post — Hook A, full story incl. Qatar & Oman (eligible memberships), White Friday ending (UAE-only offer)",
       "voiceover": "vo_white_friday",
       "voStart": 0.25,
       "offer": true,
@@ -1879,6 +1879,14 @@
         "fight_rooftop",
         "gym_kb_b",
         "gym_extra_uae",
+        {
+          "id": "qatar_insert",
+          "dur": 1.5
+        },
+        {
+          "id": "oman_insert",
+          "dur": 1.5
+        },
         "weekend_pool_1",
         "weekend_water",
         "weekend_pool_2",
@@ -1889,9 +1897,11 @@
         "rc_burj_palms",
         "rc_red_gloves",
         "rc_tower_pool",
+        "rc_doha",
         "rc_flame_tree",
         "rc_palm_pool",
         "rc_dumbbells",
+        "rc_muscat",
         "rc_rooftop_pool",
         "rc_atlantis",
         "rc_gear",
@@ -1955,6 +1965,12 @@
           "text": "Different cities.\nSame routine.",
           "shot": "rc_rooftop_sunset",
           "endShot": "closing_portrait"
+        },
+        {
+          "type": "coverage",
+          "text": "Also available in\nQatar and Oman\nwith eligible memberships",
+          "shot": "qatar_insert",
+          "endShot": "oman_insert"
         }
       ]
     }

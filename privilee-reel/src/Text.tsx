@@ -151,7 +151,8 @@ export const OverlayText: React.FC<{ o: Overlay; layout: PlatformLayout; onLight
     );
   }
   if (o.type === "coverage") {
-    const place = lines.slice(1).join(" ").replace(/ and /, " & ");
+    const place = lines[1].replace(/ and /, " & ");
+    const note = lines[2];
     const [p1, p2] = place.split(" & ");
     return (
       <div style={{ ...box, top: 700 }}>
@@ -169,6 +170,11 @@ export const OverlayText: React.FC<{ o: Overlay; layout: PlatformLayout; onLight
             </>
           ) : null}
         </div>
+        {note ? (
+          <div style={{ marginTop: 22, fontFamily: SANS, fontWeight: 700, fontSize: 44, letterSpacing: "0.01em", color: colors.text, textShadow: colors.softShadow }}>
+            <Words text={note} size={44} delay={12} />
+          </div>
+        ) : null}
       </div>
     );
   }
