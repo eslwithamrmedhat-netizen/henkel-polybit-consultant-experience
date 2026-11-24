@@ -151,28 +151,35 @@ export const OverlayText: React.FC<{ o: Overlay; layout: PlatformLayout; onLight
     );
   }
   if (o.type === "coverage") {
-    // "Qatar, Oman and Bahrain" → stacked capitals, script "&" before the last place
+    // Eyebrow · QATAR & OMAN (capitals, script "&") · "and more countries" (script) · eligibility note
     const places = lines[1].split(/,\s*|\s+and\s+|\s*&\s*/).filter(Boolean);
-    const note = lines[2];
-    const size = places.length > 4 ? 104 : places.length > 2 ? 132 : 150;
+    const more = lines.length > 3 ? lines[2] : null;
+    const note = lines.length > 3 ? lines[3] : lines[2];
     return (
-      <div style={{ ...box, top: places.length > 4 ? 520 : places.length > 2 ? 620 : 700 }}>
+      <div style={{ ...box, top: 640 }}>
         <Eyebrow>{lines[0]}</Eyebrow>
-        {places.map((pl, i) => (
-          <div key={i} style={{ display: "flex", justifyContent: "center", alignItems: "baseline", gap: 18, whiteSpace: "nowrap" }}>
-            {i === places.length - 1 && places.length > 1 ? (
-              <Script size={size * 0.82} delay={4 + i * 4}>
-                &amp;
-              </Script>
-            ) : null}
-            <Display size={size} delay={i * 3}>
-              {pl}
-            </Display>
-          </div>
-        ))}
+        <div style={{ display: "flex", justifyContent: "center", alignItems: "baseline", gap: 20, whiteSpace: "nowrap" }}>
+          {places.map((pl, i) => (
+            <React.Fragment key={i}>
+              {i > 0 ? (
+                <Script size={110} delay={4 + i * 4}>
+                  &amp;
+                </Script>
+              ) : null}
+              <Display size={132} delay={i * 6}>
+                {pl}
+              </Display>
+            </React.Fragment>
+          ))}
+        </div>
+        {more ? (
+          <Script size={92} delay={14} style={{ marginTop: 4 }}>
+            {more}
+          </Script>
+        ) : null}
         {note ? (
-          <div style={{ marginTop: 24, fontFamily: SANS, fontWeight: 700, fontSize: 44, color: colors.text, textShadow: colors.softShadow }}>
-            <Words text={note} size={44} delay={10 + places.length * 4} />
+          <div style={{ marginTop: 18, fontFamily: SANS, fontWeight: 700, fontSize: 42, color: colors.text, textShadow: colors.softShadow }}>
+            <Words text={note} size={42} delay={20} />
           </div>
         ) : null}
       </div>

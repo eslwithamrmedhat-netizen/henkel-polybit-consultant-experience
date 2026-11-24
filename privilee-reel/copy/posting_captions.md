@@ -8,7 +8,7 @@ Different cities. Same routine.
 
 My work takes me around the UAE, and having different places to train makes it easier to stay consistent. Then the weekend comes, and I can slow down by a pool or at the beach.
 
-Privilee has been my best life hack since moving to Dubai. With eligible memberships it also works in Qatar, Bahrain, Oman, Singapore and Hong Kong.
+Privilee has been my best life hack since moving to Dubai. With eligible memberships it also works in Qatar, Oman and more countries.
 
 Which matters more to you: a gym near your day, or a proper weekend reset?
 
@@ -16,7 +16,7 @@ Access depends on membership eligibility and venue terms.
 
 ## TikTok — evergreen
 
-My best Dubai life hack for staying consistent: different places to train around my workweek, then pools and beaches when it's time to switch off. Privilee also works in Qatar, Bahrain, Oman, Singapore and Hong Kong with eligible memberships.
+My best Dubai life hack for staying consistent: different places to train around my workweek, then pools and beaches when it's time to switch off. Privilee also works in Qatar, Oman and more countries with eligible memberships.
 
 Gym day or pool day?
 
@@ -28,7 +28,7 @@ Different cities. Same routine.
 
 Privilee has made it easier for me to keep training around my work locations across the UAE—and enjoy a pool or beach day when the weekend comes.
 
-With eligible memberships it even works in Qatar, Bahrain, Oman, Singapore and Hong Kong.
+With eligible memberships it even works in Qatar, Oman and more countries.
 
 The White Friday Edit: 3 months for AED 1,899.
 
