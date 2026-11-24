@@ -2,11 +2,9 @@
 
 | | Instagram | TikTok |
 |---|---|---|
-| File | `output/privilee_main.mp4` (one unified export) | the same file |
-| Opening | Hook A "MY BEST DUBAI LIFE HACK" | Hook A |
-| Test variant | `output/privilee_hook_b.mp4` | the same file |
-| Short cut | `output/privilee_cutdown.mp4` | the same file |
-| Caption | `copy/posting_captions.md` → Instagram | `copy/posting_captions.md` → TikTok |
+| File | `output/privilee_final.mp4`: **the single post** (one export for both apps) | the same file |
+| Opening | "MY BEST / DUBAI *life hack*" | the same |
+| Caption | `copy/posting_captions.md` → **White Friday campaign** caption | the same caption, shortened if needed |
 | Cover | `output/privilee_cover.jpg` (title sits in the centre band, so it survives grid crops) | Pick the same frame in the in-app cover picker |
 | Brand handle | **Not verified yet.** The search didn't find an official handle. Copy it from the links in privilee.ae's footer or Privilee's app store listing before tagging. | Same |
 | Location tag | None until a venue/city is confirmed for a shot that's actually used | None |

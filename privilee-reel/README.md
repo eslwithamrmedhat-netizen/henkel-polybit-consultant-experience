@@ -97,7 +97,7 @@ npm run studio                                   # optional: interactive preview
 
 ## Deliverables (rendered by `render_all.py`)
 
-`privilee_main.mp4`, `privilee_hook_b.mp4`, `privilee_cutdown.mp4`, `privilee_white_friday.mp4`: one **unified export each for Instagram Reels, TikTok and YouTube Shorts**, with text kept clear of the stricter of each app's approximate overlays. Also `privilee_clean_master.mp4` (narration + ambience; no music, captions or titles), `privilee_clean_picture.mp4` (silent, no text), `privilee_cover.jpg`, `privilee_subtitles.srt` (from the real narration only) and `stems/privilee_main_stem_{vo,ambience,music}.wav`. While narration is missing, the narrated edits get a `_textled_review` suffix, and White Friday stays `_review` until the offer is verified.
+**`privilee_final.mp4`**: the single post. It uses the "My best Dubai life hack" opening, the full story and the fresh recap, and ends on the verified White Friday offer card. It's UAE-only (no Qatar/Oman claim, because the White Friday membership excludes cross-country access), with one export for Instagram Reels, TikTok and YouTube Shorts. Also `privilee_final_clean_master.mp4`, `privilee_final_clean_picture.mp4`, `privilee_cover.jpg`, `privilee_subtitles.srt` (once narration exists) and `stems/`. The other edits (main, Hook B, cutdown) remain in `config/timeline.json`. While narration is missing, the file name carries a `_textled_review` suffix.
 
 Spec: 1080×1920, H.264 High yuv420p, 30 fps CFR, CRF 18, Rec.709 tags, AAC 48 kHz, two-pass loudnorm to −15 LUFS / ≤ −1.5 dBTP, faststart.
 

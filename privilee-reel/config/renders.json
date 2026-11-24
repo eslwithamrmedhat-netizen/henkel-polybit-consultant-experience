@@ -1,5 +1,5 @@
 {
-  "_readme": "Deliverable matrix: one unified export per edit that works on Instagram Reels, TikTok and YouTube Shorts (layout = stricter of each app's approximate overlays). White Friday gets _review while config/offer.json verified=false; narrated edits get _textled_review until narration is integrated. Music is added in each app (licensing), or mixed here only with a documented licence covering every platform.",
+  "_readme": "One final post (variant white_friday = Hook A + full story, UAE-only, White Friday offer ending) plus two clean brand versions. Other variants (main, hook_b, cutdown) stay in config/timeline.json and can be re-added here if ever needed.",
   "music": {
     "file": null,
     "licence": null,
@@ -9,37 +9,7 @@
     "fadeOut": 1.2
   },
   "renders": {
-    "main": {
-      "variant": "main",
-      "platform": "unified",
-      "captions": true,
-      "overlays": true,
-      "voiceover": true,
-      "music": true,
-      "ambience": true,
-      "out": "privilee_main.mp4"
-    },
-    "hook_b": {
-      "variant": "hook_b",
-      "platform": "unified",
-      "captions": true,
-      "overlays": true,
-      "voiceover": true,
-      "music": true,
-      "ambience": true,
-      "out": "privilee_hook_b.mp4"
-    },
-    "cutdown": {
-      "variant": "cutdown",
-      "platform": "unified",
-      "captions": true,
-      "overlays": true,
-      "voiceover": true,
-      "music": true,
-      "ambience": true,
-      "out": "privilee_cutdown.mp4"
-    },
-    "white_friday": {
+    "final": {
       "variant": "white_friday",
       "platform": "unified",
       "captions": true,
@@ -47,30 +17,31 @@
       "voiceover": true,
       "music": true,
       "ambience": true,
-      "out": "privilee_white_friday.mp4"
+      "out": "privilee_final.mp4",
+      "note": "THE single post: Hook A opening, full story, UAE-only, White Friday offer ending. One export for Instagram Reels, TikTok and YouTube Shorts."
     },
     "clean_master": {
-      "variant": "main",
+      "variant": "white_friday",
       "platform": "clean",
       "captions": false,
       "overlays": false,
       "voiceover": true,
       "music": false,
       "ambience": true,
-      "out": "privilee_clean_master.mp4",
-      "note": "No music, captions or titles. Contains narration + original clip ambience."
+      "out": "privilee_final_clean_master.mp4",
+      "note": "Final edit without titles, captions or music (narration + ambience when available)."
     },
     "clean_picture": {
-      "variant": "main",
+      "variant": "white_friday",
       "platform": "clean",
       "captions": false,
       "overlays": false,
       "voiceover": false,
       "music": false,
       "ambience": false,
-      "out": "privilee_clean_picture.mp4",
+      "out": "privilee_final_clean_picture.mp4",
       "muted": true,
-      "note": "Completely clean graded picture, no audio \u2014 for future brand editing."
+      "note": "Final edit, picture only \u2014 for future brand editing."
     }
   },
   "cover": {
@@ -80,7 +51,7 @@
     "out": "privilee_cover.jpg"
   },
   "subtitles": {
-    "render": "main",
+    "render": "final",
     "out": "privilee_subtitles.srt"
   }
 }
