@@ -28,9 +28,11 @@ Different cities. Same routine.
 
 Privilee has made it easier for me to keep training around my work locations across the UAE—and enjoy a pool or beach day when the weekend comes.
 
+With eligible memberships it even works in Qatar and Oman.
+
 The White Friday Edit: 3 months for AED 1,899.
 
-This UAE offer does not include cross-country access. Membership and venue terms apply.
+The White Friday Edit is a UAE-only offer and does not include cross-country access. Membership and venue terms apply.
 
 > Verified: AED 1,899 for 3 months, confirmed by Amr with Privilee's official White Friday Edit post (`brand/white_friday_post_2026.jpg`). Add the offer link to the posting notes once you have it. Don't write 'link in bio' unless your bio actually links to the offer.
 
