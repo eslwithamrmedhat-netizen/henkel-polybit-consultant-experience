@@ -154,9 +154,9 @@ export const OverlayText: React.FC<{ o: Overlay; layout: PlatformLayout; onLight
     // "Qatar, Oman and Bahrain" → stacked capitals, script "&" before the last place
     const places = lines[1].split(/,\s*|\s+and\s+|\s*&\s*/).filter(Boolean);
     const note = lines[2];
-    const size = places.length > 2 ? 132 : 150;
+    const size = places.length > 4 ? 104 : places.length > 2 ? 132 : 150;
     return (
-      <div style={{ ...box, top: places.length > 2 ? 620 : 700 }}>
+      <div style={{ ...box, top: places.length > 4 ? 520 : places.length > 2 ? 620 : 700 }}>
         <Eyebrow>{lines[0]}</Eyebrow>
         {places.map((pl, i) => (
           <div key={i} style={{ display: "flex", justifyContent: "center", alignItems: "baseline", gap: 18, whiteSpace: "nowrap" }}>
@@ -165,7 +165,7 @@ export const OverlayText: React.FC<{ o: Overlay; layout: PlatformLayout; onLight
                 &amp;
               </Script>
             ) : null}
-            <Display size={size} delay={i * 4}>
+            <Display size={size} delay={i * 3}>
               {pl}
             </Display>
           </div>

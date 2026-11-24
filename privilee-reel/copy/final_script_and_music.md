@@ -1,6 +1,6 @@
 # Final post: voiceover script and music brief
 
-Timed to `output/privilee_final*.mp4` (54.1 s). Qatar, Oman & Bahrain (Privilee's other countries, per its FAQ) are mentioned **with eligible memberships**, and the offer is explicitly called **UAE-only**, because the White Friday Edit has no cross-country access. Written in Amr's own voice. It doesn't call Amr an ambassador or say Privilee commissioned this.
+Timed to `output/privilee_final*.mp4` (54.7 s). Qatar, Bahrain, Oman, Singapore & Hong Kong (Privilee's other five countries, per its FAQ read on 24 Nov 2026) are mentioned **with eligible memberships**, and the offer is explicitly called **UAE-only**, because the White Friday Edit has no cross-country access. Written in Amr's own voice. It doesn't call Amr an ambassador or say Privilee commissioned this.
 
 ## Voiceover (≈ 38 s of speech across 54 s of picture)
 
@@ -14,11 +14,11 @@ Timed to `output/privilee_final*.mp4` (54.1 s). Qatar, Oman & Bahrain (Privilee'
 | 18.7–24.6 | Selfie + freeze-frame montage | *(no voice: the music carries the fast cuts)* | |
 | 24.9 | Heavy-bag corridor, wraps, mouthguard, Muay Thai | **Weights one day. Muay Thai the next.** | Punchy; a short beat between the two sentences |
 | 27.6–32.1 | Glove, rooftop, kettlebell | *(no voice)* | |
-| 32.3 | Doha, then Muscat: "ALSO AVAILABLE IN QATAR, OMAN & BAHRAIN · with eligible memberships" | **And with eligible memberships, it even works in Qatar, Oman and Bahrain.** | Matter-of-fact, a hint of surprise on "even" |
-| 35.3 | Infinity pool at golden hour | **Then the weekend comes…** | Calmer, slower |
-| 38.4 | Water villas, resort pool, sea | **…and I slow down by the pool, or at the beach.** | Relaxed, warm |
-| 45.1 | Fast recap under "DIFFERENT CITIES. *same routine.*" | **Different cities. Same routine.** | Assured, personal; this is the line |
-| 49.0 | White Friday end card | **The White Friday Edit is a UAE-only offer: three months for AED 1,899.** | Clear; stress "UAE-only" lightly, then the price |
+| 32.3 | Doha, then Muscat: "ALSO AVAILABLE IN QATAR · BAHRAIN · OMAN · SINGAPORE & HONG KONG · with eligible memberships" | **And with eligible memberships, it even works in Qatar, Bahrain, Oman, Singapore and Hong Kong.** | Matter-of-fact; slight lift on "even"; don't rush the list |
+| 36.5 | Infinity pool at golden hour | **Then the weekend comes…** | Calmer, slower |
+| 39.3 | Water villas, resort pool, sea | **…and I slow down by the pool, or at the beach.** | Relaxed, warm |
+| 45.7 | Fast recap under "DIFFERENT CITIES. *same routine.*" | **Different cities. Same routine.** | Assured, personal; this is the line |
+| 49.6 | White Friday end card | **The White Friday Edit is a UAE-only offer: three months for AED 1,899.** | Clear; stress "UAE-only" lightly, then the price |
 
 Plain text for the TTS service, in the same order:
 
@@ -26,7 +26,7 @@ Plain text for the TTS service, in the same order:
 > My work takes me all over the UAE… so I open Privilee and find a place to train around my day.
 > Different gyms keep it interesting. And having options is what keeps me consistent.
 > Weights one day. Muay Thai the next.
-> And with eligible memberships, it even works in Qatar, Oman and Bahrain.
+> And with eligible memberships, it even works in Qatar, Bahrain, Oman, Singapore and Hong Kong.
 > Then the weekend comes… and I slow down by the pool, or at the beach.
 > Different cities. Same routine.
 > The White Friday Edit is a UAE-only offer: three months for AED 1,899.
@@ -45,10 +45,10 @@ Plain text for the TTS service, in the same order:
   - ~10 s: full beat drops as the gyms start
   - 18.7–24.6 s: peak energy for the fast montage
   - 24.6 s: punchy section for the fight beat
-  - 32.1 s: lift for Doha and Muscat
-  - ~35 s: breakdown for the pools
-  - 44.9 s: build back for the recap burst
-  - 48.7 s: resolve and hold for the offer card
+  - 32.1 s: lift for the countries beat
+  - ~35.3 s: breakdown for the pools
+  - 45.5 s: build back for the recap burst
+  - 49.3 s: resolve and hold for the offer card
 - **Mix:** keep music under the voice. In-app, set the original sound (voice) at ~100% and the music at ~25–35%.
 
 ### Track ideas (check that each is in the app's library on posting day)
