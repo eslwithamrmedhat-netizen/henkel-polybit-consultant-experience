@@ -13,7 +13,7 @@
     "eyebrow": "The White Friday Edit",
     "headline": "3 months\nAED 1,899",
     "qualifier": "UAE offer · No cross-country access",
-    "cta": "Explore Privilee"
+    "cta": "Join now"
   },
   "artwork": {
     "file": null,
@@ -22,5 +22,11 @@
   "spokenOfferLine": "The White Friday Edit is three months for AED 1,899.",
   "useSpokenOfferLine": false,
   "reviewBadge": "REVIEW · offer not yet verified",
-  "scriptFont": "allura"
+  "scriptFont": "allura",
+  "displayUrl": "privilee.ae/the-white-friday-edit",
+  "link": {
+    "url": "https://privilee.ae/the-white-friday-edit",
+    "supplied_by": "Amr, 24 Nov 2026 (from Privilee's Instagram post)",
+    "note": "Tracking parameters removed: fbclid is a one-off click ID from Amr's own tap; utm_* are Privilee's own campaign tags. Not reachable from the build environment, so open it once on a phone to confirm."
+  }
 }

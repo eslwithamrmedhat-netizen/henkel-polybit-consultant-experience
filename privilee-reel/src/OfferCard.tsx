@@ -23,6 +23,8 @@ export const OfferCard: React.FC<{ offer: OfferProps; layout: PlatformLayout; du
   // script "writes on" left→right
   const write = interpolate(frame, [10, 34], [0, 100], { ...clamp, easing: ease });
   const scrim = interpolate(frame, [0, 14], [0, 1], clamp);
+  // sticker pops in with a small overshoot, like an app sticker being placed
+  const stickerPop = interpolate(frame, [46, 54, 60], [0.6, 1.08, 1], clamp);
   const out = interpolate(frame, [durationInFrames - 10, durationInFrames], [1, 0], clamp);
   const right = layout.rightRail.w > 0 ? 1080 - layout.rightRail.x : layout.sideMargin;
   const script = OFFER_SCRIPT_FONTS[offer.scriptFont ?? "allura"] ?? OFFER_SCRIPT_FONTS.allura;
@@ -43,7 +45,36 @@ export const OfferCard: React.FC<{ offer: OfferProps; layout: PlatformLayout; du
           <div style={{ ...step(4), marginTop: 60, fontFamily: OFFER_SANS, fontWeight: 300, fontSize: 64, letterSpacing: "0.04em" }}>{months?.toUpperCase()}</div>
           <div style={{ ...step(5), marginTop: 6, fontFamily: OFFER_SANS, fontWeight: 500, fontSize: 92, letterSpacing: "0.01em" }}>{price}</div>
           <div style={{ ...step(7), marginTop: 70, fontFamily: OFFER_SANS, fontWeight: 400, fontSize: 32, letterSpacing: "0.02em", opacity: 0.92 * Number(step(7).opacity) }}>{offer.qualifier}</div>
-          <div style={{ ...step(8), marginTop: 22, display: "inline-block", fontFamily: OFFER_SANS, fontWeight: 400, fontSize: 44, letterSpacing: "0.01em", paddingBottom: 6, borderBottom: `1.5px solid ${WHITE}` }}>{offer.cta}</div>
+          {/* "JOIN NOW" link-sticker look (visual only — Reels/TikTok posts can't hold a tappable link) */}
+          <div style={{ ...step(8, 20), marginTop: 34, display: "flex", flexDirection: "column", alignItems: "center" }}>
+            <div
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                gap: 16,
+                padding: "20px 38px 20px 30px",
+                borderRadius: 999,
+                background: "#FFFFFF",
+                color: "#1E5EFF",
+                fontFamily: OFFER_SANS,
+                fontWeight: 500,
+                fontSize: 44,
+                letterSpacing: "0.06em",
+                textShadow: "none",
+                boxShadow: "0 10px 30px rgba(0,0,0,0.25)",
+                transform: `rotate(-2deg) scale(${stickerPop})`,
+              }}
+            >
+              <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#1E5EFF" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.5 1.5" />
+                <path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.5-1.5" />
+              </svg>
+              {offer.cta.toUpperCase()}
+            </div>
+            {offer.url ? (
+              <div style={{ marginTop: 18, fontFamily: OFFER_SANS, fontWeight: 400, fontSize: 30, letterSpacing: "0.02em", opacity: 0.92 }}>{offer.url}</div>
+            ) : null}
+          </div>
         </div>
       ) : null}
       {offer.reviewBadge ? (
