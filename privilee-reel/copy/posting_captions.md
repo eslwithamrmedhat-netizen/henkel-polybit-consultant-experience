@@ -22,7 +22,7 @@ Gym day or pool day?
 
 Access depends on membership eligibility and venue terms.
 
-## White Friday campaign cut — REVIEW DRAFT (do not post until the offer is verified)
+## White Friday campaign cut (offer verified 23 Nov 2026)
 
 Different cities. Same routine.
 
@@ -32,7 +32,7 @@ The White Friday Edit: 3 months for AED 1,899.
 
 This UAE offer does not include cross-country access. Membership and venue terms apply.
 
-> ⚠️ Price conflict found on 23 Nov 2026. The artwork says **AED 1,899**, but third-party UAE deal roundups (not official) describe a three-month Privilee sale this week at **AED 1,599**. AED 1,899 also matches Privilee's own *summer* offer page. Confirm the current price, window and terms on an official, dated Privilee source, then update `config/offer.json` and this caption together.
+> Verified: AED 1,899 for 3 months, confirmed by Amr with Privilee's official White Friday Edit post (`brand/white_friday_post_2026.jpg`). Add the offer link to the posting notes once you have it. Don't write 'link in bio' unless your bio actually links to the offer.
 
 ## Cutdown
 

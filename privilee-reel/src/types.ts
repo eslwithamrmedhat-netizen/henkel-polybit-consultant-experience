@@ -67,6 +67,7 @@ export type OfferProps = {
   artwork: string | null;
   reviewBadge: string | null;
   showText: boolean;
+  scriptFont?: string;
 };
 
 export type FilmProps = {

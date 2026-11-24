@@ -9,7 +9,11 @@ import { continueRender, delayRender, staticFile } from "remotion";
 export const DISPLAY = "Anton, 'Arial Narrow', sans-serif";
 export const SCRIPT = "'Instrument Serif', Georgia, serif";
 export const SANS = "'Inter Tight', 'Helvetica Neue', Arial, sans-serif";
-export const SERIF = DISPLAY; // legacy alias (offer card / cover headline)
+export const SERIF = DISPLAY; // legacy alias
+/** White Friday end card — matches the style of Privilee's own campaign post (free look-alike fonts, not their files) */
+export const OFFER_THIN = "'Cormorant Garamond', Georgia, serif";
+export const OFFER_SANS = "Jost, 'Helvetica Neue', Arial, sans-serif";
+export const OFFER_SCRIPT_FONTS: Record<string, string> = { allura: "Allura, cursive", greatvibes: "'Great Vibes', cursive" };
 export const FONT = SANS;
 
 export const colors = {
@@ -32,6 +36,12 @@ const faces: [string, string, string, string][] = [
   ["Inter Tight", "600", "normal", "inter-tight-latin-600-normal.woff2"],
   ["Inter Tight", "700", "normal", "inter-tight-latin-700-normal.woff2"],
   ["Inter Tight", "800", "normal", "inter-tight-latin-800-normal.woff2"],
+  ["Cormorant Garamond", "300", "normal", "cormorant-garamond-latin-300-normal.woff2"],
+  ["Allura", "400", "normal", "allura-latin-400-normal.woff2"],
+  ["Great Vibes", "400", "normal", "great-vibes-latin-400-normal.woff2"],
+  ["Jost", "300", "normal", "jost-latin-300-normal.woff2"],
+  ["Jost", "400", "normal", "jost-latin-400-normal.woff2"],
+  ["Jost", "500", "normal", "jost-latin-500-normal.woff2"],
 ];
 
 let loaded = false;

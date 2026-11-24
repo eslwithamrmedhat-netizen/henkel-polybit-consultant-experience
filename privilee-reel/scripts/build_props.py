@@ -161,6 +161,7 @@ def build(render_id: str, guides: bool = False) -> dict:
             "artwork": (offer_cfg.get("artwork") or {}).get("file"),
             "reviewBadge": None if offer_cfg.get("verified") else offer_cfg.get("reviewBadge"),
             "showText": r.get("overlays", True),
+            "scriptFont": offer_cfg.get("scriptFont", "allura"),
         }
 
     template = any(s["src"] is None and s["kind"] not in ("coverage", "phone", "brand") for s in shots)
