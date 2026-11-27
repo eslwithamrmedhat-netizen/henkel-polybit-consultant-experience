@@ -7,13 +7,14 @@
     "notes": [
       "Earlier third-party deal roundups quoting AED 1,599 are superseded by the official post and Amr's confirmation.",
       "Offer is UAE-only: White Friday Edit memberships exclude cross-country access (Privilee FAQ).",
-      "Privilee FAQ read directly on 24 Nov 2026 (saved: references/privilee_faq_2026-11-24.html): 'Your membership can now be used in the UAE, Qatar, Bahrain, Oman, Singapore and Hong Kong.' and 'Limited-time campaign memberships, including the ... White Friday Edit ... do not include cross-country access.'"
+      "Privilee FAQ read directly on 24 Nov 2026 (saved: references/privilee_faq_2026-11-24.html): 'Your membership can now be used in the UAE, Qatar, Bahrain, Oman, Singapore and Hong Kong.' and 'Limited-time campaign memberships, including the ... White Friday Edit ... do not include cross-country access.'",
+      "27 Nov 2026: qualifier reworded per Privilee FAQ: 'Limited-time campaign memberships and Guest passes can only be used in the country where they were purchased.' AED 1,899 is the UAE price; availability/pricing of the White Friday Edit in other countries not verified."
     ]
   },
   "card": {
     "eyebrow": "The White Friday Edit",
     "headline": "3 months\nAED 1,899",
-    "qualifier": "UAE-only offer · no cross-country access",
+    "qualifier": "UAE price\nValid only in the country where you subscribe",
     "cta": "Join now"
   },
   "artwork": {
