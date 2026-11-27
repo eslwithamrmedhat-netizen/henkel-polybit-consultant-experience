@@ -12,13 +12,13 @@
     "final": {
       "variant": "white_friday",
       "platform": "unified",
-      "captions": true,
+      "captions": false,
       "overlays": true,
       "voiceover": true,
       "music": true,
       "ambience": true,
       "out": "privilee_final.mp4",
-      "note": "THE single post: Hook A opening, full story, UAE-only, White Friday offer ending. One export for Instagram Reels, TikTok and YouTube Shorts."
+      "note": "THE single post: Hook A opening, full story, UAE-only, White Friday offer ending. One export for Instagram Reels, TikTok and YouTube Shorts. Burned-in captions off at Amr's request (titles, countries and offer card stay); privilee_subtitles.srt is still produced for optional upload."
     },
     "clean_master": {
       "variant": "white_friday",
