@@ -2,14 +2,63 @@
   "_readme": "Amr's own recorded narration (audio/narration/amr_raw/, gitignored). Each segment: take file, trim in/out (s, within the take), cue (s, absolute in the film), and the caption text as spoken (Whisper transcript, corrected for obvious mis-hearings). scripts/assemble_vo.py builds processed/audio/vo_white_friday.wav + captions from this.",
   "script_id": "vo_white_friday",
   "segments": [
-    {"take": "take_1.m4a", "in": 0.0,  "out": 2.62, "cue": 0.3,  "text": "Here is my best life hack since moving to Dubai."},
-    {"take": "take_1.m4a", "in": 3.05, "out": 8.45, "cue": 3.2,  "text": "My work takes me all over the UAE, so I open Privilee and find a place to train around my day."},
-    {"take": "take_2.m4a", "in": 0.0,  "out": 4.98, "cue": 10.6, "text": "Different gyms keep it interesting, and having options is what keeps me consistent."},
-    {"take": "take_3.m4a", "in": 0.0,  "out": 2.32, "cue": 25.0, "text": "Weights one day, Muay Thai the next."},
-    {"take": "take_4.m4a", "in": 0.0,  "out": 5.08, "cue": 32.3, "text": "And with eligible memberships, it even works in Qatar, Oman and more countries."},
-    {"take": "take_5.m4a", "in": 0.0,  "out": 4.82, "cue": 38.0, "text": "Then the weekend comes, and I slow down by the pool or at the beach."},
-    {"take": "take_6.m4a", "in": 0.0,  "out": 2.48, "cue": 45.8, "text": "Different cities, same routine."},
-    {"take": "take_7.m4a", "in": 0.0,  "out": 8.12, "cue": 48.5, "text": "And for the White Friday, three months in the UAE, Qatar, Bahrain or Oman, valid in the country where you subscribe."}
+    {
+      "take": "take_1.m4a",
+      "in": 0.0,
+      "out": 2.62,
+      "cue": 0.3,
+      "text": "Here is my best life hack since moving to Dubai."
+    },
+    {
+      "take": "take_1.m4a",
+      "in": 3.05,
+      "out": 8.45,
+      "cue": 3.2,
+      "text": "My work takes me all over the UAE, so I open Privilee and find a place to train around my day."
+    },
+    {
+      "take": "take_2.m4a",
+      "in": 0.0,
+      "out": 4.98,
+      "cue": 11.5,
+      "text": "Different gyms keep it interesting, and having options is what keeps me consistent."
+    },
+    {
+      "take": "take_3.m4a",
+      "in": 0.0,
+      "out": 2.32,
+      "cue": 20.6,
+      "text": "Weights one day, Muay Thai the next."
+    },
+    {
+      "take": "take_4.m4a",
+      "in": 0.0,
+      "out": 5.08,
+      "cue": 25.9,
+      "text": "And with eligible memberships, it even works in Qatar, Oman and more countries."
+    },
+    {
+      "take": "take_5.m4a",
+      "in": 0.0,
+      "out": 4.82,
+      "cue": 31.4,
+      "text": "Then the weekend comes, and I slow down by the pool or at the beach."
+    },
+    {
+      "take": "take_6.m4a",
+      "in": 0.0,
+      "out": 2.48,
+      "cue": 38.0,
+      "text": "Different cities, same routine."
+    },
+    {
+      "take": "take_7.m4a",
+      "in": 0.0,
+      "out": 8.12,
+      "cue": 41.0,
+      "text": "And for the White Friday, three months in the UAE, Qatar, Bahrain or Oman, valid in the country where you subscribe."
+    }
   ],
-  "processing": "highpass=f=75,afftdn=nf=-27,acompressor=threshold=-21dB:ratio=2.5:attack=8:release=160:makeup=2,alimiter=limit=0.89"
+  "processing": "highpass=f=85,afftdn=nf=-36:nt=w:tn=1,equalizer=f=120:t=q:w=1.0:g=1.5,equalizer=f=250:t=q:w=1.2:g=-4,equalizer=f=3200:t=q:w=1.2:g=2.5,equalizer=f=6500:t=q:w=1.5:g=-3,highshelf=f=10000:g=1,deesser=i=0.7:m=0.6:f=0.4,acompressor=threshold=-24dB:ratio=3:attack=5:release=120:makeup=3,agate=threshold=0.015:ratio=3:range=0.25:attack=3:release=180,alimiter=limit=0.89",
+  "_processing_note": "Voice enhancement v2 (27 Nov 2026): high-pass, adaptive denoise, +1.5 dB warmth @120 Hz, -4 dB boxiness @250 Hz, +2.5 dB presence @3.2 kHz, -3 dB @6.5 kHz + de-esser (sibilance), +1 dB air, 3:1 compression, gentle gate (keeps pauses quiet), limiter."
 }

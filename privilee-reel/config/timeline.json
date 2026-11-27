@@ -1831,54 +1831,110 @@
       "voStart": 0.0,
       "offer": true,
       "shots": [
-        "hook_city",
-        "hook_action",
-        "hook_outdoor",
-        "work_1",
-        "work_2",
-        "work_3",
-        "phone_open",
-        "reveal_arrival",
-        "gym_a_action",
-        "gym_b_action",
-        "gym_kb_a",
-        "loc_padel",
-        "loc_turf",
-        "loc_ropes",
-        "loc_roof",
-        "match_a",
-        "match_b",
-        "frz_1",
-        "sel_1",
-        "frz_2",
-        "sel_2",
-        "frz_3",
-        "sel_7",
-        "frz_4",
-        "sel_3",
-        "frz_5",
-        "sel_8",
-        "frz_6",
-        "sel_4",
-        "frz_7",
-        "sel_9",
-        "frz_8",
-        "sel_5",
-        "frz_9",
-        "sel_10",
-        "frz_10",
-        "sel_6",
-        "frz_11",
-        "frz_12",
-        "fight_corridor",
-        "fight_wraps",
-        "fight_mouthguard",
-        "fight_kick",
-        "fight_cage",
-        "fight_glove",
-        "fight_rooftop",
-        "gym_kb_b",
-        "gym_extra_uae",
+        {
+          "id": "hook_city",
+          "dur": 1.6
+        },
+        {
+          "id": "hook_action",
+          "dur": 1.4
+        },
+        {
+          "id": "work_1",
+          "dur": 0.9
+        },
+        {
+          "id": "work_2",
+          "dur": 0.9
+        },
+        {
+          "id": "work_3",
+          "dur": 0.9
+        },
+        {
+          "id": "phone_open",
+          "dur": 3.6
+        },
+        {
+          "id": "reveal_arrival",
+          "dur": 1.2
+        },
+        {
+          "id": "gym_a_action",
+          "dur": 1.8
+        },
+        {
+          "id": "gym_b_action",
+          "dur": 1.6
+        },
+        {
+          "id": "gym_kb_a",
+          "dur": 1.4
+        },
+        {
+          "id": "loc_padel",
+          "dur": 0.6
+        },
+        {
+          "id": "loc_roof",
+          "dur": 0.6
+        },
+        {
+          "id": "match_a",
+          "dur": 1.2
+        },
+        {
+          "id": "match_b",
+          "dur": 1.2
+        },
+        {
+          "id": "frz_1",
+          "dur": 0.45
+        },
+        {
+          "id": "sel_1",
+          "dur": 0.45
+        },
+        {
+          "id": "frz_6",
+          "dur": 0.45
+        },
+        {
+          "id": "sel_4",
+          "dur": 0.45
+        },
+        {
+          "id": "frz_3",
+          "dur": 0.45
+        },
+        {
+          "id": "sel_6",
+          "dur": 0.45
+        },
+        {
+          "id": "fight_corridor",
+          "dur": 0.6
+        },
+        {
+          "id": "fight_wraps",
+          "dur": 0.5
+        },
+        {
+          "id": "fight_mouthguard",
+          "dur": 0.6
+        },
+        {
+          "id": "fight_kick",
+          "dur": 1.3
+        },
+        {
+          "id": "fight_cage",
+          "dur": 0.6
+        },
+        {
+          "id": "fight_glove",
+          "dur": 0.5
+        },
         {
           "id": "qatar_insert",
           "dur": 1.8
@@ -1887,36 +1943,73 @@
           "id": "oman_insert",
           "dur": 1.8
         },
-        "weekend_pool_1",
-        "weekend_water",
-        "weekend_pool_2",
-        "weekend_sea",
-        "weekend_rooftop",
-        "weekend_walk",
-        "rc_rooftop_sunset",
-        "rc_burj_palms",
-        "rc_red_gloves",
-        "rc_tower_pool",
-        "rc_doha",
-        "rc_flame_tree",
-        "rc_palm_pool",
-        "rc_dumbbells",
-        "rc_muscat",
-        "rc_rooftop_pool",
-        "rc_atlantis",
-        "rc_gear",
-        "rc_marina",
-        "rc_burj_arab",
-        "rc_sunset_gym",
-        "rc_burj_pool",
-        "rc_infinity",
+        {
+          "id": "weekend_pool_1",
+          "dur": 2.2
+        },
+        {
+          "id": "weekend_water",
+          "dur": 1.8
+        },
+        {
+          "id": "weekend_pool_2",
+          "dur": 1.4
+        },
+        {
+          "id": "weekend_sea",
+          "dur": 1.6
+        },
+        {
+          "id": "weekend_walk",
+          "dur": 1.4
+        },
+        {
+          "id": "rc_rooftop_sunset",
+          "dur": 0.3
+        },
+        {
+          "id": "rc_burj_palms",
+          "dur": 0.3
+        },
+        {
+          "id": "rc_red_gloves",
+          "dur": 0.3
+        },
+        {
+          "id": "rc_doha",
+          "dur": 0.3
+        },
+        {
+          "id": "rc_flame_tree",
+          "dur": 0.3
+        },
+        {
+          "id": "rc_palm_pool",
+          "dur": 0.3
+        },
+        {
+          "id": "rc_muscat",
+          "dur": 0.3
+        },
+        {
+          "id": "rc_atlantis",
+          "dur": 0.3
+        },
+        {
+          "id": "rc_marina",
+          "dur": 0.3
+        },
+        {
+          "id": "rc_burj_arab",
+          "dur": 0.3
+        },
         {
           "id": "closing_portrait",
           "dur": 1.4
         },
         {
           "id": "offer_card",
-          "dur": 8.0
+          "dur": 7.6
         }
       ],
       "overlays": [
