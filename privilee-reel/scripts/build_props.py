@@ -87,6 +87,35 @@ def shot_props(shot: dict, mm: dict, looks: dict, start: int, cut_frames: int) -
     return p
 
 
+def refine_captions(caps: list, shots: list, overlays: list) -> list:
+    """Make captions read well against the picture:
+    - no overlap between consecutive captions
+    - hidden over the offer card (the card already shows the details) and under the big title
+      overlay (it repeats the same words)
+    - frosted backing over the app screens (white UI)
+    """
+    caps = sorted(caps, key=lambda c: c["from"])
+    for a, b in zip(caps, caps[1:]):
+        a["to"] = min(a["to"], b["from"] - 1)
+    hide = [(s["from"], s["from"] + s["durationInFrames"]) for s in shots if s["kind"] == "offer"]
+    hide += [(o["from"], o["from"] + o["durationInFrames"]) for o in overlays if o["type"] == "title"]
+    phone = [(s["from"], s["from"] + s["durationInFrames"]) for s in shots if s["kind"] == "phone"]
+    out = []
+    for c in caps:
+        mid = (c["from"] + c["to"]) / 2
+        if any(a <= mid < b for a, b in hide):
+            continue
+        for a, b in hide:  # trim a caption that runs into a hidden zone
+            if c["from"] < a < c["to"]:
+                c["to"] = a - 1
+        if c["to"] - c["from"] < 6:
+            continue
+        if any(a <= mid < b for a, b in phone):
+            c["boxed"] = True
+        out.append(c)
+    return out
+
+
 def build(render_id: str, guides: bool = False) -> dict:
     tl, looks, spec = load_timeline(), load_looks(), load_json(CONFIG / "renders.json")
     r = spec["renders"][render_id]
@@ -177,7 +206,7 @@ def build(render_id: str, guides: bool = False) -> dict:
         "platform": {"name": r["platform"], **platforms[r["platform"]]},
         "shots": shots,
         "overlays": overlays,
-        "captions": captions,
+        "captions": refine_captions(captions, shots, overlays),
         "voiceover": vo,
         "speech": speech,
         "music": music_layer(spec) if r.get("music") else None,

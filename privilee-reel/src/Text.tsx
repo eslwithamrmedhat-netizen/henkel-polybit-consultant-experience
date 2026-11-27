@@ -223,10 +223,13 @@ export const CaptionText: React.FC<{ c: Caption; layout: PlatformLayout }> = ({ 
           opacity,
           textAlign: "center",
           color: colors.text,
-          textShadow: colors.softShadow,
-        }}
+          textShadow: c.boxed ? "none" : colors.softShadow,
+          textWrap: "balance",
+        } as React.CSSProperties}
       >
-        <Words text={c.text} size={58} />
+        <span style={c.boxed ? { background: "rgba(16,22,34,0.66)", backdropFilter: "blur(14px)", padding: "14px 30px 16px", borderRadius: 26 } : {}}>
+          <Words text={c.text} size={58} />
+        </span>
       </div>
     </AbsoluteFill>
   );

@@ -1,0 +1,15 @@
+{
+  "_readme": "Amr's own recorded narration (audio/narration/amr_raw/, gitignored). Each segment: take file, trim in/out (s, within the take), cue (s, absolute in the film), and the caption text as spoken (Whisper transcript, corrected for obvious mis-hearings). scripts/assemble_vo.py builds processed/audio/vo_white_friday.wav + captions from this.",
+  "script_id": "vo_white_friday",
+  "segments": [
+    {"take": "take_1.m4a", "in": 0.0,  "out": 2.62, "cue": 0.3,  "text": "Here is my best life hack since moving to Dubai."},
+    {"take": "take_1.m4a", "in": 3.05, "out": 8.45, "cue": 3.2,  "text": "My work takes me all over the UAE, so I open Privilee and find a place to train around my day."},
+    {"take": "take_2.m4a", "in": 0.0,  "out": 4.98, "cue": 10.6, "text": "Different gyms keep it interesting, and having options is what keeps me consistent."},
+    {"take": "take_3.m4a", "in": 0.0,  "out": 2.32, "cue": 25.0, "text": "Weights one day, Muay Thai the next."},
+    {"take": "take_4.m4a", "in": 0.0,  "out": 5.08, "cue": 32.3, "text": "And with eligible memberships, it even works in Qatar, Oman and more countries."},
+    {"take": "take_5.m4a", "in": 0.0,  "out": 4.82, "cue": 38.0, "text": "Then the weekend comes, and I slow down by the pool or at the beach."},
+    {"take": "take_6.m4a", "in": 0.0,  "out": 2.48, "cue": 45.8, "text": "Different cities, same routine."},
+    {"take": "take_7.m4a", "in": 0.0,  "out": 8.12, "cue": 48.5, "text": "And for the White Friday, three months in the UAE, Qatar, Bahrain or Oman, valid in the country where you subscribe."}
+  ],
+  "processing": "highpass=f=75,afftdn=nf=-27,acompressor=threshold=-21dB:ratio=2.5:attack=8:release=160:makeup=2,alimiter=limit=0.89"
+}

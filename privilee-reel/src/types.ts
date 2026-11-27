@@ -57,7 +57,7 @@ export type Overlay = {
   durationInFrames: number;
 };
 
-export type Caption = { text: string; from: number; to: number };
+export type Caption = { text: string; from: number; to: number; boxed?: boolean };
 
 export type OfferProps = {
   eyebrow: string;

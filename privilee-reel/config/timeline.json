@@ -1828,7 +1828,7 @@
     "white_friday": {
       "title": "Final post — Hook A, full story incl. Qatar & Oman (eligible memberships), White Friday ending (UAE-only offer)",
       "voiceover": "vo_white_friday",
-      "voStart": 0.25,
+      "voStart": 0.0,
       "offer": true,
       "shots": [
         "hook_city",
@@ -1914,7 +1914,10 @@
           "id": "closing_portrait",
           "dur": 1.4
         },
-        "offer_card"
+        {
+          "id": "offer_card",
+          "dur": 8.0
+        }
       ],
       "overlays": [
         {
