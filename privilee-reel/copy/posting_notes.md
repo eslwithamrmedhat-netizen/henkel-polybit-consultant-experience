@@ -11,13 +11,22 @@
 | Music | No cleared cross-platform track supplied. **Platform music still needs to be added in each app.** Don't download a TikTok Commercial Sound and reuse it on Instagram. | Add in-app. Use only a Commercial Sound if the post is promotional. |
 | Disclosure | Use the Paid partnership label only if there's a real arrangement (payment, gifted access, affiliate). Describe any relationship truthfully. | Turn on **Commercial content disclosure** for promotional brand content. An unpaid post isn't automatically exempt. |
 
-## The White Friday link (the video's "JOIN NOW" sticker isn't tappable)
+## The White Friday links (the video's "JOIN NOW" sticker isn't tappable)
 
-**https://privilee.ae/the-white-friday-edit**. It's the clean link: the `fbclid` and Privilee's own `utm_` tags are removed. Open it once on your phone to confirm it works, because it couldn't be checked from the build environment.
+Each country has its own offer page, all checked on 27 Nov 2026:
 
-- **Instagram:** put it in your bio (then "link in bio" in the caption is true), and share the Reel to your Story with a **Link sticker** pointing to it.
-- **TikTok:** put it in the bio if your account has the website field; otherwise say "link in bio" only where the link really exists.
-- **Caption:** you can paste the link as text, but it won't be clickable in Reels or TikTok captions.
+| Country | Price (3 months) | Link |
+|---|---|---|
+| UAE | AED 1,899 | https://privilee.ae/the-white-friday-edit |
+| Qatar | QAR 1,799 | https://privilee.qa/the-white-friday-edit |
+| Bahrain | BHD 190 | https://privilee.bh/the-white-friday-edit |
+| Oman | OMR 190 | https://privilee.om/the-white-friday-edit |
+
+Each one is valid only in its own country. Singapore has no White Friday page, and there's no Hong Kong site.
+
+- **Instagram:** put the UAE link (your main audience) in your bio, and share the Reel to your Story with a **Link sticker**. You can add extra Stories with the other countries' links.
+- **TikTok:** put the link in your bio if your account has the website field.
+- **The UAE plan excludes some venues:** Beach Rotana Abu Dhabi, Altitude The Gym, Veo, CRANK, 1Rebel, and the Grand Hyatt / LEGOLAND / Wild Wadi waterparks. Don't feature those as included.
 
 ## Outstanding verification before posting
 

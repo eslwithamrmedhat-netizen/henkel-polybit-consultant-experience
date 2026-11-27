@@ -30,9 +30,10 @@ Privilee has made it easier for me to keep training around my work locations acr
 
 With eligible memberships it even works in Qatar, Oman and more countries.
 
-The White Friday Edit: 3 months for AED 1,899.
+The White Friday Edit, 3 months:
+UAE AED 1,899 · Qatar QAR 1,799 · Bahrain BHD 190 · Oman OMR 190
 
-The White Friday Edit (AED 1,899 is the UAE price) can only be used in the country where you subscribe; it doesn't include cross-country access. Membership and venue terms apply.
+Valid only in the country where you subscribe (no cross-country access). Some venues are excluded; see the plan terms. Membership and venue terms apply.
 
 > Verified: AED 1,899 for 3 months, confirmed by Amr with Privilee's official White Friday Edit post (`brand/white_friday_post_2026.jpg`). Add the offer link to the posting notes once you have it. Don't write 'link in bio' unless your bio actually links to the offer.
 

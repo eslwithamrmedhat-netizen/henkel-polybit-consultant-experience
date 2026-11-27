@@ -69,6 +69,7 @@ export type OfferProps = {
   showText: boolean;
   scriptFont?: string;
   url?: string | null;
+  prices?: [string, string][];
 };
 
 export type FilmProps = {

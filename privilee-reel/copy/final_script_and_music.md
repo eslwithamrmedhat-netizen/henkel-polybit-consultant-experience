@@ -18,7 +18,7 @@ Timed to `output/privilee_final*.mp4` (54.7 s). Qatar & Oman (the two with photo
 | 36.5 | Infinity pool at golden hour | **Then the weekend comes…** | Calmer, slower |
 | 39.3 | Water villas, resort pool, sea | **…and I slow down by the pool, or at the beach.** | Relaxed, warm |
 | 45.7 | Fast recap under "DIFFERENT CITIES. *same routine.*" | **Different cities. Same routine.** | Assured, personal; this is the line |
-| 49.6 | White Friday end card | **The White Friday Edit is three months for AED 1,899, valid in the country where you subscribe.** | Clear on the price; easy on "the country where you subscribe" |
+| 49.6 | White Friday end card | **The White Friday Edit: three months in the UAE, Qatar, Bahrain or Oman, valid in the country where you subscribe.** | Clear and unhurried; the prices are on screen, so no need to read them |
 
 Plain text for the TTS service, in the same order:
 
@@ -29,7 +29,7 @@ Plain text for the TTS service, in the same order:
 > And with eligible memberships, it even works in Qatar, Oman and more countries.
 > Then the weekend comes… and I slow down by the pool, or at the beach.
 > Different cities. Same routine.
-> The White Friday Edit is three months for AED 1,899, valid in the country where you subscribe.
+> The White Friday Edit: three months in the UAE, Qatar, Bahrain or Oman, valid in the country where you subscribe.
 
 **Voice:** warm, grounded adult male; relaxed and confident, a subtle smile. No trailer or announcer energy.
 

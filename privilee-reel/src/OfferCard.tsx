@@ -35,21 +35,36 @@ export const OfferCard: React.FC<{ offer: OfferProps; layout: PlatformLayout; du
       {/* soft, airy veil like the campaign creative — keeps the footage visible */}
       <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(40,48,58,0.10) 0%, rgba(40,48,58,0.34) 30%, rgba(40,48,58,0.30) 62%, rgba(40,48,58,0.12) 100%)", opacity: scrim }} />
       {offer.showText ? (
-        <div style={{ position: "absolute", left: layout.sideMargin, right: Math.max(layout.sideMargin, right), top: 420, textAlign: "center", color: WHITE, textShadow: soft }}>
+        <div style={{ position: "absolute", left: layout.sideMargin, right: Math.max(layout.sideMargin, right), top: offer.prices?.length ? 330 : 420, textAlign: "center", color: WHITE, textShadow: soft }}>
           {/* lock-up */}
           <div style={{ position: "relative", height: 350 }}>
             <div style={{ ...step(0, 10), position: "absolute", left: 70, top: 0, fontFamily: OFFER_THIN, fontWeight: 300, fontSize: 150, lineHeight: 1, letterSpacing: "-0.02em" }}>The</div>
             <div style={{ position: "absolute", left: 0, right: 0, top: 96, fontFamily: script, fontSize: 168, lineHeight: 1.1, whiteSpace: "nowrap", clipPath: `inset(-20% ${100 - write}% -20% 0)` }}>White Friday</div>
             <div style={{ ...step(3, 10), position: "absolute", right: 70, top: 212, fontFamily: OFFER_THIN, fontWeight: 300, fontSize: 132, lineHeight: 1, letterSpacing: "-0.02em" }}>Edit</div>
           </div>
-          <div style={{ ...step(4), marginTop: 60, fontFamily: OFFER_SANS, fontWeight: 300, fontSize: 64, letterSpacing: "0.04em" }}>{months?.toUpperCase()}</div>
-          <div style={{ ...step(5), marginTop: 6, fontFamily: OFFER_SANS, fontWeight: 500, fontSize: 92, letterSpacing: "0.01em" }}>{price}</div>
-          <div style={{ ...step(7), marginTop: 70, fontFamily: OFFER_SANS, fontWeight: 500, fontSize: 34, letterSpacing: "0.02em", lineHeight: 1.3 }}>
-            {offer.qualifier.split("\n").map((l, i) => (
-              <div key={i} style={{ whiteSpace: "nowrap", opacity: i === 0 ? 0.85 : 1, fontSize: i === 0 ? 28 : 34, letterSpacing: i === 0 ? "0.22em" : "0.01em", textTransform: i === 0 ? "uppercase" : "none" }}>
+          <div style={{ ...step(4), marginTop: offer.prices?.length ? 40 : 60, fontFamily: OFFER_SANS, fontWeight: 300, fontSize: 64, letterSpacing: "0.04em" }}>{months?.toUpperCase()}</div>
+          {offer.prices?.length ? (
+            // per-country White Friday prices (each valid only in its own country)
+            <div style={{ ...step(5), margin: "18px auto 0", width: 620 }}>
+              {offer.prices.map(([country, amount], i) => (
+                <div key={i} style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", padding: "10px 6px", borderTop: i === 0 ? "none" : "1px solid rgba(255,255,255,0.35)" }}>
+                  <span style={{ fontFamily: OFFER_SANS, fontWeight: 400, fontSize: 32, letterSpacing: "0.22em", textTransform: "uppercase", opacity: 0.92 }}>{country}</span>
+                  <span style={{ fontFamily: OFFER_SANS, fontWeight: 500, fontSize: 56, letterSpacing: "0.01em" }}>{amount}</span>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <div style={{ ...step(5), marginTop: 6, fontFamily: OFFER_SANS, fontWeight: 500, fontSize: 92, letterSpacing: "0.01em" }}>{price}</div>
+          )}
+          <div style={{ ...step(7), marginTop: offer.prices?.length ? 34 : 70, fontFamily: OFFER_SANS, fontWeight: 500, fontSize: 34, letterSpacing: "0.02em", lineHeight: 1.3 }}>
+            {offer.qualifier.split("\n").map((l, i, all) => {
+              const label = all.length > 1 && i === 0; // small tracked caps only for a first line of a multi-line qualifier
+              return (
+              <div key={i} style={{ whiteSpace: "nowrap", opacity: label ? 0.85 : 1, fontSize: label ? 28 : 34, letterSpacing: label ? "0.22em" : "0.01em", textTransform: label ? "uppercase" : "none" }}>
                 {l}
               </div>
-            ))}
+              );
+            })}
           </div>
           {/* "JOIN NOW" link-sticker look (visual only — Reels/TikTok posts can't hold a tappable link) */}
           <div style={{ ...step(8, 20), marginTop: 34, display: "flex", flexDirection: "column", alignItems: "center" }}>
